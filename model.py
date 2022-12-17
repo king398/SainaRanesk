@@ -9,7 +9,7 @@ os.makedirs("transcripts", exist_ok=True)
 
 
 def load_model():
-    model = whisper.load_model("medium")
+    model = whisper.load_model("model_path/medium.pt")
     return model
 
 
@@ -65,7 +65,7 @@ def transcribe(path, model):
         formatted_text += " "
         p += 1
     print(f"Transcription complete. Saved it to {path}.txt ")
-    ### delete path and audio.wav
+    # delete path and audio.wav
     os.remove(path)
     os.remove('audio.wav')
 
