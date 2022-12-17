@@ -5,6 +5,8 @@ import librosa
 import soundfile as sf
 import os
 
+os.makedirs("transcripts", exist_ok=True)
+
 
 def load_model():
     model = whisper.load_model("medium")
@@ -27,14 +29,14 @@ def format_timestamp(seconds: float, always_include_hours: bool = False, decimal
 def transcript_timestamp(transcript: Iterator[dict], path):
     path = path.split('/')[-1]
     path = path.split('.')[0]
-    text_file = open(f"{path}.txt", "w")
+    text_file = open(f"transcripts/{path}.txt", "w")
     for segment in transcript:
         text_file.write(
             f"{format_timestamp(segment['start'])} --> {format_timestamp(segment['end'])} "
             f"Text: {segment['text'].strip().replace('-->', '->')}\n",
         )
     text_file.close()
-    return f"{path}.txt"
+    return f"transcripts/{path}.txt"
 
 
 def noise_reduction(path):
@@ -48,7 +50,7 @@ def transcribe(path, model):
     noise_reduction(path)
     print(f"Transcribing... {path}")
 
-    result = model.transcribe(path, task='translate', verbose=True)
+    result = model.transcribe("audio.wav", task='translate', verbose=True)
     text_file = transcript_timestamp(result["segments"], path)
 
     with open(text_file, "r") as f:
