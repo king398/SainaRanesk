@@ -9,7 +9,7 @@ os.makedirs("transcripts", exist_ok=True)
 
 
 def load_model():
-    model = whisper.load_model("model_path/medium.pt")
+    model = whisper.load_model("model_path/large.pt")
     return model
 
 
