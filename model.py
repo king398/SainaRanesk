@@ -4,12 +4,13 @@ import noisereduce
 import librosa
 import soundfile as sf
 import os
+import argparse
 
 os.makedirs("transcripts", exist_ok=True)
 
 
 def load_model():
-    model = whisper.load_model("model_path/large.pt")
+    model = whisper.load_model("models/large.pt")
     return model
 
 
@@ -64,9 +65,17 @@ def transcribe(path, model):
         formatted_text += i
         formatted_text += " "
         p += 1
-    print(f"Transcription complete. Saved it to {path}.txt ")
+    print(f"Transcription complete. Saved it to {text_file} ")
     # delete path and audio.wav
     os.remove(path)
     os.remove('audio.wav')
 
     return text, formatted_text
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--path', type=str, help='path to audio file')
+    args = parser.parse_args()
+
+    transcribe(args.path, load_model())
