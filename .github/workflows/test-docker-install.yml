@@ -8,7 +8,7 @@ on:
       - master
 
 jobs:
-  name: Test Docker install run install.sh
+  name: Test Docker install
   runs-on: ubuntu-latest
   run: bash install.sh
   shell: bash
