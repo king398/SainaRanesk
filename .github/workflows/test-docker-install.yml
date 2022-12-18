@@ -8,7 +8,13 @@ on:
       - master
 
 jobs:
-  name: Test Docker install
-  runs-on: ubuntu-latest
-  run: bash install.sh
-  shell: bash
+  run_tests:
+
+
+    runs-on: ubuntu-latest
+    steps:
+      name: Test Docker install
+      uses: actions/checkout@v2
+      run: bash install.sh
+      shell: bash
+
