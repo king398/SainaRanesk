@@ -13,8 +13,9 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - name: Test Docker install
-        uses: actions/checkout@v2
-        run: bash install.sh
-        shell: bash
+      - name: Get Repo
+        uses: actions/checkout@v3
+      - name : Test Docker install
+        run : bash install.sh
+        shell : bash
 
