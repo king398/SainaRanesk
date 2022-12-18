@@ -1,0 +1,14 @@
+name: Test Docker install
+on:
+  release:
+    types: [ published ]
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  name: Test Docker install run install.sh
+  runs-on: ubuntu-latest
+  run: bash install.sh
+  shell: bash
