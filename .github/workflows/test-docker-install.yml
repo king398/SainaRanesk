@@ -13,8 +13,8 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      name: Test Docker install
-      uses: actions/checkout@v2
-      run: bash install.sh
-      shell: bash
+      - name: Test Docker install
+        uses: actions/checkout@v2
+        run: bash install.sh
+        shell: bash
 
