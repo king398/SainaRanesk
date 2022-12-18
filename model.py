@@ -6,7 +6,7 @@ import soundfile as sf
 import os
 import argparse
 
-os.makedirs("transcripts", exist_ok=True)
+os.makedirs("/home/transcripts", exist_ok=True)
 
 
 def load_model():
@@ -30,14 +30,14 @@ def format_timestamp(seconds: float, always_include_hours: bool = False, decimal
 def transcript_timestamp(transcript: Iterator[dict], path):
     path = path.split('/')[-1]
     path = path.split('.')[0]
-    text_file = open(f"transcripts/{path}.txt", "w")
+    text_file = open(f"/home/transcripts/{path}.txt", "w")
     for segment in transcript:
         text_file.write(
             f"{format_timestamp(segment['start'])} --> {format_timestamp(segment['end'])} "
             f"Text: {segment['text'].strip().replace('-->', '->')}\n",
         )
     text_file.close()
-    return f"transcripts/{path}.txt"
+    return f"/home/transcripts/{path}.txt"
 
 
 def noise_reduction(path):
