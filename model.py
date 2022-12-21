@@ -42,7 +42,7 @@ def transcript_timestamp(transcript: Iterator[dict], path):
 
 def noise_reduction(path):
     data, sample_rate = librosa.load(path)
-    data = noisereduce.reduce_noise(y=data, sr=sample_rate, prop_decrease=0.7, use_tqdm=True)
+    data = noisereduce.reduce_noise(y=data, sr=sample_rate, prop_decrease=0.6, use_tqdm=True)
     sf.write("audio.wav", data, sample_rate)
 
 
