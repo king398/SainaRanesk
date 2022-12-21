@@ -1,6 +1,5 @@
-FROM pytorch/pytorch
+FROM paperspace/gradient-base
 RUN  apt-get -y update
-RUN apt-get install -y ffmpeg wget
 WORKDIR /app
 COPY . .
 ENV TZ=Asia/Kolkata \
