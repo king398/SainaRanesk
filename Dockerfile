@@ -1,4 +1,4 @@
-FROM paperspace/gradient-base
+FROM paperspace/gradient-base:pt112-tf29-jax0317-py39-20221019
 RUN  apt-get -y update
 WORKDIR /app
 COPY . .
