@@ -4,39 +4,22 @@
     <meta charset="UTF-8">
     <title>FlaskApp</title>
 </head>
-<style>
-    h1 {
-        text-align: center;
-        font-size: 50px;
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 40px;
-    }
-
-    p {
-        text-align: center;
-    }
-
-    div {
-        text-align: center;
-    }
-
-    form {
-        text-align: center;
-        font-size: 40px;
-    }
-</style>
+<link rel="stylesheet" href="/static/css/index.css"/>
 <body>
-<h1>Transcribe audio!</h1>
-<h2>Just put the path to your audio file here!</h2>
+<h1>Transcribe audio</h1>
+<h2>Steps to get your Transcript with timestamps</h2>
+<h3>1. Upload your audio file using the choose file button</h3>
+<h3>2. Click on the Submit button</h3>
+<h3>3. Wait for the file to be transcribed</h3>
+
 <form action="/result" method="POST"
       enctype="multipart/form-data">
-    <input type="file" name="file"/>
-    <input type="submit"/>
+    <input type="file" id="Uw"/>
+    <input type="submit" />
+
 </form>
 
 
 </body>
+
 </html>

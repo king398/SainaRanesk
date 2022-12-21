@@ -1,0 +1,57 @@
+
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+
+body {
+    animation-name: example;
+  animation-duration: 4s;
+
+}
+
+form {
+
+
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    animation-name: example2;
+  animation-duration: 4s;
+
+
+
+}
+
+input {
+    width: 50%;
+    height: 30%;
+    font-size: 30px;
+    text-align: center;
+    color: #8a1f1f;
+
+}
