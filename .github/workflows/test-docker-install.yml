@@ -16,6 +16,6 @@ jobs:
       - name: Get Repo
         uses: actions/checkout@v3
       - name : Test Docker install
-        run : bash install.sh
+        run : bash install_docker.sh
         shell : bash
 
