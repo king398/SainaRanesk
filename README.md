@@ -58,7 +58,7 @@ this will give the following output:
 
 The Url Here area will have your unique url. Click on the link to view the rendered README.md file.
 
-### Option 2: Convert this README.
+### Option 2: Read README.pdf
 
 You can open a rendered pdf of README.md By opening the file README.pdf in this directory.
 
@@ -78,8 +78,8 @@ To check this run the following command in a bash shell
 $ docker --version
 ```
 
-If this command runs successfully then you have docker installed on your system. If not then install docker on your
-system using the following command
+If this command runs successfully then you have docker installed on your system. If not then install docker using the
+following command
 
 ```console
 $ bash install_docker.sh
@@ -90,6 +90,20 @@ Which will install docker on your system
 ### Compute Requirements
 
 This Repo requires an Nvidia GPU with a minimum of 10GB of memory to run to fit the transcription model.
+
+### Audio File Requirements
+
+The Audio File passes should be in either of the following formats:
+
+- .wav
+- .mp3
+- .m4a
+- .flac
+- .ogg
+- .aac
+- .avi
+
+more might be supported but these are the ones that I have tested.
 
 ## Step 2 : Clone the Docker container
 
@@ -112,13 +126,17 @@ By running this command you will enter the docker container.
 
 ## Step 4 : Run the Solution
 
+### Option 1 : Using the GUI in the form of a Flask Web Server
+
+#### Step 1 : Run the Flask Web Server
+
 To Run the flask app for the solution run the following command in a bash shell.(Make sure you are in the `/app` dir)
 
 ```console
 root@xx:/app#  python -m flask run --host= 0.0.0.0
 ```
 
-This will run the flask app which contains the solution. it will give the following output
+This will run the flask app which contains the solution. The command will give the following output
 
 ```
 * Debug mode: off
@@ -139,7 +157,7 @@ do this run the following command in a bash shell
 $ cloudflared tunnel --url http://127.0.0.1:5000
 ```
 
-This will Give the following output
+Which will Give the following output
 
 ```console
 2022-12-22T11:28:34Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
@@ -165,11 +183,89 @@ every time
 you want to use this solution in production you should use a pre-created named tunnel by
 following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
 
+#### Step 2 : How to use the Flask App
 
-
-## Step 5 : How to use the Flask App
 Upon opening the url you will be greeted with the following page
 ![img.png](img.png)
+Steps To Transcribe The Audio File are following from here
 
+1. Click on the `Choose File` or the `Browse` button to select the audio file you want to transcribe. The following
+   window will open on
+   Linux
+   ![img_1.png](img_1.png)
 
+2. Select the audio file which are in the supported audio formats you want to transcribe and click on `Select`(or any
+   other button
+   you get depending upon your os).
+3. The file name will be displayed in the `File Name` text box
+   Example - ![img_2.png](img_2.png)
+4. Click on the `Submit Query` button to start the transcription process.
+   **_NOTE:_** The Submit Query Button can have a
+   different name depending upon the browser you are using. For example in Firefox it is `Submit Query` but in Chrome it
+   is `Submit`
+5. The transcription process will take some time depending upon the length of the audio file and the type of GPU you
+   have. It is important not close the web page once clicking upon the `Submit Query` button. Once the process is
+   complete you will be greeted with the result page. Let us take an example of the following
+   audio file.
+   [221001_0134.mp3](221001_0134.mp3)
+6. The result page will look like this for the following audio file is transcribed
+   ![img_3.png](img_3.png)
+7. The Transcript will be saved in the `/home/transcripts` directory in the docker container. The file name will be the
+   same as the audio file name with the extension `.txt`. So for the above example the transcript will be saved in the
+   `/home/transcripts/221001_0134.txt` file.
+8. You can print the txt file following command in the docker container
 
+```console
+root@xx:/app# cat /home/transcripts/YourAudioFile.txt
+```
+
+With the 221001_0134.txt file being the name of the audio file you want to transcribe.
+
+### Option 2 : Using the CLI
+
+Using the CLI is much more straightforward. To run the CLI for the solution run the following command in a bash shell.(
+Make sure you are in the `/app` dir)
+
+```console
+root@xx:/app#  python model.py --path your_audio_file 
+```
+
+Let us the Same of the file we did above for the flask App
+[221001_0134.mp3](221001_0134.mp3)
+so here the command will be
+
+```console
+root@xx:/app#  python model.py --path 221001_0134.mp3 
+```
+
+which would give us the following output
+
+```console
+Reducing Noise
+/opt/conda/lib/python3.9/site-packages/librosa/util/decorators.py:88: UserWarning: PySoundFile failed. Trying audioread instead.
+  return f(*args, **kwargs)
+Transcribing... 221001_0134.mp3
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: Urdu
+[00:00.000 --> 00:11.000]  Alfa 1 to Alfa 3, Alfa 3 over
+[00:11.000 --> 00:15.000]  Alfa 3, Alfa 3 over
+[00:15.000 --> 00:23.000]  Alfa 1, brother said that we have to put things in place one night before
+[00:23.000 --> 00:28.000]  and then there will be no action until Friday prayers
+[00:28.000 --> 00:36.000]  Alfa 3, you will be punished
+[00:36.000 --> 00:45.000]  Alfa 1, contact Alfa 6
+[00:45.000 --> 00:53.000]  Alfa 6, today I will do more good work
+[00:53.000 --> 01:02.000]  Alfa 1, good afternoon
+Transcription complete. Saved it to /home/transcripts/221001_0134.txt
+```
+
+the transcript will be saved in the `/home/transcripts` directory in the docker container. The file name will be the
+same as the audio file name with the extension `.txt`. So for the above example the transcript will be saved in the
+`/home/transcripts/221001_0134.txt` file.
+You can print the txt file following command in the docker container
+
+```console
+root@xx:/app# cat /home/transcripts/YourAudioFile.txt
+```
+
+so here the YourAudioFile.txt will be the name of the audio file we are transcribing so for the above example it will be
+221001_0134.txt

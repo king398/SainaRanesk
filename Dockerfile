@@ -19,9 +19,3 @@ RUN wget https://openaipublic.azureedge.net/main/whisper/models/e4b87e7e0bf463eb
 RUN wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
 RUN dpkg -i cloudflared-linux-amd64.deb
 #CMD python3 -m  flask run --host=0.0.0.0
-
-
-
-# Install miniconda
-
-
