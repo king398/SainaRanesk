@@ -169,9 +169,7 @@ following: https://developers.cloudflare.com/cloudflare-one/connections/connect-
 
 ## Step 5 : How to use the Flask App
 Upon opening the url you will be greeted with the following page
-
-![img.png](https://camo.githubusercontent.com/383351ab74835d389498c5efbb9e85d45259da22e89ea2dbc92540c5c84a0322/68747470733a2f2f692e6962622e636f2f686d4a735248422f53637265656e73686f742d66726f6d2d323032322d31322d32322d31372d31372d35392e706e67)
-
+![img.png](img.png)
 
 
 

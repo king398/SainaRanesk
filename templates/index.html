@@ -7,11 +7,11 @@
 <link rel="stylesheet" href="/static/css/index.css"/>
 <body>
 <h1>Transcribe audio</h1>
-<h2>Steps to get your Transcript with timestamps</h2>
-<h3>1. Upload your audio file using the choose file button</h3>
-<h3>2. Click on the Submit button</h3>
-<h3>3. Wait for the file to be transcribed</h3>
-
+<details><summary>Steps to get your Transcript with timestamps </summary>
+<div onclick="">1. Upload your audio file using the choose file button</div>
+<div onclick="">2. Click on the Submit button</div>
+<div onclick="">3. Wait for the file to be transcribed</div>
+</details>
 <form action="/result" method="POST"
       enctype="multipart/form-data">
     <input type="file" name="file"/>
