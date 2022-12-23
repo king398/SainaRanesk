@@ -143,17 +143,17 @@ By running this command you will enter the docker container.
 To Run the flask app for the solution run the following command in a bash shell.(Make sure you are in the `/app` dir)
 
 ```bash
-root@xx:/app#  python -m flask run --host= 0.0.0.0
+root@xx:/app#  python -m flask run --host 0.0.0.0
 ```
 
 This will run the flask app which contains the solution. The command will give the following output
 
-```
+```bash
 * Debug mode: off
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
 * Running on all addresses (0.0.0.0)
 * Running on http://127.0.0.1:5000
-* Running on http://10.42.32.18:5000
+* Running on http://10.42.32.18:5000 #Use the url printed here.  It would be different depending upon your IP address
 Press CTRL+C to quit
 ```
 
@@ -164,7 +164,9 @@ we can use cloudfared tunnel (_already installed on the docker image_) to forwar
 do this run the following command in a bash shell
 
 ```bash
-cloudflared tunnel --url http://127.0.0.1:5000
+cloudflared tunnel --url http://10.42.32.18:5000 # again this will be different depending upon your IP address. 
+# Make sure that you use the IP address printed in the output of the previous command
+
 ```
 
 Which will Give the following output
@@ -252,21 +254,19 @@ root@xx:/app#  python model.py --path 221001_0134.mp3
 which would give us the following output
 
 ```bash
-Reducing Noise
-/opt/conda/lib/python3.9/site-packages/librosa/util/decorators.py:88: UserWarning: PySoundFile failed. Trying audioread instead.
-  return f(*args, **kwargs)
 Transcribing... 221001_0134.mp3
-Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detecting language using up to the first 30 seconds. Use $(--language) to specify the language
 Detected language: Urdu
-[00:00.000 --> 00:11.000]  Alfa 1 to Alfa 3, Alfa 3 over
-[00:11.000 --> 00:15.000]  Alfa 3, Alfa 3 over
-[00:15.000 --> 00:23.000]  Alfa 1, brother said that we have to put things in place one night before
-[00:23.000 --> 00:28.000]  and then there will be no action until Friday prayers
-[00:28.000 --> 00:36.000]  Alfa 3, you will be punished
-[00:36.000 --> 00:45.000]  Alfa 1, contact Alfa 6
-[00:45.000 --> 00:53.000]  Alfa 6, today I will do more good work
-[00:53.000 --> 01:02.000]  Alfa 1, good afternoon
+[00:00.000 -- Alpha 1 for Alpha 3, Alpha 3 over >00:12.000]
+[00:12.000 -- Alpha 3, Walekum Assalam >00:16.000]
+[00:16.000 -- Alpha 1, Faheed Bhai was saying that we have to load our things one night before >00:23.000]
+[00:23.000 -- and then there will be no movement till Friday prayer >00:28.000]
+[00:28.000 -- Alpha 3, we will decide the date in the evening >00:37.000]
+[00:37.000 -- Alpha 1, contact Alpha 3 >00:46.000]
+[00:46.000 -- Alpha 3, I will do it today and will inform you in the evening >00:58.000]
+[00:58.000 -- Alpha 1, Khuda Hafiz >01:18.000]
 Transcription complete. Saved it to /home/transcripts/221001_0134.txt
+
 ```
 
 the transcript will be saved in the `/home/transcripts` directory in the docker container. The file name will be the
@@ -335,7 +335,8 @@ terms of training data is trained on only 44,000 hours of audio ), including non
 to tackle the unique challenges of our task.**
 
 **But the benefits of Whisper Large-V2 don't end there. It is also a zero-shot learning model, meaning that it can
-perform tasks and make predictions without the need for any fine-tuning or additional training on specific datasets. This makes
+perform tasks and make predictions without the need for any fine-tuning or additional training on specific datasets.
+This makes
 it a highly efficient and effective choice for our needs, as we can rely on it to deliver reliable results from the
 get-go, without the need to invest time and resources into adapting it to the specifics of our task. In fact, Whisper
 Large has a SOTA (state-of-the-art) performance in this type of scenario, making it the ideal model for transcribing and
@@ -353,7 +354,8 @@ able to run efficiently on a GPU, making it a convenient and resource-saving cho
 an excellent choice for our task of transcribing and translating audio recordings. Its
 extensive training, zero-shot learning capabilities, and proficiency in handling multiple languages make it well-suited
 to the novelocity modelchallenges of this task, and its large size ensures that it delivers the best possible balance of
-accuracy and speed. We can trust Whisper Large-V2 to deliver reliable, high-quality results efficiently and effectively, making
+accuracy and speed. We can trust Whisper Large-V2 to deliver reliable, high-quality results efficiently and effectively,
+making
 it the ideal model for this challenge**
 
 Some figures from the official paper which shows the performance of the model

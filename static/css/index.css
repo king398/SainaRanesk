@@ -2,33 +2,39 @@
 h1 {
     text-align: center;
     font-size: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
 
 }
 
 h2 {
     text-align: center;
     font-size: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 
 h3 {
     text-align: center;
     font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 p {
     text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 div {
     text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 
 body {
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(180deg, black, white) no-repeat fixed;
 }
 
 form {
@@ -37,6 +43,7 @@ form {
     margin: auto;
     text-align: center;
     font-size: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
 
 
 }
@@ -50,6 +57,7 @@ input {
     color: #fff;
     border: none;
     border-radius: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
 
 }
 
@@ -57,5 +65,6 @@ details {
     text-align: center;
     font-size: 40px;
     color: #b47562;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
