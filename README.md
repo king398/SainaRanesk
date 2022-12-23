@@ -10,22 +10,23 @@ There are Two ways in which you can read this README.md file
 
 ### Option 1: Read this README.md file on using grip ( GitHub markdown previewer)
 
-To render this readme.md , open the terminal and cd into this directory and run the following command in a bash shell:
+To render this readme.md , open the terminal and cd into this directory and run the following command in a bash shell to
+install
+grip
 
-```
-$  pip install --no-index --find-links=wheels grip
+``` bash
+$  cd wheels && pip install 'grip-4.6.1-py3-none-any.whl' --no-index --find-links '.' && cd ..
 ```
 
 Then Run to view this README.md file in your browser
 
-```
-```console
+```bash
 $ grip
 ```
 
 which will give the following output:
 
-```console
+```bash
 * Serving Flask app 'grip.app'
 * Debug mode: off
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
@@ -39,13 +40,13 @@ Incase you are running this solution on a remote server, you can forward the por
 cloud-flared tunneling service.
 To do so, run the following command in a bash shell:
 
-```console
+```bash
 $ cloudflared tunnel --url http://localhost:6419
 ```
 
 this will give the following output:
 
-```console
+```bash
 2022-12-22T11:28:34Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
 2022-12-22T11:28:34Z INF Requesting new quick Tunnel on trycloudflare.com...
 2022-12-22T11:28:36Z INF +--------------------------------------------------------------------------------------------+
@@ -81,14 +82,14 @@ You can also view the video of my solution [here](https://youtu.be/1Z4Z2Z2Z2Z2) 
 
 To check this run the following command in a bash shell
 
-```console
+```bash
 $ docker --version
 ```
 
 If this command runs successfully then you have docker installed on your system. If not then install docker using the
 following command
 
-```console
+```bash
 $ bash install_docker.sh
 ```
 
@@ -116,7 +117,7 @@ more might be supported but these are the ones that I have tested.
 
 To clone the docker container run the following command in a bash shell
 
-```console
+```bash
 $ sudo docker pull mithilaidocker/audiotranscribe:master
 ```
 
@@ -124,8 +125,8 @@ $ sudo docker pull mithilaidocker/audiotranscribe:master
 
 To run the docker container run the following command in a bash shell
 
-```console
-sudo docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home \
+```bash
+$ sudo docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home \
 --rm mithilaidocker/audiotranscribe:master
 ```
 
@@ -139,7 +140,7 @@ By running this command you will enter the docker container.
 
 To Run the flask app for the solution run the following command in a bash shell.(Make sure you are in the `/app` dir)
 
-```console
+```bash
 root@xx:/app#  python -m flask run --host= 0.0.0.0
 ```
 
@@ -160,13 +161,13 @@ this
 we can use cloudfared tunnel (_already installed on the docker image_) to forward the port 5000 to our local machine. To
 do this run the following command in a bash shell
 
-```console
+```bash
 $ cloudflared tunnel --url http://127.0.0.1:5000
 ```
 
 Which will Give the following output
 
-```console
+```bash
 2022-12-22T11:28:34Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
 2022-12-22T11:28:34Z INF Requesting new quick Tunnel on trycloudflare.com...
 2022-12-22T11:28:36Z INF +--------------------------------------------------------------------------------------------+
@@ -223,7 +224,7 @@ Steps To Transcribe The Audio File are following from here
    `/home/transcripts/221001_0134.txt` file.
 8. You can print the txt file following command in the docker container
 
-```console
+```bash
 root@xx:/app# cat /home/transcripts/YourAudioFile.txt
 ```
 
@@ -234,7 +235,7 @@ With the 221001_0134.txt file being the name of the audio file you want to trans
 Using the CLI is much more straightforward. To run the CLI for the solution run the following command in a bash shell.(
 Make sure you are in the `/app` dir)
 
-```console
+```bash
 root@xx:/app#  python model.py --path your_audio_file 
 ```
 
@@ -242,13 +243,13 @@ Let us use the same file we used above for the flask App as an example
 [221001_0134.mp3](221001_0134.mp3)
 so here the command will be
 
-```console
+```bash
 root@xx:/app#  python model.py --path 221001_0134.mp3 
 ```
 
 which would give us the following output
 
-```console
+```bash
 Reducing Noise
 /opt/conda/lib/python3.9/site-packages/librosa/util/decorators.py:88: UserWarning: PySoundFile failed. Trying audioread instead.
   return f(*args, **kwargs)
@@ -271,7 +272,7 @@ same as the audio file name with the extension `.txt`. So for the above example 
 `/home/transcripts/221001_0134.txt` file.
 You can print the txt file following command in the docker container
 
-```console
+```bash
 root@xx:/app# cat /home/transcripts/YourAudioFile.txt
 ```
 
