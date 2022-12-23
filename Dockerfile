@@ -15,7 +15,7 @@ RUN conda install git
 CMD nvidia-smi
 CMD ["bash"]
 RUN pip install -r requirements.txt
-RUN wget https://openaipublic.azureedge.net/main/whisper/models/e4b87e7e0bf463eb8e6956e646f1e277e901512310def2c24bf0e11bd3c28e9a/large.pt -P /app/models
+RUN wget https://openaipublic.azureedge.net/main/whisper/models/81f7c96c852ee8fc832187b0132e569d6c3065a3252ed18e56effd0b6a73e524/large-v2.pt -P /app/models
 RUN wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
 RUN dpkg -i cloudflared-linux-amd64.deb
 #CMD python3 -m  flask run --host=0.0.0.0

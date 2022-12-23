@@ -1,17 +1,15 @@
 import whisper
 from typing import Iterator
-import noisereduce
 import librosa
 import soundfile as sf
 import os
 import argparse
 
-
 os.makedirs("/home/transcripts", exist_ok=True)
 
 
 def load_model():
-    model = whisper.load_model("models/large.pt")
+    model = whisper.load_model("models/large-v2.pt")
     return model
 
 

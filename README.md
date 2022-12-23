@@ -313,7 +313,8 @@ or "Friend" depending on the context.**
 
 **But that's not all - we also need to provide timestamps for the words in the audio file, a critical feature that will
 help users navigate and find the specific parts of the audio file they're looking for. All of these challenges combine
-to make this task a truly distinctive and challenging one, but with the right tools and approaches, we're confident we can
+to make this task a truly distinctive and challenging one, but with the right tools and approaches, we're confident we
+can
 rise to the challenge and deliver the best possible results.**
 
 ## 3.3 Model Selection
@@ -326,32 +327,34 @@ handling these challenges and producing high-quality results.**
 
 **One of the key challenges we face in this task is the high level of noise and low signal-to-noise ratio in the audio
 recordings we're working with. This can make it difficult to accurately transcribe and translate the content of the
-audio files, as the noise can obscure the words and make them harder to understand. That's where OpenAI Whisper Large
-comes in. Whisper Large is a state-of-the-art machine learning model that has been specifically designed to excel at
+audio files, as the noise can obscure the words and make them harder to understand. That's where OpenAI Whisper Large-V2
+comes in. Whisper Large-V2 is a state-of-the-art machine learning model that has been specifically designed to excel at
 handling audio files with high levels of noise and low signal-to-noise ratios. Its extensive training on a dataset of
 680,000 hours of audio in 100 languages (as a point of comparison, GigaSpeech , which comes 2nd place to Whisper in
-terms
-of training data is trained on only 44,000 hours of audio ), including non-ideal, noisy samples, has prepared it to
-tackle the unique
-challenges of our task.**
+terms of training data is trained on only 44,000 hours of audio ), including non-ideal, noisy samples, has prepared it
+to tackle the unique challenges of our task.**
 
-**But the benefits of Whisper Large don't end there. It is also a zero-shot learning model, meaning that it can perform
-tasks and make predictions without the need for any fine-tuning or additional training on specific datasets. This makes
+**But the benefits of Whisper Large-V2 don't end there. It is also a zero-shot learning model, meaning that it can
+perform tasks and make predictions without the need for any fine-tuning or additional training on specific datasets. This makes
 it a highly efficient and effective choice for our needs, as we can rely on it to deliver reliable results from the
 get-go, without the need to invest time and resources into adapting it to the specifics of our task. In fact, Whisper
 Large has a SOTA (state-of-the-art) performance in this type of scenario, making it the ideal model for transcribing and
 translating audio files that are full of noise and contain a mix of multiple languages and dialects**
 
-**But why did we choose the large version of Whisper instead of the medium or small models? The answer is simple: the
+**Whisper Large-V2 has been trained for 2.5 times more epochs than Whisper Large-V1, with SpecAugment, stochastic depth,
+and BPE dropout for regularization. Other than the training procedure, the model architecture and size remained the same
+as the original large model**
+
+**But why did we choose the large-v2 version of Whisper instead of the medium or small models? The answer is simple: the
 large version provides the best
 balance of accuracy and speed for our needs. While the medium and small models may be able to handle some tasks
 required for this challenge, they don't offer the same level of proficiency as the large model. Plus, the large model is
-able to run efficiently on a GPU, making it a convenient and resource-saving choice. Overall, OpenAI Whisper Large is an
-excellent choice for our task of transcribing and translating audio recordings. Its
+able to run efficiently on a GPU, making it a convenient and resource-saving choice. Overall, OpenAI Whisper Large-V2 is
+an excellent choice for our task of transcribing and translating audio recordings. Its
 extensive training, zero-shot learning capabilities, and proficiency in handling multiple languages make it well-suited
-to the novelocity modelchallenges of this task, and its large size ensures that it delivers the best possible balance of accuracy
-and speed. We can trust Whisper Large to deliver reliable, high-quality results efficiently and effectively, making it
-the ideal model for this challenge**
+to the novelocity modelchallenges of this task, and its large size ensures that it delivers the best possible balance of
+accuracy and speed. We can trust Whisper Large-V2 to deliver reliable, high-quality results efficiently and effectively, making
+it the ideal model for this challenge**
 
 Some figures from the official paper which shows the performance of the model
 ![img_4.png](images/img_4.png)
