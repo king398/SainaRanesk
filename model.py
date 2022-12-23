@@ -6,6 +6,7 @@ import soundfile as sf
 import os
 import argparse
 
+
 os.makedirs("/home/transcripts", exist_ok=True)
 
 
@@ -50,7 +51,7 @@ def transcribe(path, model):
     noise_reduction(path)
     print(f"Transcribing... {path}")
 
-    result = model.transcribe("audio.wav", task='translate', verbose=True)
+    result = model.transcribe("audio.wav", task='translate', verbose=True, no_speech_threshold=0.3)
     text_file = transcript_timestamp(result["segments"], path)
 
     with open(text_file, "r") as f:
@@ -74,7 +75,9 @@ def transcribe(path, model):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--path', type=str, help='path to audio file')
+    parser.add_argument('--path', required=True, help='path to audio file', nargs='+')
     args = parser.parse_args()
 
-    transcribe(args.path, load_model())
+    model = load_model()
+    for path in args.path:
+        transcribe(path, model)

@@ -4,8 +4,8 @@
 
 ## A. README.md
 
-This is a README.md file for my solution for sainya-ranakshetram ai challenge. This README.md file is written in
-markdown format. You can read more about Markdown format [here](https://guides.github.com/features/mastering-markdown/).
+This is a README.md file for my solution for sainya-ranakshetram AI challenge. This README.md file is written in
+Markdown format. You can read more about Markdown format [here](https://guides.github.com/features/mastering-markdown/).
 There are Two ways in which you can read this README.md file
 
 ### Option 1: Read this README.md file on using grip ( GitHub markdown previewer)
@@ -74,9 +74,9 @@ You can open a rendered pdf of README.md By opening the file README.pdf in this 
 
 ## B. Video
 
-You can also view the video of my solution [here](https://youtu.be/1Z4Z2Z2Z2Z2) ## ADD vidoe link here
+You can also view the video of my solution [here](https://youtu.be/1Z4Z2Z2Z2Z2) ## ADD video link here
 
-# 2. How to Run my soltion
+# 2. How to Run my solution
 
 ## Step 1 : Make sure All requirements are installed
 
@@ -281,6 +281,12 @@ root@xx:/app# cat /home/transcripts/YourAudioFile.txt
 so here the YourAudioFile.txt will be the name of the audio file we are transcribing so for the above example it will be
 221001_0134.txt
 
+**_NOTE:_** You can also pass multiple paths to the `--path` argument. For example if you want to transcribe 2 audio
+
+```bash
+root@xx:/app# python model.py --path 221001_0134.mp3 221001_0135.mp3
+```
+
 # 3. What is my solution
 
 ## 3.1. Problem statement
@@ -288,7 +294,7 @@ so here the YourAudioFile.txt will be the name of the audio file we are transcri
 **The challenge aims to develop a software-based tool that is able to ingest
 radio audio recordings (non HiFi) in common format of (.wav, FLAC, MP3 (high bit
 rate) etc.) containing information in a mix of English and Hindi (Hinglish) with limited
-use of local slangs and create an extract transcript information output in textual
+use of local slang's and create an extract transcript information output in textual
 format. This problem intrinsically contains the task of cleaning of raw audio signals,
 shaping of signals and creating algo specific data required by the NLP engine.**
 
@@ -298,8 +304,8 @@ shaping of signals and creating algo specific data required by the NLP engine.**
 mix
 of multiple languages and dialects, we quickly realize that we're facing a unique and difficult task. Not only are the
 audio files we're working with low quality, with a high percentage of noise relative to signal, but they also contain
-slangs and local words that aren't present in any dataset and can't be easily translated using standard language models.
-**
+slang's and local words that aren't present in any dataset and can't be easily translated using standard language
+models.**
 
 **And even when we are able to translate words, we face the added challenge of context-dependent translations that don't
 always have a straightforward one-to-one correspondence. For example, the word "Bhai" could be translated as "Brother"
@@ -307,7 +313,7 @@ or "Friend" depending on the context.**
 
 **But that's not all - we also need to provide timestamps for the words in the audio file, a critical feature that will
 help users navigate and find the specific parts of the audio file they're looking for. All of these challenges combine
-to make this task a truly unique and challenging one, but with the right tools and approaches, we're confident we can
+to make this task a truly distinctive and challenging one, but with the right tools and approaches, we're confident we can
 rise to the challenge and deliver the best possible results.**
 
 ## 3.3 Model Selection
@@ -315,7 +321,7 @@ rise to the challenge and deliver the best possible results.**
 **As we set out to solve the challenge of transcribing and translating audio recordings that have been distorted and
 compressed for transmission over the airwaves, it quickly becomes apparent that we need a model that is up to the task.
 The input audio will be of low quality, with a restricted frequency range and the added complications of channel noise,
-dialects and slangs. To successfully extract and transcribe this information, we need a model that is capable of
+dialects and slang's. To successfully extract and transcribe this information, we need a model that is capable of
 handling these challenges and producing high-quality results.**
 
 **One of the key challenges we face in this task is the high level of noise and low signal-to-noise ratio in the audio
@@ -323,7 +329,10 @@ recordings we're working with. This can make it difficult to accurately transcri
 audio files, as the noise can obscure the words and make them harder to understand. That's where OpenAI Whisper Large
 comes in. Whisper Large is a state-of-the-art machine learning model that has been specifically designed to excel at
 handling audio files with high levels of noise and low signal-to-noise ratios. Its extensive training on a dataset of
-680,000 hours of audio in 100 languages, including non-ideal, noisy samples, has prepared it to tackle the unique
+680,000 hours of audio in 100 languages (as a point of comparison, GigaSpeech , which comes 2nd place to Whisper in
+terms
+of training data is trained on only 44,000 hours of audio ), including non-ideal, noisy samples, has prepared it to
+tackle the unique
 challenges of our task.**
 
 **But the benefits of Whisper Large don't end there. It is also a zero-shot learning model, meaning that it can perform
@@ -335,12 +344,12 @@ translating audio files that are full of noise and contain a mix of multiple lan
 
 **But why did we choose the large version of Whisper instead of the medium or small models? The answer is simple: the
 large version provides the best
-balance of accuracy and speed for our needs. While the medium and small models may be able to handle some of the tasks
+balance of accuracy and speed for our needs. While the medium and small models may be able to handle some tasks
 required for this challenge, they don't offer the same level of proficiency as the large model. Plus, the large model is
 able to run efficiently on a GPU, making it a convenient and resource-saving choice. Overall, OpenAI Whisper Large is an
 excellent choice for our task of transcribing and translating audio recordings. Its
 extensive training, zero-shot learning capabilities, and proficiency in handling multiple languages make it well-suited
-to the unique challenges of this task, and its large size ensures that it delivers the best possible balance of accuracy
+to the novelocity modelchallenges of this task, and its large size ensures that it delivers the best possible balance of accuracy
 and speed. We can trust Whisper Large to deliver reliable, high-quality results efficiently and effectively, making it
 the ideal model for this challenge**
 
