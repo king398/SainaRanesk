@@ -147,7 +147,7 @@ WARNING: This is a development server. Do not use it in a production deployment.
 Press CTRL+C to quit
 ```
 
-If you are running on the same machine as the server then you can access the solution at http://127.0.0.1:5000
+If you are running on the same machine as the server then you can access the solution at http://127.0.0.1:5000.
 In case you running this solution on a remote server you will need to forward the port 5000 to your local machine. To do
 this
 we can use cloudfared tunnel (_already installed on the docker image_) to forward the port 5000 to our local machine. To
@@ -186,19 +186,20 @@ following: https://developers.cloudflare.com/cloudflare-one/connections/connect-
 #### Step 2 : How to use the Flask App
 
 Upon opening the url you will be greeted with the following page
-![img.png](img.png)
+![img.png](images/img.png)
 Steps To Transcribe The Audio File are following from here
 
 1. Click on the `Choose File` or the `Browse` button to select the audio file you want to transcribe. The following
    window will open on
    Linux
-   ![img_1.png](img_1.png)
+   ![img_1.png](images/img_1.png)
 
 2. Select the audio file which are in the supported audio formats you want to transcribe and click on `Select`(or any
    other button
    you get depending upon your os).
 3. The file name will be displayed in the `File Name` text box
-   Example - ![img_2.png](img_2.png)
+   Example -
+   ![img_2.png](images/img_2.png)
 4. Click on the `Submit Query` button to start the transcription process.
    **_NOTE:_** The Submit Query Button can have a
    different name depending upon the browser you are using. For example in Firefox it is `Submit Query` but in Chrome it
@@ -209,7 +210,7 @@ Steps To Transcribe The Audio File are following from here
    audio file.
    [221001_0134.mp3](221001_0134.mp3)
 6. The result page will look like this for the following audio file is transcribed
-   ![img_3.png](img_3.png)
+   ![img_3.png](images/img_3.png)
 7. The Transcript will be saved in the `/home/transcripts` directory in the docker container. The file name will be the
    same as the audio file name with the extension `.txt`. So for the above example the transcript will be saved in the
    `/home/transcripts/221001_0134.txt` file.
@@ -230,7 +231,7 @@ Make sure you are in the `/app` dir)
 root@xx:/app#  python model.py --path your_audio_file 
 ```
 
-Let us the Same of the file we did above for the flask App
+Let us use the same file we used above for the flask App as an example
 [221001_0134.mp3](221001_0134.mp3)
 so here the command will be
 
@@ -269,3 +270,71 @@ root@xx:/app# cat /home/transcripts/YourAudioFile.txt
 
 so here the YourAudioFile.txt will be the name of the audio file we are transcribing so for the above example it will be
 221001_0134.txt
+
+# 3. What is my solution
+
+## 3.1. Problem statement
+
+**The challenge aims to develop a software-based tool that is able to ingest
+radio audio recordings (non HiFi) in common format of (.wav, FLAC, MP3 (high bit
+rate) etc.) containing information in a mix of English and Hindi (Hinglish) with limited
+use of local slangs and create an extract transcript information output in textual
+format. This problem intrinsically contains the task of cleaning of raw audio signals,
+shaping of signals and creating algo specific data required by the NLP engine.**
+
+## 3.2 Transcribing and Translating Noise-filled Audio Recordings Containing Multiple Languages and Dialects: A Unique and Difficult Challenge
+
+**As we embark on the challenge of transcribing and translating audio recordings that are full of noise and contain a
+mix
+of multiple languages and dialects, we quickly realize that we're facing a unique and difficult task. Not only are the
+audio files we're working with low quality, with a high percentage of noise relative to signal, but they also contain
+slangs and local words that aren't present in any dataset and can't be easily translated using standard language models.**
+
+**And even when we are able to translate words, we face the added challenge of context-dependent translations that don't
+always have a straightforward one-to-one correspondence. For example, the word "Bhai" could be translated as "Brother"
+or "Friend" depending on the context.**
+
+**But that's not all - we also need to provide timestamps for the words in the audio file, a critical feature that will
+help users navigate and find the specific parts of the audio file they're looking for. All of these challenges combine
+to make this task a truly unique and challenging one, but with the right tools and approaches, we're confident we can
+rise to the challenge and deliver the best possible results.**
+
+## 3.3 Model Selection
+
+**As we set out to solve the challenge of transcribing and translating audio recordings that have been distorted and
+compressed for transmission over the airwaves, it quickly becomes apparent that we need a model that is up to the task.
+The input audio will be of low quality, with a restricted frequency range and the added complications of channel noise,
+dialects, and slangs. To successfully extract and transcribe this information, we need a model that is capable of
+handling these challenges and producing high-quality results.**
+
+**One of the key challenges we face in this task is the high level of noise and low signal-to-noise ratio in the audio
+recordings we're working with. This can make it difficult to accurately transcribe and translate the content of the
+audio files, as the noise can obscure the words and make them harder to understand. That's where OpenAI Whisper Large
+comes in. Whisper Large is a state-of-the-art machine learning model that has been specifically designed to excel at
+handling audio files with high levels of noise and low signal-to-noise ratios. Its extensive training on a dataset of
+680,000 hours of audio in 100 languages, including non-ideal, noisy samples, has prepared it to tackle the unique
+challenges of our task.**
+
+**But the benefits of Whisper Large don't end there. It is also a zero-shot learning model, meaning that it can perform
+tasks and make predictions without the need for any fine-tuning or additional training on specific datasets. This makes
+it a highly efficient and effective choice for our needs, as we can rely on it to deliver reliable results from the
+get-go, without the need to invest time and resources into adapting it to the specifics of our task. In fact, Whisper
+Large has a SOTA (state-of-the-art) performance in this type of scenario, making it the ideal model for transcribing and
+translating audio files that are full of noise and contain a mix of multiple languages and dialects**
+
+**But why did we choose the large version of Whisper instead of the medium or small models? The answer is simple: the
+large version provides the best
+balance of accuracy and speed for our needs. While the medium and small models may be able to handle some of the tasks
+required for this challenge, they don't offer the same level of proficiency as the large model. Plus, the large model is
+able to run efficiently on a GPU, making it a convenient and resource-saving choice. Overall, OpenAI Whisper Large is an
+excellent choice for our task of transcribing and translating audio recordings. Its
+extensive training, zero-shot learning capabilities, and proficiency in handling multiple languages make it well-suited
+to the unique challenges of this task, and its large size ensures that it delivers the best possible balance of accuracy
+and speed. We can trust Whisper Large to deliver reliable, high-quality results efficiently and effectively, making it
+the ideal model for this challenge**
+
+Some figures from the official paper which shows the performance of the model
+![img_4.png](images/img_4.png)
+![img_5.png](images/img_5.png)
+**_NOTE:_** Since all the languages in this dataset come under low-resource or mid-resource this is not a problem
+![img_6.png](images/img_6.png)

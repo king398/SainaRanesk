@@ -28,8 +28,7 @@ div {
 body {
     animation-name: example;
     animation-duration: 4s;
-    background: linear-gradient(135deg, orange 60%, cyan);
-
+    animation-iteration-count: infinite;
 }
 
 form {
