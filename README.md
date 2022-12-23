@@ -12,6 +12,13 @@ There are Two ways in which you can read this README.md file
 
 To render this readme.md , open the terminal and cd into this directory and run the following command in a bash shell:
 
+```
+$  pip install --no-index --find-links=wheels grip
+```
+
+Then Run to view this README.md file in your browser
+
+```
 ```console
 $ grip
 ```
@@ -288,7 +295,8 @@ shaping of signals and creating algo specific data required by the NLP engine.**
 mix
 of multiple languages and dialects, we quickly realize that we're facing a unique and difficult task. Not only are the
 audio files we're working with low quality, with a high percentage of noise relative to signal, but they also contain
-slangs and local words that aren't present in any dataset and can't be easily translated using standard language models.**
+slangs and local words that aren't present in any dataset and can't be easily translated using standard language models.
+**
 
 **And even when we are able to translate words, we face the added challenge of context-dependent translations that don't
 always have a straightforward one-to-one correspondence. For example, the word "Bhai" could be translated as "Brother"
@@ -304,7 +312,7 @@ rise to the challenge and deliver the best possible results.**
 **As we set out to solve the challenge of transcribing and translating audio recordings that have been distorted and
 compressed for transmission over the airwaves, it quickly becomes apparent that we need a model that is up to the task.
 The input audio will be of low quality, with a restricted frequency range and the added complications of channel noise,
-dialects, and slangs. To successfully extract and transcribe this information, we need a model that is capable of
+dialects and slangs. To successfully extract and transcribe this information, we need a model that is capable of
 handling these challenges and producing high-quality results.**
 
 **One of the key challenges we face in this task is the high level of noise and low signal-to-noise ratio in the audio
