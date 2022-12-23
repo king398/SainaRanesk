@@ -15,13 +15,15 @@ install
 grip
 
 ``` bash
-$  cd wheels && pip install 'grip-4.6.1-py3-none-any.whl' --no-index --find-links '.' && cd ..
+cd wheels  
+pip install 'grip-4.6.1-py3-none-any.whl' --no-index --find-links '.' 
+cd ..
 ```
 
 Then Run to view this README.md file in your browser
 
 ```bash
-$ grip
+grip
 ```
 
 which will give the following output:
@@ -41,7 +43,7 @@ cloud-flared tunneling service.
 To do so, run the following command in a bash shell:
 
 ```bash
-$ cloudflared tunnel --url http://localhost:6419
+cloudflared tunnel --url http://localhost:6419
 ```
 
 this will give the following output:
@@ -83,14 +85,14 @@ You can also view the video of my solution [here](https://youtu.be/1Z4Z2Z2Z2Z2) 
 To check this run the following command in a bash shell
 
 ```bash
-$ docker --version
+docker --version
 ```
 
 If this command runs successfully then you have docker installed on your system. If not then install docker using the
 following command
 
 ```bash
-$ bash install_docker.sh
+bash install_docker.sh
 ```
 
 Which will install docker on your system
@@ -118,7 +120,7 @@ more might be supported but these are the ones that I have tested.
 To clone the docker container run the following command in a bash shell
 
 ```bash
-$ sudo docker pull mithilaidocker/audiotranscribe:master
+sudo docker pull mithilaidocker/audiotranscribe:master
 ```
 
 ## Step 3 : Run the Docker container
@@ -126,7 +128,7 @@ $ sudo docker pull mithilaidocker/audiotranscribe:master
 To run the docker container run the following command in a bash shell
 
 ```bash
-$ sudo docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home \
+sudo docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home \
 --rm mithilaidocker/audiotranscribe:master
 ```
 
@@ -162,7 +164,7 @@ we can use cloudfared tunnel (_already installed on the docker image_) to forwar
 do this run the following command in a bash shell
 
 ```bash
-$ cloudflared tunnel --url http://127.0.0.1:5000
+cloudflared tunnel --url http://127.0.0.1:5000
 ```
 
 Which will Give the following output
