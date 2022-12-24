@@ -43,7 +43,7 @@ def transcribe(path, model):
     print(f"Reducing Noise")
     print(f"Transcribing... {path}")
 
-    result = model.transcribe(path, task='translate', verbose=True, no_speech_threshold=0.25,
+    result = model.transcribe(path, task='translate', verbose=True, no_speech_threshold=0.4,
                               condition_on_previous_text=False)
     text_file = transcript_timestamp(result["segments"], path)
 

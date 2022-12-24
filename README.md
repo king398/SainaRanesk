@@ -39,34 +39,43 @@ Press CTRL+C to quit
 Click on the link http://localhost:6419 to view the rendered README.md file.
 
 Incase you are running this solution on a remote server, you can forward the port 6419 to a remote tunnel using
-cloud-flared tunneling service.
+ngork tunneling service.
 To do so, run the following command in a bash shell:
+Make sure an account is created on ngrok.com
+Then by going to your [ngrok dashboard](https://dashboard.ngrok.com/get-started/setup) , you can get your auth token and
+run the following command in a bash shell:
 
 ```bash
-cloudflared tunnel --url http://localhost:6419
+ngrok authtoken <your-authtoken>
+```
+
+Then run the following command in a bash shell to forward the port 6419 to a remote tunnel:
+
+```bash
+ngrok http 6419
 ```
 
 this will give the following output:
 
 ```bash
-2022-12-22T11:28:34Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
-2022-12-22T11:28:34Z INF Requesting new quick Tunnel on trycloudflare.com...
-2022-12-22T11:28:36Z INF +--------------------------------------------------------------------------------------------+
-2022-12-22T11:28:36Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
-2022-12-22T11:28:36Z INF |  Url Here (unique url will be created here every time)                                             |
-2022-12-22T11:28:36Z INF +--------------------------------------------------------------------------------------------+
-2022-12-22T11:28:36Z INF Version 2022.12.1
-2022-12-22T11:28:36Z INF GOOS: linux, GOVersion: go1.19.3, GoArch: amd64
-2022-12-22T11:28:36Z INF cloudflared will not automatically update if installed by a package manager.
-2022-12-22T11:28:36Z INF Generated Connector ID: a3eea567-7fe4-4f24-bbab-eaba6e003265
-2022-12-22T11:28:36Z INF Initial protocol quic
-2022-12-22T11:28:36Z INF ICMP proxy will use 10.42.32.18 as source for IPv4
-2022-12-22T11:28:36Z INF ICMP proxy will use :: as source for IPv6
-2022-12-22T11:28:36Z INF Starting metrics server on 127.0.0.1:42055/metrics
+                                                                                                                                                                                                                                              
+Check which logged users are accessing your tunnels in real time https://ngrok.com/s/app-users                                                                                                                                                
+                                                                                                                                                                                                                                              
+Session Status                online                                                                                                                                                                                                          
+Account                       Your Email (Plan: Free)                                                                                                                                                                          
+Version                       3.1.0                                                                                                                                                                                                           
+Region                        United States (us)                                                                                                                                                                                              
+Latency                       17ms                                                                                                                                                                                                            
+Web Interface                 http://127.0.0.1:4040                                                                                                                                                                                           
+Forwarding                    https://88ee-172-83-13-4.ngrok.io -> http://localhost:6419                                                                                                                                                      
+                                                                                                                                                                                                                                              
+Connections                   ttl     opn     rt1     rt5     p50     p90                                                                                                                                                                     
+                              3       0       0.01    0.01    0.00    0.00   
 
 ```
 
-The Url Here area will have your unique url. Click on the link to view the rendered README.md file.
+The Url will be in the front of Forwarding area will have your unique url. Click on the link to view the rendered
+README.md file.
 
 ### Option 2: Read README.pdf
 
@@ -160,40 +169,35 @@ Press CTRL+C to quit
 If you are running on the same machine as the server then you can access the solution at http://127.0.0.1:5000.
 In case you running this solution on a remote server you will need to forward the port 5000 to your local machine. To do
 this
-we can use cloudfared tunnel (_already installed on the docker image_) to forward the port 5000 to our local machine. To
-do this run the following command in a bash shell
+we can use ngrok (_already installed on the docker image_) to forward the port 5000 to our local machine. To
+do this run the following command in a bash shell. Make sure you have added your ngrok auth token to the docker image.
+It is explained in the section above in Section 1.A Option 1 : Read README.md
 
 ```bash
-cloudflared tunnel --url http://10.42.32.18:5000 # again this will be different depending upon your IP address. 
-# Make sure that you use the IP address printed in the output of the previous command
-
+ngrok http 5000
 ```
 
 Which will Give the following output
 
 ```bash
-2022-12-22T11:28:34Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
-2022-12-22T11:28:34Z INF Requesting new quick Tunnel on trycloudflare.com...
-2022-12-22T11:28:36Z INF +--------------------------------------------------------------------------------------------+
-2022-12-22T11:28:36Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
-2022-12-22T11:28:36Z INF |  Url Here (unique url will be created here every time)                                             |
-2022-12-22T11:28:36Z INF +--------------------------------------------------------------------------------------------+
-2022-12-22T11:28:36Z INF Version 2022.12.1
-2022-12-22T11:28:36Z INF GOOS: linux, GOVersion: go1.19.3, GoArch: amd64
-2022-12-22T11:28:36Z INF Settings: map[protocol:quic url:http://127.0.0.1:5000]
-2022-12-22T11:28:36Z INF cloudflared will not automatically update if installed by a package manager.
-2022-12-22T11:28:36Z INF Generated Connector ID: a3eea567-7fe4-4f24-bbab-eaba6e003265
-2022-12-22T11:28:36Z INF Initial protocol quic
-2022-12-22T11:28:36Z INF ICMP proxy will use 10.42.32.18 as source for IPv4
-2022-12-22T11:28:36Z INF ICMP proxy will use :: as source for IPv6
-2022-12-22T11:28:36Z INF Starting metrics server on 127.0.0.1:42055/metrics
+                                                                                                                                                                                                                                              
+Check which logged users are accessing your tunnels in real time https://ngrok.com/s/app-users                                                                                                                                                
+                                                                                                                                                                                                                                              
+Session Status                online                                                                                                                                                                                                          
+Account                       Your Email (Plan: Free)                                                                                                                                                                          
+Version                       3.1.0                                                                                                                                                                                                           
+Region                        United States (us)                                                                                                                                                                                              
+Latency                       17ms                                                                                                                                                                                                            
+Web Interface                 http://127.0.0.1:4040                                                                                                                                                                                           
+Forwarding                    https://88ee-172-83-13-4.ngrok.io -> http://localhost:6419                                                                                                                                                      
+                                                                                                                                                                                                                                              
+Connections                   ttl     opn     rt1     rt5     p50     p90                                                                                                                                                                     
+                              3       0       0.01    0.01    0.00    0.00   
+
 ```
 
-Click on the link in the area of the output that says `Url Here` to view the solution. You will have your own unique url
-every time
-**_NOTE:_** The Cloudflare tunnel is only a quick way to access the solution. It is not a production ready solution. If
-you want to use this solution in production you should use a pre-created named tunnel by
-following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+The link will be in the front of Forwarding area will have your unique url. Click on the link to view the rendered
+solution.
 
 #### Step 2 : How to use the Flask App
 
