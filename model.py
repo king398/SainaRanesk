@@ -39,11 +39,18 @@ def transcript_timestamp(transcript: Iterator[dict], path):
     return f"/home/transcripts/{path}.txt"
 
 
+def convert_to_wav(path):
+    print(f"Converting to wav... {path}")
+    data, samplerate = librosa.load(path, sr=16000)
+    sf.write('audio.wav', data, samplerate)
+
+
 def transcribe(path, model):
     print(f"Reducing Noise")
     print(f"Transcribing... {path}")
+    convert_to_wav(path)
 
-    result = model.transcribe(path, task='translate', verbose=True, no_speech_threshold=0.4,
+    result = model.transcribe('audio.wav', task='translate', verbose=True, no_speech_threshold=0.4,
                               condition_on_previous_text=False)
     text_file = transcript_timestamp(result["segments"], path)
 
@@ -61,6 +68,7 @@ def transcribe(path, model):
     print(f"Transcription complete. Saved it to {text_file} ")
     # delete path and audio.wav
     os.remove(path)
+    os.remove('audio.wav')
     return text, formatted_text
 
 

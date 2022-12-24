@@ -108,7 +108,7 @@ Which will install docker on your system
 
 ### Compute Requirements
 
-This Repo requires an Nvidia GPU with a minimum of 10GB of memory to run to fit the transcription model.
+#### **This Repo requires an Nvidia GPU with a minimum of 10GB of memory to run to fit the transcription model**
 
 ### Audio File Requirements
 
@@ -137,8 +137,7 @@ sudo docker pull mithilaidocker/audiotranscribe:master
 To run the docker container run the following command in a bash shell
 
 ```bash
-sudo docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home \
---rm mithilaidocker/audiotranscribe:master
+sudo docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home --rm mithilaidocker/audiotranscribe:master
 ```
 
 By running this command you will enter the docker container.
@@ -152,7 +151,7 @@ By running this command you will enter the docker container.
 To Run the flask app for the solution run the following command in a bash shell.(Make sure you are in the `/app` dir)
 
 ```bash
-root@xx:/app#  python -m flask run --host 0.0.0.0
+root@xx:/app  python -m flask run --host 0.0.0.0
 ```
 
 This will run the flask app which contains the solution. The command will give the following output
@@ -166,7 +165,8 @@ WARNING: This is a development server. Do not use it in a production deployment.
 Press CTRL+C to quit
 ```
 
-If you are running on the same machine as the server then you can access the solution at http://127.0.0.1:5000.
+If you are seeing this solution on the same machine as the server then you can access the solution
+at http://127.0.0.1:5000.
 In case you running this solution on a remote server you will need to forward the port 5000 to your local machine. To do
 this
 we can use ngrok (_already installed on the docker image_) to forward the port 5000 to our local machine. To
@@ -331,7 +331,9 @@ handling these challenges and producing high-quality results.**
 
 **One of the key challenges we face in this task is the high level of noise and low signal-to-noise ratio in the audio
 recordings we're working with. This can make it difficult to accurately transcribe and translate the content of the
-audio files, as the noise can obscure the words and make them harder to understand. That's where OpenAI Whisper Large-V2
+audio files, as the noise can obscure the words and make them harder to understand.Since the model is likely to
+come across a diverse set of languages and dialects in production,a robust Zero-Shot model is the only feasible
+solution. That's where OpenAI Whisper Large-V2
 comes in. Whisper Large-V2 is a state-of-the-art machine learning model that has been specifically designed to excel at
 handling audio files with high levels of noise and low signal-to-noise ratios. Its extensive training on a dataset of
 680,000 hours of audio in 100 languages (as a point of comparison, GigaSpeech , which comes 2nd place to Whisper in
@@ -339,12 +341,14 @@ terms of training data is trained on only 44,000 hours of audio ), including non
 to tackle the unique challenges of our task.**
 
 **But the benefits of Whisper Large-V2 don't end there. It is also a zero-shot learning model, meaning that it can
-perform tasks and make predictions without the need for any fine-tuning or additional training on specific datasets.
-This makes
-it a highly efficient and effective choice for our needs, as we can rely on it to deliver reliable results from the
+perform tasks and make predictions without the need for any fine-tuning or additional training on specific
+datasets.Since the model is likely to
+come across a diverse set of languages and dialects in production,a robust Zero-Shot model is the ideal approach.
+This makes it a highly efficient and effective choice for our needs, as we can rely on it to deliver reliable results
+from the
 get-go, without the need to invest time and resources into adapting it to the specifics of our task. In fact, Whisper
 Large has a SOTA (state-of-the-art) performance in this type of scenario, making it the ideal model for transcribing and
-translating audio files that are full of noise and contain a mix of multiple languages and dialects**
+translating audio files that are full of noise and contain a mix of multiple languages and dialects.**
 
 **Whisper Large-V2 has been trained for 2.5 times more epochs than Whisper Large-V1, with SpecAugment, stochastic depth,
 and BPE dropout for regularization. Other than the training procedure, the model architecture and size remained the same
@@ -357,7 +361,7 @@ required for this challenge, they don't offer the same level of proficiency as t
 able to run efficiently on a GPU, making it a convenient and resource-saving choice. Overall, OpenAI Whisper Large-V2 is
 an excellent choice for our task of transcribing and translating audio recordings. Its
 extensive training, zero-shot learning capabilities, and proficiency in handling multiple languages make it well-suited
-to the novelocity modelchallenges of this task, and its large size ensures that it delivers the best possible balance of
+to the novel challenges of this task, and its large size ensures that it delivers the best possible balance of
 accuracy and speed. We can trust Whisper Large-V2 to deliver reliable, high-quality results efficiently and effectively,
 making
 it the ideal model for this challenge**
