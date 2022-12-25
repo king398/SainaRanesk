@@ -129,7 +129,8 @@ more might be supported but these are the ones that I have tested.
 To clone the docker container run the following command in a bash shell
 
 ```bash
-sudo docker pull mithilaidocker/audiotranscribe:master
+docker pull mithilaidocker/audiotranscribe:master
+
 ```
 
 ## Step 3 : Run the Docker container
@@ -137,7 +138,7 @@ sudo docker pull mithilaidocker/audiotranscribe:master
 To run the docker container run the following command in a bash shell
 
 ```bash
-sudo docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home --rm mithilaidocker/audiotranscribe:master
+docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home --rm mithilaidocker/audiotranscribe:master
 ```
 
 By running this command you will enter the docker container.

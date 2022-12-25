@@ -1,4 +1,4 @@
-FROM pytorch/pytorch
+FROM nvcr.io/nvidia/pytorch:22.08-py3
 RUN  apt-get -y update
 RUN apt-get install -y ffmpeg wget
 WORKDIR /app
