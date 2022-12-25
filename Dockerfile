@@ -1,12 +1,6 @@
-FROM paperspace/gradient-base:pt112-tf29-jax0314-py39-20220803
+FROM pytorch/pytorch
 RUN  apt-get -y update
 RUN apt-get install -y ffmpeg wget
-ENV CONDA_DIR /opt/conda
-RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
-     /bin/bash ~/miniconda.sh -b -p /opt/conda
-
-# Put conda in path so we can use conda activate
-ENV PATH=$CONDA_DIR/bin:$PATH
 WORKDIR /app
 COPY . .
 ENV TZ=Asia/Kolkata \

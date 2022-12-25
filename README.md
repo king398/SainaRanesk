@@ -67,7 +67,7 @@ Version                       3.1.0
 Region                        United States (us)                                                                                                                                                                                              
 Latency                       17ms                                                                                                                                                                                                            
 Web Interface                 http://127.0.0.1:4040                                                                                                                                                                                           
-Forwarding                    https://88ee-172-83-13-4.ngrok.io -> http://localhost:6419                                                                                                                                                      
+Forwarding                    UrlHere -> http://localhost:6419                                                                                                                                                      
                                                                                                                                                                                                                                               
 Connections                   ttl     opn     rt1     rt5     p50     p90                                                                                                                                                                     
                               3       0       0.01    0.01    0.00    0.00   
