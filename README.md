@@ -97,8 +97,12 @@ To check this run the following command in a bash shell
 docker --version
 ```
 
-If this command runs successfully then you have docker installed on your system. If not then install docker using the
-following command
+If this command runs successfully then you have docker installed on your system. If your docker version is less than
+19.03.8 use nvidia-docker instead of docker as an alias for
+docker. It is recommended to use docker version 19.03.8 or higher.
+
+If the above command fails, then you need to install docker on your system. You can install docker by running the
+following command in a bash shell:
 
 ```bash
 bash install_docker.sh
@@ -106,9 +110,19 @@ bash install_docker.sh
 
 Which will install docker on your system
 
-### Compute Requirements
+### Drivers and Compute Requirements
+
+This Docker image requires the Nvidia Drivers which support CUDA 11.0. The oldest driver you can use is 450.36.06. You
+can
+check your driver version by running the following command in a bash shell. It is recommended to update your drivers to
+the
+latest version for best performance and compatibility.
 
 #### **This Repo requires an Nvidia GPU with a minimum of 10GB of memory to run to fit the transcription model**
+
+```bash
+nvidia-smi
+```
 
 ### Audio File Requirements
 
@@ -139,6 +153,12 @@ To run the docker container run the following command in a bash shell
 
 ```bash
 docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home --rm mithilaidocker/audiotranscribe:master
+```
+
+nvidia docker command will be
+
+```bash
+nvidia-docker run --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home --rm mithilaidocker/audiotranscribe:master
 ```
 
 By running this command you will enter the docker container.
@@ -228,7 +248,8 @@ Steps To Transcribe The Audio File are following from here
    [221001_0134.mp3](221001_0134.mp3)
 6. The result page will look like this for the following audio file is transcribed
    ![img_3.png](images/img_3.png)
-7. The Transcript will be saved in the `transcripts` subdirectory in the app directory of the docker container. The file name will be the
+7. The Transcript will be saved in the `transcripts` subdirectory in the app directory of the docker container. The file
+   name will be the
    same as the audio file name with the extension `.txt`. So for the above example the transcript will be saved in the
    `/transcripts/221001_0134.txt` file.
 8. You can print the txt file following command in the docker container
@@ -274,7 +295,8 @@ Transcription complete. Saved it to transcripts/221001_0134.txt
 
 ```
 
-the transcript will be saved in the `transcripts` subdirectory in the app directory of the docker container. The file name will be the
+the transcript will be saved in the `transcripts` subdirectory in the app directory of the docker container. The file
+name will be the
 same as the audio file name with the extension `.txt`. So for the above example the transcript will be saved in the
 `transcripts/221001_0134.txt` file.
 You can print the txt file following command in the docker container

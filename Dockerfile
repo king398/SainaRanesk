@@ -1,10 +1,10 @@
 FROM nvcr.io/nvidia/pytorch:22.08-py3
+ENV TZ=Asia/Kolkata \
+    DEBIAN_FRONTEND=noninteractive
 RUN  apt-get -y update
 RUN apt-get install -y ffmpeg wget
 WORKDIR /app
 COPY . .
-ENV TZ=Asia/Kolkata \
-    DEBIAN_FRONTEND=noninteractive
 RUN conda install git
 CMD nvidia-smi
 CMD ["bash"]
