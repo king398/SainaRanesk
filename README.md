@@ -120,6 +120,9 @@ latest version for best performance and compatibility.
 
 #### **This Repo requires an Nvidia GPU with a minimum of 10GB of memory to run to fit the transcription model**
 
+To learn more about the Docker image requirements
+visit [here](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch)
+
 ```bash
 nvidia-smi
 ```
@@ -149,7 +152,7 @@ docker pull mithilaidocker/audiotranscribe:master
 
 ## Step 3 : Run the Docker container
 
-To run the docker container run the following command in a bash shell
+To run the docker container enter the following command in a bash shell
 
 ```bash
 docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home --rm mithilaidocker/audiotranscribe:master
@@ -185,6 +188,8 @@ WARNING: This is a development server. Do not use it in a production deployment.
 * Running on http://10.42.32.18:5000 #Use the url printed here.  It would be different depending upon your IP address
 Press CTRL+C to quit
 ```
+
+Important: Make sure to Keep running the flask app in the background. If you close the terminal the flask app will stop
 
 If you are seeing this solution on the same machine as the server then you can access the solution
 at http://127.0.0.1:5000.
@@ -238,6 +243,7 @@ Steps To Transcribe The Audio File are following from here
    Example -
    ![img_2.png](images/img_2.png)
 4. Click on the `Submit Query` button to start the transcription process.
+
    **_NOTE:_** The Submit Query Button can have a
    different name depending upon the browser you are using. For example in Firefox it is `Submit Query` but in Chrome it
    is `Submit`
