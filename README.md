@@ -227,13 +227,13 @@ Steps To Transcribe The Audio File are following from here
    [221001_0134.mp3](221001_0134.mp3)
 6. The result page will look like this for the following audio file is transcribed
    ![img_3.png](images/img_3.png)
-7. The Transcript will be saved in the `/home/transcripts` directory in the docker container. The file name will be the
+7. The Transcript will be saved in the `transcripts` subdirectory in the app directory of the docker container. The file name will be the
    same as the audio file name with the extension `.txt`. So for the above example the transcript will be saved in the
-   `/home/transcripts/221001_0134.txt` file.
+   `/transcripts/221001_0134.txt` file.
 8. You can print the txt file following command in the docker container
 
 ```bash
-root@xx:/app# cat /home/transcripts/YourAudioFile.txt
+root@xx:/app# cat transcripts/YourAudioFile.txt
 ```
 
 With the 221001_0134.txt file being the name of the audio file you want to transcribe.
@@ -269,17 +269,18 @@ Detected language: Urdu
 [00:37.000 -- Alpha 1, contact Alpha 3 >00:46.000]
 [00:46.000 -- Alpha 3, I will do it today and will inform you in the evening >00:58.000]
 [00:58.000 -- Alpha 1, Khuda Hafiz >01:18.000]
-Transcription complete. Saved it to /home/transcripts/221001_0134.txt
+Transcription complete. Saved it to transcripts/221001_0134.txt
 
 ```
 
-the transcript will be saved in the `/home/transcripts` directory in the docker container. The file name will be the
+the transcript will be saved in the `transcripts` subdirectory in the app directory of the docker container. The file name will be the
 same as the audio file name with the extension `.txt`. So for the above example the transcript will be saved in the
-`/home/transcripts/221001_0134.txt` file.
+`transcripts/221001_0134.txt` file.
 You can print the txt file following command in the docker container
 
 ```bash
-root@xx:/app# cat /home/transcripts/YourAudioFile.txt
+root@xx:/app# cat transcripts/YourAudioFile.txt
+
 ```
 
 so here the YourAudioFile.txt will be the name of the audio file we are transcribing so for the above example it will be
