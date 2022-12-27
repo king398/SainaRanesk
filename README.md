@@ -384,6 +384,13 @@ translating audio files that are full of noise and contain a mix of multiple lan
 and BPE dropout for regularization. Other than the training procedure, the model architecture and size remained the same
 as the original large model**
 
+**Whisper is also the most robust model for dataset with uncommon words as show in the last picture making it the best
+choice
+for transcribing and translating slang`s. Quoting the official paper "The results show that Whisper per-
+forms better than the compared models on most datasets,
+especially on the Meanwhile dataset which is heavy with
+uncommon words.""**
+
 **But why did we choose the large-v2 version of Whisper instead of the medium or small models? The answer is simple: the
 large version provides the best
 balance of accuracy and speed for our needs. While the medium and small models may be able to handle some tasks
@@ -401,4 +408,5 @@ Some figures from the official paper which shows the performance of the model
 ![img_5.png](images/img_5.png)
 **_NOTE:_** Since all the languages in this dataset come under low-resource or mid-resource this is not a problem
 ![img_6.png](images/img_6.png)
+
 
