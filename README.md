@@ -254,6 +254,9 @@ Steps To Transcribe The Audio File are following from here
    [221001_0134.mp3](221001_0134.mp3)
 6. The result page will look like this for the following audio file is transcribed
    ![img_3.png](images/img_3.png)
+   the format of the timestamp is
+   `Start - HH:MM:SS:MS --> End HH:MM:SS:MS : Transcript`
+   where MS is the milliseconds
 7. The Transcript will be saved in the `transcripts` subdirectory in the app directory of the docker container. The file
    name will be the
    same as the audio file name with the extension `.txt`. So for the above example the transcript will be saved in the
@@ -300,6 +303,9 @@ Detected language: Urdu
 Transcription complete. Saved it to transcripts/221001_0134.txt
 
 ```
+
+the format of the timestamp is
+`Start - HH:MM:SS:MS --> End HH:MM:SS:MS : Transcript`
 
 the transcript will be saved in the `transcripts` subdirectory in the app directory of the docker container. The file
 name will be the
