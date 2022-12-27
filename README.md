@@ -379,7 +379,10 @@ from the
 get-go, without the need to invest time and resources into adapting it to the specifics of our task. In fact, Whisper
 Large has a SOTA (state-of-the-art) performance in this type of scenario, making it the ideal model for transcribing and
 translating audio files that are full of noise and contain a mix of multiple languages and dialects.**
-
+**We apply a Small amount of  supervised learning with regularization to expand Whisper Large-V2 Vocabulary of Hindi words. This Leads to Better
+performance in translating slangs from local dialects.We finetune for only 3 epoch so do the model 
+does not over fit to the type of the training data we have provided thus maintaining Whisper Large-V2 excellent ability to 
+generalise on new data**
 **Whisper Large-V2 has been trained for 2.5 times more epochs than Whisper Large-V1, with SpecAugment, stochastic depth,
 and BPE dropout for regularization. Other than the training procedure, the model architecture and size remained the same
 as the original large model**

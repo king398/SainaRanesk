@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 
 from model import *
 
-model = load_model()
+model    = load_model()
 app = Flask(__name__)
 
 
