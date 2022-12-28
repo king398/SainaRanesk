@@ -1,9 +1,10 @@
-from model import *
 import glob
 from tqdm import tqdm
+import whisper
+
 model = whisper.load_model("large")
-files = glob.glpath = "data/test/audio"
-ob(f"{path}/*.mp3") + glob.glob(f"{path}/*/*.mp3")
+path = "/notebooks/AIML Datastes SR2.0"
+files = glob.glob(f"{path}/*.mp3") + glob.glob(f"{path}/*/*.mp3")
 
 
 def format_timestamp(seconds: float, always_include_hours: bool = False, decimal_marker: str = '.'):
@@ -19,7 +20,7 @@ def format_timestamp(seconds: float, always_include_hours: bool = False, decimal
     return f"{hours_marker}{minutes:02d}:{seconds:02d}{decimal_marker}{milliseconds:03d}"
 
 
-def transcript_timestamp(transcript: Iterator[dict], text_file):
+def transcript_timestamp(transcript, text_file):
     for segment in transcript:
         text_file.write(
             f"{format_timestamp(segment['start'])} --> {format_timestamp(segment['end'])} "
@@ -28,8 +29,8 @@ def transcript_timestamp(transcript: Iterator[dict], text_file):
     text_file.close()
 
 
-for file in files:
-    result = model.transcribe(file, task='translate', verbose=True, no_speech_threshold=0.4,
+for file in tqdm(files):
+    result = model.transcribe(file, task='translate', verbose=True, no_speech_threshold=0.25,
                               condition_on_previous_text=False)
     text_file = open(f"transcripts/{file.split('/')[-1].split('.')[0]}.txt", "w")
-    transcript_timestamp(result, text_file)
+    transcript_timestamp(result['segments'], text_file)
