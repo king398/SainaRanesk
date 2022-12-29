@@ -1,0 +1,19 @@
+00:00.000 --> 00:01.200 Text: Roger my voice over
+00:03.600 --> 00:05.600 Text: Delta 2 stand 5 over
+00:06.600 --> 00:07.600 Text: Roger out
+00:11.600 --> 00:13.600 Text: Delta 2 for Delta 2 over
+00:14.600 --> 00:15.600 Text: Delta 2 pass message over
+00:16.600 --> 00:19.600 Text: Delta 2 what is my strength over
+00:21.600 --> 00:23.600 Text: Delta 2 say again over
+00:23.600 --> 00:28.240 Text: Delta 2, what is my strength, over
+00:30.480 --> 00:33.200 Text: Delta 2, signal strength 3, over
+00:33.600 --> 00:36.240 Text: Delta 2, roger, out
+00:37.680 --> 00:40.240 Text: Delta 1 for Delta 2, over
+00:41.440 --> 00:43.680 Text: Delta 2 for Delta 1, over
+00:44.000 --> 00:48.000 Text: Delta 2, please check your mic
+00:48.000 --> 00:51.000 Text: Bhai bahut noise aari hai aur awaaz bhi clear nahi aari hai
+00:51.000 --> 00:52.000 Text: Over
+00:59.000 --> 01:02.000 Text: Delta 2 for Delta 1, say again, over
+01:03.000 --> 01:09.000 Text: Delta 1 for Delta 2, there is lots of disturbance in your connection
+01:09.000 --> 01:13.000 Text: Please check if there is any fault in the wire
+01:13.000 --> 01:17.320 Text: Delta 2, Delta 1 roger, right

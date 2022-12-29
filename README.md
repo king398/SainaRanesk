@@ -81,9 +81,16 @@ README.md file.
 
 You can open a rendered pdf of README.md By opening the file README.pdf in this directory.
 
-## B. Video
+### Option 3 : GitHub Repository
 
-You can also view the video of my solution [here](https://youtu.be/1Z4Z2Z2Z2Z2) ## ADD video link here
+if you want to view this README.md file on github, you can go to the
+following [repo](https://github.com/king398/SainaRanesk) which is
+similar to this directory.
+
+**_NOTE:_** : if you want view the transcripts of all the audio files provided in the dataset made by my solution you
+can
+open the folder [transcripts_result](transcripts_result) in this directory or repo. The files are named according to the
+audio file name.
 
 # 2. How to Run my solution
 
@@ -264,7 +271,7 @@ Steps To Transcribe The Audio File are following from here
 8. You can print the txt file following command in the docker container
 
 ```bash
-root@xx:/app# cat transcripts/YourAudioFile.txt
+root@xx:/app# cat transcripts_result/YourAudioFile.txt
 ```
 
 With the 221001_0134.txt file being the name of the audio file you want to transcribe.
@@ -300,7 +307,7 @@ Detected language: Urdu
 [00:37.000 -- Alpha 1, contact Alpha 3 >00:46.000]
 [00:46.000 -- Alpha 3, I will do it today and will inform you in the evening >00:58.000]
 [00:58.000 -- Alpha 1, Khuda Hafiz >01:18.000]
-Transcription complete. Saved it to transcripts/221001_0134.txt
+Transcription complete. Saved it to transcripts_result/221001_0134.txt
 
 ```
 
@@ -314,7 +321,7 @@ same as the audio file name with the extension `.txt`. So for the above example 
 You can print the txt file following command in the docker container
 
 ```bash
-root@xx:/app# cat transcripts/YourAudioFile.txt
+root@xx:/app# cat transcripts_result/YourAudioFile.txt
 
 ```
 

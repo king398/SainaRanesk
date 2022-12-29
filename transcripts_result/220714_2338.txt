@@ -1,0 +1,26 @@
+00:00.000 --> 00:01.520 Text: Delta 1 pass message over
+00:02.420 --> 00:06.020 Text: Delta 1 are we switching to Gulab?
+00:08.120 --> 00:15.580 Text: Delta 1 we will be switching to Gulab but before that till now whatever radio communication we have done let's put it inside the radiolog and then do it
+00:16.080 --> 00:16.580 Text: Over
+00:17.900 --> 00:20.460 Text: Delta 1 already done over
+00:20.460 --> 00:29.260 Text: Delta 1 give us figure 10 minutes, after that we'll switch to Gulab over and out
+00:59.260 --> 01:02.260 Text: Delta 1 pass message over
+01:03.260 --> 01:10.260 Text: Delta 1 when we ask for grid reference to our outstations how do we write it in the radio log over
+01:11.260 --> 01:16.260 Text: Delta 1 report Lima or location over
+01:19.260 --> 01:25.260 Text: Delta 1 correction but in the prove word it is given that we can use grid reference as the word over
+01:25.260 --> 01:31.020 Text: Delta 1, you have asked for our location, then grid reference
+01:33.260 --> 01:39.820 Text: Delta 1, but the DS told us that as you are the control, ask the grid reference to your outstation, so how should we ask, over?
+01:42.460 --> 01:47.660 Text: Delta 1, ask grid reference, over, or call from you, over
+01:47.660 --> 01:54.660 Text: Delta 1, so we can write like this, all station Delta, send your grid reference over
+01:56.660 --> 01:58.660 Text: Affirmative, over
+02:58.660 --> 03:00.660 Text: I'm trying to figure out what's going on.
+03:08.660 --> 03:09.660 Text: Ah, okay.
+03:15.660 --> 03:16.660 Text: Oh, no.
+03:17.660 --> 03:18.660 Text: I'm not gonna run.
+03:18.660 --> 03:43.660 Text: Delta 2 what is happening over?
+03:43.660 --> 03:45.660 Text: Delta 1 for Delta 1 over
+03:45.660 --> 03:47.660 Text: Delta 1 pass me the over
+03:47.660 --> 03:52.660 Text: Delta 1, Delta 0 is not coming to our table, over
+03:55.160 --> 03:57.160 Text: No, he is not coming, over
+03:58.160 --> 04:02.660 Text: Delta 1 asking the same question, why? Why this call of LED?
+04:32.660 --> 04:34.660 Text: Delta 1 out

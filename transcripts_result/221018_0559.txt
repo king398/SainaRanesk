@@ -1,0 +1,71 @@
+00:00.000 --> 00:14.000 Text: All stations, Alpha Bravo Charlie 1, report signal over.
+01:14.000 --> 01:16.000 Text: Ok over
+01:16.000 --> 01:38.000 Text: All stations, Alpha Bravo Charlie 1, Alpha Bravo Charlie 2, strength 2 and Alpha Bravo Charlie 4, strength 3, report signal strength 1.
+01:38.000 --> 01:53.000 Text: Alpha Bravo Charlie 1 Alpha Bravo Charlie 3 Stand 2 Over
+01:53.000 --> 02:05.000 Text: Alpha Bravo Charlie 2 Alpha Bravo Charlie 4 Stand 3 Over
+02:05.000 --> 02:13.000 Text: Alpha Bravo Charlie 3, OK over.
+02:17.000 --> 02:21.000 Text: All station Alpha 1, roger out.
+02:51.000 --> 03:00.580 Text: Alpha one.
+03:00.580 --> 03:00.640 Text: Alpha one.
+03:00.640 --> 03:12.560 Text: Alpha one. Roger out.
+03:12.560 --> 03:19.960 Text: All the
+03:19.960 --> 03:21.960 Text: Correction
+03:23.960 --> 03:29.960 Text: GR 428529
+03:29.960 --> 03:31.960 Text: Over
+03:35.960 --> 03:37.960 Text: Alpha Bravo Charlie 1
+03:37.960 --> 03:40.960 Text: Charlie 1, Roger out.
+03:52.960 --> 03:55.960 Text: Alpha 1 for Alpha 1.
+03:56.960 --> 04:02.960 Text: Tiger, code sign, Alpha Bravo Charlie.
+04:02.960 --> 04:09.960 Text: GR 242916
+04:10.960 --> 04:11.960 Text: for
+04:12.960 --> 04:14.960 Text: I say again
+04:15.960 --> 04:22.960 Text: GR 242916
+04:23.960 --> 04:27.960 Text: for 0800 hours
+04:28.960 --> 04:29.960 Text: for
+04:29.960 --> 04:32.960 Text: We have reached. Over.
+04:40.960 --> 04:45.960 Text: Alpha Bravo, Charlie 1, Rojaar, Out.
+04:53.960 --> 04:54.960 Text: Sir, tell me where is it?
+04:54.960 --> 05:22.960 Text: All stations, Bravo 1, enemy tanks, jungle, GR, 67, 42, 10, are entering.
+05:22.960 --> 05:36.960 Text: Bravo 1 for Bravo 1, what after tank over?
+05:36.960 --> 05:52.960 Text: Bravo 1 for Bravo 1, Bravo 1, tank, jungle, over.
+06:22.960 --> 06:45.960 Text: Bravo 3 for Bravo 3, enemy tank JGR 674210 is entering the area. Over.
+06:52.960 --> 06:56.240 Text: Bravo 3, Rojar out.
+07:22.960 --> 07:31.960 Text: Bravo 4 for Bravo 4.
+07:31.960 --> 07:32.040 Text: Bravo 4 for Bravo 4.
+07:32.040 --> 07:50.960 Text: Bravo 4 for Bravo 4. 10. Alert. Over.
+08:50.960 --> 09:11.740 Text: Bravo one.
+09:11.740 --> 09:14.240 Text: Bravo one for Bravo one.
+09:14.240 --> 09:14.320 Text: Bravo one for Bravo one.
+09:14.320 --> 09:27.800 Text: Bravo one for Bravo one.
+09:27.800 --> 09:35.440 Text: Jungle over.
+10:05.440 --> 10:18.440 Text: Kilo lima mike, for kilo lima mike and all stations, kilo lima mike, this is direct net, over.
+10:18.440 --> 10:27.440 Text: Kilo lima mike one, Wilco out.
+10:27.440 --> 10:35.440 Text: Kilo Lima Mike 2 will go out
+10:43.440 --> 10:47.440 Text: Kilo Lima Mike 3 will go out
+11:17.440 --> 11:31.440 Text: Kilo lima mic 1 for kilo lima mic 1. All stations kilo lima mic. This is not a direct net. Over.
+11:31.440 --> 11:42.440 Text: Kilo Lima Mike 1 will go out.
+11:42.440 --> 11:51.440 Text: Kilo Lima Mike 2 will go out.
+12:21.440 --> 12:23.760 Text: for Kilo Lima Mic 3. Message over.
+12:32.560 --> 12:34.960 Text: Kilo Lima Mic 1 for Kilo Lima Mic 1.
+13:04.960 --> 13:06.960 Text: Move back. Over.
+13:19.960 --> 13:24.960 Text: KiloLimaMic1 for KiloLimaMic1. Rojar out to you.
+13:24.960 --> 13:29.960 Text: Kilo lima mike 3, did you receive message over?
+13:38.960 --> 13:43.960 Text: Kilo lima mike 3, yes, over.
+13:43.960 --> 13:52.300 Text: Rosar out.
+13:52.300 --> 13:56.640 Text: Kilo Lima Mike three.
+13:56.640 --> 13:56.700 Text: Kilo Lima Mike three.
+13:56.700 --> 14:00.740 Text: Kilo Lima Mike three. For Kilo Lima Mike three.
+14:30.740 --> 14:40.740 Text: Kilo Lima Mike 1 for Kilo Lima Mike 1.
+14:40.740 --> 14:42.740 Text: Okay, through me, over.
+14:52.740 --> 14:54.740 Text: Kilo Lima Mike 1.
+14:54.740 --> 14:58.740 Text: Enemy seen in area.
+14:58.740 --> 15:02.740 Text: Kailash Kumar, Jungle, over.
+15:11.740 --> 15:15.740 Text: KiloLimaMic1, Rojaar out, to you.
+15:15.740 --> 15:23.740 Text: Kilo Lima Mike 3, did you receive for Kilo Lima Mike 1? Over.
+15:23.740 --> 15:24.240 Text: over
+15:34.240 --> 15:36.240 Text: kilo lima mike 3
+15:36.240 --> 15:36.740 Text: yes
+15:36.740 --> 15:37.240 Text: over
+15:46.240 --> 15:48.240 Text: kilo lima mike 1
+15:48.240 --> 15:49.740 Text: rozar
+15:49.740 --> 15:50.740 Text: Out

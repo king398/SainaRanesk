@@ -1,0 +1,13 @@
+00:00.000 --> 00:14.500 Text: All stations D, fill the communication near RT Conversation near Radiologs, after that we will be switching to Gulab, over
+00:14.500 --> 00:16.500 Text: Delta 2 roger out
+00:19.500 --> 00:21.500 Text: Delta 1 roger, ok
+00:51.500 --> 00:55.500 Text: Delta 2 for Delta 1 over
+00:55.500 --> 00:58.500 Text: Delta 2 pass message over
+00:58.500 --> 01:01.500 Text: Delta 1 how are you filling the signal strength form?
+01:01.500 --> 01:05.500 Text: I say again, how are you filling the signal strength form?
+01:05.500 --> 01:15.500 Text: We have filled signal strength form in the starting with all 5, all ticks, means all strength 5, over
+01:15.500 --> 01:21.500 Text: Are you taking into account the National Field Regiment also?
+01:24.500 --> 01:26.500 Text: No. Over.
+01:27.500 --> 01:28.500 Text: Delta 2, Roger out.
+01:28.500 --> 01:29.500 Text: Roger, out.
+01:29.500 --> 01:31.500 Text: Roger, out.

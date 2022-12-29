@@ -1,0 +1,174 @@
+00:00.000 --> 00:22.000 Text: NO ONE 몇 days назад。
+00:22.000 --> 00:23.000 Text: Hello.
+00:36.000 --> 00:41.000 Text: Hello, all station Alpha Bravo Charlie One, report signal over.
+00:44.000 --> 00:45.000 Text: Alpha One, OK over.
+00:45.000 --> 00:46.000 Text: Alpha 1, copy over.
+00:49.000 --> 00:51.000 Text: Alpha 2, copy over.
+00:54.000 --> 00:56.000 Text: Alpha 3, copy over.
+01:01.000 --> 01:12.000 Text: All stations, Alpha Bravo Charlie 1, Alpha Bravo Charlie 2, stand 2.
+01:12.000 --> 01:23.000 Text: Alpha Bravo Charlie 2, Alpha Bravo Charlie 2, report signal stand over.
+01:28.000 --> 01:34.000 Text: Alpha Bravo Charlie 1, Alpha Bravo Charlie 2, stand 2 over.
+01:34.000 --> 01:47.000 Text: Alpha Bravo Charlie 2, Alpha Bravo Charlie 2, OK, over.
+01:47.000 --> 01:55.000 Text: Alpha Bravo Charlie 3, OK, over.
+01:55.000 --> 02:09.000 Text: Alpha Bravo Charlie 3, Alpha Bravo Charlie 3, Alpha Bravo Charlie 1, stand 2, and Alpha Bravo Charlie 3, stand 4.
+02:39.000 --> 02:50.000 Text: Alpha Bravo 43, Alpha Bravo 44, Alpha Bravo 43, Stand 3, over.
+05:20.000 --> 05:38.000 Text: Bravo 1, stand by, jungle over.
+05:38.000 --> 05:43.000 Text: Bravo 1, OK over.
+05:51.000 --> 05:56.000 Text: Bravo 2, all after, jungle over.
+05:56.000 --> 06:18.000 Text: Bravo 2, Jungle Yard, Seat 7, 4 to 1-0, Main Dark Hill, over.
+06:18.000 --> 06:19.000 Text: Bravo 1, over.
+06:22.000 --> 06:24.000 Text: Bravo 2, OK, over.
+06:29.000 --> 06:31.000 Text: Bravo 3, second, over.
+06:39.000 --> 06:41.000 Text: Bravo 3, enemy, over.
+06:43.000 --> 06:44.000 Text: Jungle,
+06:44.000 --> 07:00.000 Text: GR 6742 is entering the range. Over.
+07:04.000 --> 07:07.000 Text: Bravo 3, OK. Over.
+07:07.000 --> 07:19.000 Text: Bravo 4, Bravo 4, from Tian...
+07:23.000 --> 07:26.000 Text: ...Daxing-Horat, over.
+07:26.000 --> 07:45.000 Text: Bravo 4, Tiang Jungle GR 674210, entering, over.
+07:45.000 --> 07:52.000 Text: Bravo 4, OK over.
+08:22.000 --> 08:30.000 Text: The central station must be activated while passing messages.
+08:34.000 --> 08:40.000 Text: All stations, Alpha 1, AD Michael, correct.
+08:41.000 --> 08:43.000 Text: AD Mitan.
+08:43.000 --> 09:03.000 Text: ... and any return goes from you 4 to 8 to 5 9, over.
+09:03.000 --> 09:10.000 Text: ...
+09:10.000 --> 09:13.000 Text: Alpha 1, OK, over.
+09:13.000 --> 09:15.000 Text: ...
+09:15.000 --> 09:21.000 Text: All stations, enemy vehicle...
+09:21.000 --> 09:26.000 Text: ...GR...
+09:26.000 --> 09:30.000 Text: ...468259...
+09:30.000 --> 09:35.000 Text: Station Alpha 1, correction, enemy tank over.
+09:39.000 --> 09:41.000 Text: Alpha 1, OK over.
+09:41.000 --> 10:03.000 Text: All stations, Alpha 1, reference, NDB, Tien, correction, go from your 4 to 5829, over.
+10:03.000 --> 10:08.000 Text: Alpha 1, copy over.
+10:13.000 --> 10:18.000 Text: Stand, sender station, repetition data.
+10:18.000 --> 10:19.000 Text: I am.
+10:26.500 --> 10:27.500 Text: Alpha 1
+10:29.500 --> 10:30.500 Text: Tiger
+10:30.500 --> 10:31.500 Text: Code sight
+10:32.500 --> 10:33.500 Text: Alpha
+10:34.000 --> 10:35.000 Text: Bravo
+10:35.000 --> 10:36.000 Text: Charlie
+10:37.500 --> 10:38.500 Text: Grid return
+10:42.000 --> 10:43.000 Text: 24
+10:44.500 --> 10:45.500 Text: 29
+10:46.000 --> 10:47.000 Text: 16
+10:47.000 --> 10:49.000 Text: for
+10:52.000 --> 10:54.000 Text: I say again
+10:56.000 --> 10:58.000 Text: go from you
+10:58.000 --> 11:03.000 Text: to 42916 for
+11:04.000 --> 11:06.000 Text: time figure
+11:07.000 --> 11:13.000 Text: 0800 hrs for
+11:13.000 --> 11:20.000 Text: ... and the next one.
+11:24.000 --> 11:26.000 Text: Alpha 1, roger out.
+11:29.000 --> 11:31.000 Text: Alpha 2, roger out.
+11:31.000 --> 11:39.000 Text: All stations Alpha Bravo Charlie 1, roger out.
+11:39.000 --> 12:06.000 Text: All stations, Bravo 1, Satru, Ketan, Jambal, Borfrum-Yom, 6-7, 4-2, 1-0, men, daakhil, ho rahe, over.
+12:09.000 --> 12:12.000 Text: Bravo 1, OK over.
+12:18.000 --> 12:22.000 Text: Bravo 2, what after tank, over.
+12:25.000 --> 12:30.000 Text: Bravo 1, tank, jungle over.
+12:30.000 --> 12:31.000 Text: Jungle over.
+12:34.000 --> 12:36.000 Text: Bravo 1, OK over.
+12:41.000 --> 12:44.000 Text: Bravo 2, all after.
+12:45.000 --> 12:46.000 Text: Jungle over.
+12:51.000 --> 12:56.000 Text: Bravo 2, Jungle, go from your...
+12:56.000 --> 13:17.000 Text: Now blocks on ice plane figure 6, 7, 4, 2, 1, 0
+13:17.000 --> 13:24.000 Text: Bravo 1, we are entering the tunnel. Over.
+13:27.000 --> 13:30.000 Text: Bravo 2, OK. Over.
+13:30.000 --> 13:37.000 Text: Bravo 3, second over.
+13:37.000 --> 13:42.000 Text: Bravo 3, Satruke, turn.
+13:42.000 --> 13:49.000 Text: Jumbo, go to the left.
+13:49.000 --> 13:52.000 Text: Satruke 10
+13:54.000 --> 13:55.000 Text: Jungle
+14:00.000 --> 14:01.000 Text: Gold from you
+14:03.000 --> 14:04.000 Text: Ice trail
+14:05.000 --> 14:06.000 Text: Blocks of
+14:08.000 --> 14:13.000 Text: 6, 7, 4, 2, 1, 0, Main
+14:13.000 --> 14:17.000 Text: ...Darkfield 4 ahead. Over.
+14:20.000 --> 14:22.000 Text: Bravo 3, roger out.
+14:29.000 --> 14:35.000 Text: Bravo 4, for Bravo 4, hometown to...
+14:35.000 --> 14:40.000 Text: You have to be careful.
+14:45.000 --> 14:49.000 Text: Bravo 4, Tien, Jungle,
+14:52.000 --> 14:55.000 Text: Gold Premium, Icefield,
+14:55.000 --> 15:04.000 Text: 6, 7, 4, 2, 1, 0, Main, Dark Hill, 4, ahead.
+15:06.000 --> 15:07.000 Text: Over.
+15:10.000 --> 15:13.000 Text: Bravo 4, roger out.
+15:13.000 --> 15:20.000 Text: All stations, move around.
+15:43.000 --> 15:56.000 Text: ...
+15:56.000 --> 16:02.000 Text: Bravo 1
+16:02.000 --> 16:07.000 Text: Thor Bravo 2
+16:07.000 --> 16:12.000 Text: Brigade
+16:12.000 --> 16:21.000 Text: Brown One, sing out, enemy over.
+16:21.000 --> 16:29.000 Text: Bravo One, roger out.
+16:29.000 --> 16:40.000 Text: Two, you, Bravo Three.
+16:40.000 --> 16:43.000 Text: Alpha Charlie, Kilo One.
+16:48.000 --> 16:51.000 Text: Bravo Three, Roger out.
+17:21.000 --> 17:35.000 Text: Alpha 1, Brigade Brown 1, sing of enemy over.
+17:35.000 --> 17:55.000 Text: Alpha 1, roger out. Alpha 1, Brigade Brown, cancel out.
+18:35.000 --> 18:42.000 Text: KiloLimaMic 2 will go out.
+18:42.000 --> 18:47.000 Text: KiloLimaMic 3 will go over.
+18:47.000 --> 18:52.000 Text: KiloLimaMic 4 will go out.
+18:52.000 --> 18:59.000 Text: KiloLimaMic 5 will go in.
+18:59.000 --> 19:16.000 Text: Kilo Luma Mic 1, this is Norton Directs, Net Over.
+19:16.000 --> 19:22.000 Text: Kilo 1, OK, Over.
+19:22.000 --> 19:29.000 Text: Kilo Lima Mike 2 will go out.
+19:29.000 --> 19:38.000 Text: Kilo Lima Mike 3 will go out.
+19:38.000 --> 19:43.000 Text: Kilo Lima 4, we go out.
+19:52.000 --> 19:55.000 Text: All stations, Kilo Lima Mike 1, Roger out.
+19:55.000 --> 19:56.000 Text: Roger, out.
+20:02.000 --> 20:08.000 Text: Kilo Lima Mike 1, Kilo 1 4, Kilo 3, message over.
+20:13.000 --> 20:15.000 Text: Kilo 3, OK, over.
+20:15.000 --> 20:26.000 Text: Kilo Lima Mike 1, Kilo Lima Mike 1, move back over.
+20:26.000 --> 20:37.000 Text: Kilo Lima Mike 1, roger out, to you.
+20:37.000 --> 20:48.000 Text: KiloLimaMic 3, did you receive message for KiloLimaMic 1? Over.
+20:50.000 --> 20:53.000 Text: KiloLimaMic 3, yes. Over.
+20:53.000 --> 21:11.000 Text: KiloLimaMic 3, on, over. Message for KiloLimaMic 1, over.
+21:11.000 --> 21:16.000 Text: KiloLimaMic 3, OK, over.
+21:16.000 --> 21:28.000 Text: Kilo Lima Mike 3, message for Kilo Lima Mike 1, move back over.
+21:28.000 --> 21:48.000 Text: Kilo Lima Mike 3, roger out.
+21:48.000 --> 22:10.000 Text: Kilo Lima Mike 1, Kilo 1 for Kilo 1, on Kilo 3, message over.
+22:10.000 --> 22:17.000 Text: Kilo 1, wait over.
+22:17.000 --> 22:24.000 Text: Kilo 1, OK over.
+22:24.000 --> 22:33.000 Text: Kilo 1, from me, message over.
+22:33.000 --> 22:47.000 Text: Kilo 1, enemy seen in area, jungle, over.
+22:47.000 --> 22:54.000 Text: Kilo 1, Mike 1, OK, over.
+22:54.000 --> 23:01.000 Text: Kilo 1, Roger out to you.
+23:01.000 --> 23:10.000 Text: Kilo 3, did you receive message for Kilo 1 over?
+23:10.000 --> 23:16.000 Text: Kilo 3, yes, over.
+23:16.000 --> 23:17.000 Text: Over.
+23:22.500 --> 23:26.500 Text: KiloLimaMi3, no warning.
+23:33.500 --> 23:38.000 Text: KiloLimaMi3 message from KiloLimaMi1,
+23:38.000 --> 23:47.000 Text: For Kilo Lima Mike 2 and Kilo Lima Mike 3, enemy seen in area jungle, over.
+23:50.000 --> 23:52.000 Text: Kilo Lima Mike 3, OK, over.
+24:22.000 --> 24:24.000 Text: PILOLIMA MIC 1
+24:24.960 --> 24:26.960 Text: For PILOLIMA MIC 1
+24:27.700 --> 24:30.700 Text: PILOLIMA MIC 3
+24:30.700 --> 24:32.700 Text: Message over
+24:37.700 --> 24:39.700 Text: What? OK. Over.
+24:41.000 --> 24:43.000 Text: PILOLIMA MIC 1
+24:43.000 --> 24:45.000 Text: Send your message out.
+24:52.600 --> 24:55.000 Text: KiloLimaMind3, OK over.
+24:56.000 --> 25:01.000 Text: KiloLimaMind3, move back, over.
+25:31.000 --> 25:42.000 Text: Kilo 1 to Kilo 1. 1 Kilo, 5.3 meters above.
+25:42.000 --> 25:50.000 Text: Kilo 1, OK, over.
+25:50.000 --> 25:54.000 Text: Kilo 3, OK, over.
+25:54.000 --> 25:57.000 Text: I'm going to go to the right.
+25:57.000 --> 25:59.000 Text: I'm going to go to the right.
+26:04.000 --> 26:08.000 Text: I'm going to go to the right. Over.
+26:38.000 --> 26:42.000 Text: All stations, KiloLima Mike 1, roger, OK.
+26:53.000 --> 26:58.000 Text: KiloLima Mike 1, for KiloLima Mike 3, message over.
+27:01.000 --> 27:03.000 Text: KiloLima Mike 1, OK, over.
+27:03.000 --> 27:10.000 Text: Kilo Lema Mike 3, OK over.
+27:10.000 --> 27:19.000 Text: Kilo Lema Mike 1, relay throwing Kilo Lema Mike 2, over.
+27:19.000 --> 27:25.000 Text: Kilo Lema Mike 1, OK over.
+27:25.000 --> 27:39.000 Text: Kilo one four, Kilo two, relay two, Kilo Lima Mike three, send receive, message over.
+27:55.000 --> 27:59.000 Text: Kilo 2 for Kilo 1.
+28:00.000 --> 28:07.000 Text: Roger out to Kilo 3 from Kilo 1.
+28:08.000 --> 28:15.000 Text: Send. Return. Move over.
+28:15.000 --> 28:26.000 Text: Kilo level mike 3, Ilko out, roger out.
+28:26.000 --> 28:46.000 Text: Kilo-Nemo-Mic 2. For Kilo-Nemo-Mic 1. Message part over.
+29:16.000 --> 29:23.000 Text: Also the camera flew up and they were photographing the area at once.
+29:36.000 --> 29:42.000 Text: Title of this video was created by muitos telcos,
+29:42.000 --> 29:49.000 Text: Alpha 3, wait.
+29:49.000 --> 29:51.000 Text: OK, over.
+29:59.000 --> 30:02.000 Text: Alpha 1 for Alpha 3.

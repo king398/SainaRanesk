@@ -1,0 +1,5 @@
+00:00.000 --> 00:07.000 Text: This is the same station.
+00:07.000 --> 00:09.000 Text: Here is 0010.
+00:09.000 --> 00:11.000 Text: This is Mrs. Neel Sarmani.
+00:17.000 --> 00:19.000 Text: This is also Mrs. Neel Sarmani.
+00:21.000 --> 00:22.000 Text: Tell me.

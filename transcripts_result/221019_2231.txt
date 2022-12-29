@@ -1,0 +1,41 @@
+00:30.000 --> 00:33.000 Text: Sir we are reporting 30 miles inbound.
+00:33.000 --> 00:36.000 Text: Sir I'll just try to report 20 miles inbound.
+01:06.000 --> 01:10.080 Text: Pilot West Apollo Foster, Runway 07 cleared to land, wind 110 degree 8 knots
+01:10.080 --> 01:12.080 Text: Cleared to land 07, WPF
+01:12.080 --> 01:14.080 Text: 8
+01:14.080 --> 01:22.580 Text: PILOT-2907F-RWY-E, cleared for takeoff, RWY-E
+01:22.580 --> 01:28.080 Text: PILOT-2907F-RWY-E, cleared for takeoff, RWY-E
+01:28.080 --> 01:31.080 Text: PILOT-207F-RWY-E, climb to your right
+01:36.080 --> 01:37.080 Text: PILOT-207F-RWY-E, climb to your right
+01:37.080 --> 01:47.080 Text: PILOT-6A, from 20 miles behind the DELTA, turn right to establish 165 radial out on I-DELTA, remain 15 miles out.
+01:48.080 --> 01:55.080 Text: PILOT-6A, from 20 miles, will turn right and establish radial 165.
+01:55.080 --> 01:57.080 Text: Good day.
+02:05.080 --> 02:09.080 Text: Sir, can we orbit till traffic clears?
+02:09.080 --> 02:11.080 Text: Yeah.
+04:11.080 --> 04:13.620 Text: N17, no delay, expect VFR, report leave runway 06
+04:20.120 --> 04:21.120 Text: Confirm acceptable
+04:25.720 --> 04:30.360 Text: Airflare 707, tower observation wind is 110 degree 11 knots, confirm acceptable
+04:30.360 --> 04:38.360 Text: Subang Tower, AIS-RWY25, give a call at 7,000, to confirm at 75 miles per hour, LH-BPW.
+04:50.360 --> 04:52.360 Text: LH-BPW, wind 120 degrees, 5 knots.
+04:52.360 --> 04:59.620 Text: PILOT747-2007 Tower, QNH 1027
+04:59.620 --> 05:06.360 Text: PILOT747-2007 established radial 165, 18 miles out and level 905 descending to 85 now
+05:06.360 --> 05:11.500 Text: PILOT747-2007 Standby for estimation
+05:11.500 --> 05:18.540 Text: PILOT747-2007
+05:18.540 --> 05:19.780 Text: PILOT747-2007 Vector ALFA ALFA
+05:19.780 --> 05:23.380 Text: N670A, report 30 miles, turn right
+05:25.020 --> 05:27.540 Text: At 30 miles, will turn right and call you back to Alpha
+05:27.540 --> 05:30.540 Text: We will fly today also
+05:39.540 --> 05:42.540 Text: I fly 707, no delay, I land
+05:42.540 --> 05:52.540 Text: Call you on track, I apply 7359
+05:58.540 --> 06:04.540 Text: Miles out, radial 165, turning right to intercept radial 210, on-board
+06:04.540 --> 06:13.180 Text: N1550DX, call you 50 miles out, VFR
+06:20.700 --> 06:22.460 Text: Right climb path and level 7, N
+06:22.460 --> 06:26.300 Text: N1550DX, contact you
+06:26.300 --> 06:29.300 Text: Correction contact, I apply 7359
+06:35.300 --> 06:37.300 Text: And the AWAS 1342
+06:38.300 --> 06:42.300 Text: I try 7359, change over, and about approved, okay?
+06:43.300 --> 06:45.300 Text: Frequency change approved, I apply 7359, okay?
+06:45.300 --> 06:52.300 Text: PIA1216L, good morning
+06:52.300 --> 06:57.300 Text: PIA1216L, good morning
+06:57.300 --> 07:03.300 Text: PIA1216L, good morning
+07:03.300 --> 07:14.300 Text: PIA1216L, copy

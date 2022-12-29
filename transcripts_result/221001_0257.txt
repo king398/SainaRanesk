@@ -1,0 +1,10 @@
+00:00.000 --> 00:03.000 Text: Hello, how are you?
+00:03.000 --> 00:06.000 Text: Alpha 1, hello, how are you?
+00:06.000 --> 00:09.000 Text: All the conditions are fine.
+00:09.000 --> 00:12.000 Text: Alpha 5, who has thought of it?
+00:12.000 --> 00:15.000 Text: Alpha 1, after 2-3 days.
+00:15.000 --> 00:18.000 Text: Alpha 5, inform me on time.
+00:18.000 --> 00:21.000 Text: Alpha 1, okay, I'll let you know.
+00:21.000 --> 00:23.000 Text: You'll call me?
+00:23.000 --> 00:24.000 Text: Okay.
+00:24.000 --> 00:26.000 Text: Yeah

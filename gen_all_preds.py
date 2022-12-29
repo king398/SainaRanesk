@@ -1,7 +1,8 @@
 import glob
 from tqdm import tqdm
 import whisper
-
+import os
+os.makedirs('transcripts_result', exist_ok=True)
 model = whisper.load_model("large")
 path = "/notebooks/AIML Datastes SR2.0"
 files = glob.glob(f"{path}/*.mp3") + glob.glob(f"{path}/*/*.mp3")
@@ -32,5 +33,5 @@ def transcript_timestamp(transcript, text_file):
 for file in tqdm(files):
     result = model.transcribe(file, task='translate', verbose=True, no_speech_threshold=0.25,
                               condition_on_previous_text=False)
-    text_file = open(f"transcripts/{file.split('/')[-1].split('.')[0]}.txt", "w")
+    text_file = open(f"transcripts_result/{file.split('/')[-1].split('.')[0]}.txt", "w")
     transcript_timestamp(result['segments'], text_file)

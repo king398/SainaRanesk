@@ -1,0 +1,15 @@
+00:00.000 --> 00:03.300 Text: We are Delta 2, they are Delta 1, remember this
+00:03.300 --> 00:06.300 Text: because we have made this Delta with their code sign
+00:06.300 --> 00:08.300 Text: and their link sign
+00:11.300 --> 00:13.300 Text: Delta 1, please repeat, over
+00:16.300 --> 00:20.300 Text: I am saying that you are Delta 1 and we are Delta 2
+00:20.300 --> 00:22.300 Text: remember this
+00:22.300 --> 00:25.300 Text: because this code link is made with your link sign
+00:25.300 --> 00:30.300 Text: Delta 2, OK over
+00:30.300 --> 00:34.300 Text: All station Delta, report signal over
+00:34.300 --> 00:38.300 Text: Delta 2, OK over
+00:38.300 --> 00:41.300 Text: Delta 2, OK over
+00:41.300 --> 00:45.300 Text: All station Delta, report signal over
+00:45.300 --> 00:49.300 Text: Delta 1, OK over
+00:49.300 --> 00:52.300 Text: Delta 2, OK over
+00:52.300 --> 00:55.300 Text: Delta Roger Out

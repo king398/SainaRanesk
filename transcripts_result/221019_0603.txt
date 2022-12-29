@@ -1,0 +1,132 @@
+00:00.000 --> 00:07.000 Text: Alpha 1 for Alpha 2, message over.
+00:22.000 --> 00:26.000 Text: Alpha 1 for Alpha 2, nothing hard, out to you.
+00:26.000 --> 00:32.000 Text: Alpha 1 for Alpha 3, relate to Alpha 2, over.
+00:36.000 --> 00:38.000 Text: Alpha 3 will go, over.
+00:42.000 --> 00:48.000 Text: Alpha 1 for Alpha 3, Rasan mail gaya, over.
+00:48.000 --> 01:03.000 Text: Alpha 3, roger out to you. Alpha 3 for Alpha 2, message from Alpha 1,
+01:03.000 --> 01:10.000 Text: Pressure will be over.
+01:10.000 --> 01:18.000 Text: Alpha 2, roger out.
+01:18.000 --> 01:22.000 Text: Alpha 3 for Alpha 1.
+01:22.000 --> 01:26.000 Text: Alpha 1.
+01:26.000 --> 01:33.000 Text: Alpha 1, roger out.
+01:33.000 --> 01:48.000 Text: Alpha 1 4, Alpha 1, message over.
+01:48.000 --> 01:52.000 Text: Alpha 1 and Alpha 2, message over.
+01:59.000 --> 02:02.000 Text: Alpha 2, OK, over.
+02:05.000 --> 02:11.000 Text: Alpha 2, wait, out to you. Alpha 1, message over.
+02:11.000 --> 02:18.000 Text: Alpha 1, nothing hard, out to you. Alpha 2, relay, also to Alpha 1. Over.
+02:27.000 --> 02:32.000 Text: Alpha 2, will go forward.
+02:32.000 --> 02:48.000 Text: Alpha 2, enemy tank, gear 4, 6, 3, 5, 2, 7, is entering.
+02:48.000 --> 02:49.000 Text: Over.
+02:53.000 --> 02:56.000 Text: Alpha 2, Roger.
+02:56.000 --> 02:59.000 Text: Wait, I'll do it.
+02:59.000 --> 03:02.000 Text: Alpha 2 for Alpha 1.
+03:02.000 --> 03:06.000 Text: From Alpha 2 and Alpha 1.
+03:06.000 --> 03:10.000 Text: Then Alpha 2, go on.
+03:14.000 --> 03:17.000 Text: Alpha 1, OK, over.
+03:19.000 --> 03:24.000 Text: Alpha 2, you should be taking here
+03:24.000 --> 03:28.000 Text: 4, 6, 2, 5, 2, 7.
+03:28.000 --> 03:35.000 Text: Alpha 1, roger out.
+03:35.000 --> 03:42.000 Text: Alpha 2, message passed over.
+03:42.000 --> 03:49.000 Text: Alpha 2, roger out.
+03:49.000 --> 03:56.000 Text: Alpha 1, message over.
+03:56.000 --> 04:06.000 Text: Alpha 1, nothing heard, out to you. Alpha 2, relate to Alpha 1.
+04:06.000 --> 04:10.000 Text: Pul ke paas, halt na kare. Over.
+04:14.000 --> 04:17.000 Text: Alpha 2 will go.
+04:17.000 --> 04:36.000 Text: When, after we have passed Alpha 2, 4, Alpha 1, from Alpha 2, hold, carry over, Alpha 1,
+04:36.000 --> 05:00.760 Text: Alpha 1, Alpha 2, Alpha 3, Alpha 4, Alpha 5, Alpha 6, Alpha 7, Alpha 8, Alpha 9, Alpha
+05:00.760 --> 05:07.760 Text: Alpha 1 rotor out.
+05:07.760 --> 05:11.760 Text: Alpha 2 wheel core, weight out wheel.
+05:11.760 --> 05:21.760 Text: Alpha 2 core, Alpha 1, correction, water cup, hold, not correct, over.
+05:21.760 --> 05:26.760 Text: Alpha 1 rotor out.
+05:26.760 --> 05:31.760 Text: Alpha 1, relay through Alpha 2, message for Alpha 1.
+05:33.760 --> 05:35.760 Text: Alpha 2, roger, out.
+05:38.760 --> 05:42.760 Text: Alpha 1 for Alpha 2, message, over.
+05:46.760 --> 05:50.760 Text: Alpha 1, relay through Alpha 3, over.
+05:50.760 --> 05:57.760 Text: Alpha 1, we'll go out to you.
+05:57.760 --> 06:03.760 Text: Alpha 1 for Alpha 3, relay to Alpha 2, over.
+06:07.760 --> 06:10.760 Text: Alpha 3, we'll go, over.
+06:10.760 --> 06:14.760 Text: Alpha 1, roger, over.
+06:14.760 --> 06:18.760 Text: Alpha 1, roger, over.
+06:21.760 --> 06:25.760 Text: Alpha 3, roger, out.
+06:25.760 --> 06:26.760 Text: Do you?
+06:26.760 --> 06:35.760 Text: Alpha 3 for Alpha 2, from Alpha 1, message over.
+06:40.760 --> 06:43.760 Text: Alpha 2, we have something over.
+07:13.760 --> 07:15.760 Text: Alpha Bravo Charlie One,
+07:15.760 --> 07:18.760 Text: Enemy's one-party area,
+07:19.760 --> 07:21.760 Text: high ground,
+07:21.760 --> 07:23.760 Text: has been spotted.
+07:23.760 --> 07:25.760 Text: The number is approximately
+07:26.760 --> 07:27.760 Text: one-five.
+07:28.760 --> 07:29.760 Text: Read back, over.
+07:33.760 --> 07:34.760 Text: Alpha Bravo,
+07:34.760 --> 07:38.760 Text: Enemy's one-party area,
+07:38.760 --> 07:41.760 Text: high ground,
+07:41.760 --> 07:48.760 Text: Alpha Bravo Charger 1, correct, over.
+07:48.760 --> 07:50.760 Text: Alpha Roger.
+07:50.760 --> 07:57.760 Text: Alpha Bravo Charger 1, over.
+07:57.760 --> 08:04.760 Text: Alpha Bravo Charger 1, over.
+08:04.760 --> 08:11.760 Text: Alpha 2, roger out.
+08:11.760 --> 08:16.760 Text: Alpha 2, roger out.
+08:16.760 --> 08:24.760 Text: Alpha 3, roger out.
+08:24.760 --> 08:29.760 Text: All stations, Kilo Lima Mike One,
+08:29.760 --> 08:32.760 Text: enemy is firing from right side,
+08:32.760 --> 08:38.760 Text: from marker, towards area bomb.
+08:38.760 --> 08:42.760 Text: Kilo Lima Mike Four, read back, over.
+08:44.760 --> 08:46.760 Text: Kilo Lima Mike Four,
+08:46.760 --> 08:51.560 Text: One right market
+08:51.560 --> 08:56.960 Text: is firing towards the area bomb.
+08:58.360 --> 08:59.160 Text: Out.
+09:05.560 --> 09:08.760 Text: Gilo Lima Mike 4, correct. Over.
+09:08.760 --> 09:15.760 Text: Kilo Lima Mike 2, roger out.
+09:15.760 --> 09:22.760 Text: Kilo Lima Mike 3, roger out.
+09:22.760 --> 09:29.760 Text: All stations, Charlie 1.
+09:29.760 --> 09:54.760 Text: All stations, Charlie 1, Satruki, Sulu, tanks, road junction, GR, 4, 7, 5, 3, 2, 1,
+09:54.760 --> 10:01.760 Text: Charlie 1, all vehicles, tanks over.
+10:09.640 --> 10:16.640 Text: Charlie 1, Satruke, solar tanks, over.
+10:16.640 --> 10:34.640 Text: Charlie 1, Sotrukki, Solar 10, Road junction, Gulf Romeo, 4, 7, 5, 3, 2, 3,
+10:34.640 --> 10:39.640 Text: Ki taraf chala raha hai, over.
+10:39.640 --> 10:56.640 Text: Charlie 1, wrong, war after junction, Gauss-Romeo 475321, over.
+10:56.640 --> 11:11.640 Text: Charlie 1, Waraker Junction, GL 475321, over.
+11:13.640 --> 11:17.640 Text: Charlie 1, correct, over.
+11:18.640 --> 11:20.640 Text: Charlie 1, Roger out.
+11:20.640 --> 11:27.640 Text: Charlie 2, roger out.
+11:27.640 --> 11:30.640 Text: Charlie 3, roger out.
+11:41.640 --> 11:46.640 Text: All stations, Alpha 1, time signal over.
+11:46.640 --> 11:53.640 Text: Alpha 1, okay, over.
+11:53.640 --> 12:00.640 Text: Alpha 2, okay, over.
+12:00.640 --> 12:05.640 Text: Alpha 3, okay, over.
+12:05.640 --> 12:12.640 Text: Alpha 4, okay, over.
+12:12.640 --> 12:14.640 Text: Alpha 4, walky over.
+12:18.640 --> 12:31.640 Text: All stations, Alpha 1, time figure, 1-4-100 hours, figure 1-0-second,
+12:31.640 --> 12:45.640 Text: Second, figures 5, 4, 3, 2, 1, time figures 1, 400 hours, over.
+12:48.640 --> 12:50.640 Text: Alpha 1, roger out.
+12:53.640 --> 12:56.640 Text: Alpha 2, roger out.
+12:56.640 --> 13:03.640 Text: Alpha 3, roger out.
+13:03.640 --> 13:10.640 Text: Alpha 4, roger out.
+13:10.640 --> 13:19.640 Text: All station, Bravo 1, time signal over.
+13:19.640 --> 13:26.640 Text: Bravo 1, 5 OK, over.
+13:26.640 --> 13:33.640 Text: Bravo 1, OK, over.
+13:33.640 --> 13:40.640 Text: Bravo 2, OK, over.
+13:40.640 --> 13:47.640 Text: Bravo 3, OK, over.
+13:47.640 --> 14:07.480 Text: Station Bravo 1, time figure 1 500 hours, figure 1 0 second, figure 5 4 3 2 1, time
+14:07.480 --> 14:14.480 Text: Time figure 1500 hours. Check back. Over.
+14:17.480 --> 14:19.480 Text: Bravo 1. Wait.
+14:24.480 --> 14:31.480 Text: Time figure 1501 hours.
+14:31.480 --> 14:36.480 Text: Figures 1-0, seconds.
+14:37.480 --> 14:43.480 Text: Figures 5-4, 2-1.
+14:44.480 --> 14:50.480 Text: Time figures 1-5, 0.
+14:51.480 --> 14:53.480 Text: One horse, over.
+14:53.480 --> 15:19.880 Text: Bravo 1, wrong. Wait. Time figures 1 5 0 2 hours. Figures 1 0 second. Figures 5 4 3 2 1. Time
+15:19.880 --> 15:26.880 Text: Time figures 1-5-0. Two hours. Over.
+15:28.880 --> 15:30.880 Text: Bravo One. Wait.
+15:35.880 --> 15:42.880 Text: Time 1-5-0. Three hours.
+15:42.880 --> 15:48.880 Text: Figures 1, 0, 2.
+15:48.880 --> 15:57.880 Text: Figures 5, 4, 3, 2, 1.
+15:57.880 --> 16:02.880 Text: Time figures 1, 5, 0, 3.
+16:02.880 --> 16:04.880 Text: Hours. Over.
+16:07.880 --> 16:08.880 Text: Bravo 1.
+16:08.880 --> 16:09.880 Text: Correct.
+16:09.880 --> 16:11.880 Text: Correct. Over.
+16:14.880 --> 16:16.880 Text: Bravo 1, roger out.
+16:19.880 --> 16:21.880 Text: Bravo 3, roger out.
+16:24.880 --> 16:26.880 Text: Bravo 4, roger out.

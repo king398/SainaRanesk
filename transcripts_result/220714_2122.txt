@@ -1,0 +1,16 @@
+00:00.000 --> 00:00.500 Text: Roger
+00:10.500 --> 00:12.260 Text: Delta 1 for Delta 1
+00:13.260 --> 00:14.460 Text: Pass message over
+00:14.460 --> 00:26.460 Text: Delta 1, what is the places where 711, 712 and 713 infantry field regiment is located?
+00:31.460 --> 00:36.460 Text: 711.762
+00:36.460 --> 00:42.460 Text: 712.620
+00:42.460 --> 00:46.460 Text: 713
+00:46.460 --> 00:48.460 Text: TINCHA
+00:48.460 --> 00:51.460 Text: I'll say again TINCHA
+00:51.460 --> 00:55.460 Text: Delta 1 OKA
+00:55.460 --> 01:01.460 Text: Delta 1 for Delta 1, OUT OVER
+01:01.460 --> 01:03.460 Text: Delta 1 for Delta 1, pass message over
+01:05.460 --> 01:07.460 Text: Delta 1, no message to be passed, over
+01:07.460 --> 01:13.460 Text: Delta One for Delta One, pass message over
+01:14.460 --> 01:18.460 Text: Delta One, no message to be passed, over
+01:18.460 --> 01:21.460 Text: Delta One Out

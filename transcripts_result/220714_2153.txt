@@ -1,0 +1,55 @@
+00:00.000 --> 00:02.640 Text: Delta 1 pass message over
+00:06.400 --> 00:10.560 Text: Delta 1 in event text of unregistered message in radio log
+00:10.560 --> 00:13.440 Text: we have to write the entire message that has been passed
+00:22.560 --> 00:24.240 Text: Delta 1 say again over
+00:25.040 --> 00:26.800 Text: Delta 1 in radio log
+00:26.800 --> 00:31.320 Text: In event text of unregistered message of identity of foreign message
+00:32.780 --> 00:39.360 Text: We have to write the entire text we have to write the entire conversation that we have done with Delta 1 and Delta 2
+00:39.840 --> 00:42.320 Text: What do we have to write in the text message?
+00:47.400 --> 00:51.520 Text: Affirmative affirmative I say again affirmative over
+00:51.520 --> 00:55.120 Text: Delta 1 roger out
+00:56.320 --> 00:58.800 Text: Delta 2 for Delta 2
+01:03.760 --> 01:06.160 Text: Delta 2 for Delta 2
+01:06.160 --> 01:14.560 Text: Delta 2 for Delta 1, over
+01:14.560 --> 01:15.760 Text: Checklist over
+01:22.760 --> 01:25.760 Text: Delta 2 for Delta 1, over
+01:29.760 --> 01:31.760 Text: Delta 2, checklist over
+01:31.760 --> 01:36.760 Text: Delta 2 for Delta 1, over
+01:39.760 --> 01:41.760 Text: Delta 1, pass message, over
+01:44.760 --> 01:49.760 Text: Delta 1, why were you not replying for so much time, over
+01:55.760 --> 01:57.760 Text: Delta 1, pass message, over
+01:57.760 --> 02:01.760 Text: Delta 2 Roger out
+02:07.760 --> 02:10.760 Text: Delta 2 for Delta 2 over
+02:15.760 --> 02:18.760 Text: Delta 2 for Delta 1 over
+02:18.760 --> 02:20.760 Text: Delta 1, over
+02:25.760 --> 02:27.760 Text: Delta 2 for Delta 1, over
+02:28.760 --> 02:30.760 Text: Delta 1, pass message, over
+02:32.760 --> 02:40.760 Text: Delta 1, while filling radio log, we have to add code sign of RU for the unit with, or the station with which we are transmitting, over
+02:40.760 --> 02:54.480 Text: Delta 1, it has to be written time of conversation then in 2 you will write the outstation either
+02:54.480 --> 03:03.280 Text: control or delta 1 and from you will write delta 2 and then the message, conversation
+03:03.280 --> 03:04.280 Text: which has been transmitted, over.
+03:04.280 --> 03:05.280 Text: Delta 2 for Delta 1, I say again, Delta 2 for Delta 1, over.
+03:05.280 --> 03:18.280 Text: Delta 2 for Delta 1, I say again, code sign of station in column of code sign of station, we will write code sign of which station, over
+03:25.280 --> 03:29.280 Text: Code sign of self, over
+03:29.280 --> 03:33.280 Text: Delta 2 Roger Out
+03:38.280 --> 03:40.280 Text: All Station Delta Over
+03:43.280 --> 03:45.280 Text: Delta 1 Pass Message Over
+03:53.280 --> 03:55.280 Text: All Station Delta Pass Message Over
+03:55.280 --> 03:59.280 Text: Correction, all station DELTA message over
+03:59.280 --> 04:02.280 Text: DELTA 1 OK over
+04:02.280 --> 04:05.280 Text: DELTA 2 OK over
+04:05.280 --> 04:14.280 Text: All station DELTA are we now over the confusion like what to write at the code sign of station over
+04:14.280 --> 04:24.280 Text: DELTA 2 for DELTA 2, we have to write code sign of our own station over
+04:24.280 --> 04:26.280 Text: Delta 2 report signal strength 2 over
+04:26.280 --> 04:28.280 Text: Roger out
+04:30.280 --> 04:32.280 Text: Delta 2 report Delta 2 over
+04:38.280 --> 04:40.280 Text: Delta 2 pass message over
+04:40.280 --> 04:44.280 Text: Delta 2 report signal strength 2 over
+04:44.280 --> 04:51.280 Text: Delta 2, signal strength 2, over
+04:51.280 --> 04:52.280 Text: All aboard.
+04:52.280 --> 04:53.280 Text: All aboard.
+04:53.280 --> 04:54.280 Text: All aboard.
+04:54.280 --> 04:55.220 Text: Check
+04:55.220 --> 04:59.220 Text: Hold on.
+05:25.220 --> 05:52.220 Text: All station Delta, Lata.
+05:52.220 --> 05:56.220 Text: I say again, Lata now over.

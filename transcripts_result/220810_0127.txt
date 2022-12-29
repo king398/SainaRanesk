@@ -1,0 +1,4 @@
+00:00.000 --> 00:04.000 Text: Alpha 5 Khalla
+00:08.000 --> 00:11.000 Text: Alpha 1 Chote Sahar
+00:15.000 --> 00:18.000 Text: Alpha 5 Khwaja Chota Sahar
+00:21.000 --> 00:26.000 Text: The same Kilo one, Juliet, Mike and Kar Alpha 4 Kupwara

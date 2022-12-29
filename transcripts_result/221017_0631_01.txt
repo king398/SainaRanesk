@@ -1,0 +1,14 @@
+00:00.000 --> 00:01.000 Text: Where is the phone?
+00:01.000 --> 00:02.000 Text: I'll text you
+00:02.000 --> 00:03.000 Text: Tell me now
+00:05.000 --> 00:06.000 Text: Tell me now
+00:10.000 --> 00:12.000 Text: Power station, Kilo Lima Mike 1
+00:14.000 --> 00:15.000 Text: Message over
+00:21.000 --> 00:22.000 Text: Kilo Lima Mike 1
+00:23.000 --> 00:24.000 Text: OK, over
+00:24.000 --> 00:25.000 Text: OK over.
+00:29.000 --> 00:30.000 Text: Kilo Lima Mike 2.
+00:31.000 --> 00:32.000 Text: OK over.
+00:36.000 --> 00:37.000 Text: Kilo Lima Mike 3.
+00:38.000 --> 00:39.000 Text: OK over.
+00:39.000 --> 00:48.000 Text: All stations, Kilo Lima Mike 1, report signal over.

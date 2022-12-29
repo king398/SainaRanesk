@@ -1,0 +1,61 @@
+00:00.000 --> 00:08.880 Text: IFLY6404, Indore, welcome above cockpit, cleared for takeoff, IFLY6404
+00:08.880 --> 00:10.880 Text: Sure ma'am, go ahead
+00:10.880 --> 00:12.880 Text: 6404, we are ready for takeoff
+00:12.880 --> 00:17.200 Text: IFLY6404, Indore, can read you
+00:21.200 --> 00:24.640 Text: IFLY6404, sir, will call you after 5 minutes, sir
+00:24.640 --> 00:30.240 Text: Roger that, N6404 will call you after 5 minutes, speak to you about POS.
+00:30.800 --> 00:32.000 Text: Roger, thank you.
+00:32.560 --> 00:33.760 Text: You're welcome ma'am.
+00:40.960 --> 00:42.400 Text: POS, POS.
+00:42.400 --> 00:47.400 Text: PILOT7304, taxi to runway 06, cleared for takeoff, runway 06, PILOT7304
+00:47.400 --> 00:52.400 Text: PILOT7304, taxi to runway 06, PILOT7304
+00:58.400 --> 01:03.400 Text: PILOT7304, taxi to runway 06, PILOT7304
+01:03.400 --> 01:17.400 Text: N6404, wind 070 degrees 080
+01:17.400 --> 01:21.400 Text: ILS Roger, N6404
+01:21.400 --> 01:23.400 Text: ILS 6404, N6404
+01:23.400 --> 01:26.400 Text: Read you fine, N6404
+01:26.400 --> 01:34.840 Text: IFL6404, N1AP, sequence not yet expected, expect VOR approach runway 07, MNH1019
+01:35.360 --> 01:42.720 Text: MNH1019, copied sir, requesting RSP approach for runway 07 via NJD912, IFL6404
+01:44.320 --> 01:50.280 Text: IFL6404, due danger area active, expect VOR approach runway 07 via IND
+01:50.920 --> 01:54.720 Text: Copied sir, IFL6404, and sir, requesting latest visibility
+01:54.720 --> 01:57.920 Text: Wind Observation 070 degrees 07 knots
+01:59.520 --> 02:02.400 Text: Pakistan 647, Sir, I fly 6404
+02:09.920 --> 02:12.320 Text: Descend 3000 meters in Haste
+02:13.120 --> 02:14.720 Text: Say again, I fly 6404
+02:15.040 --> 02:16.800 Text: 3000 meters in Haste
+02:16.800 --> 02:18.560 Text: Co-Pilot- Go fix it, IFL6404
+02:37.000 --> 02:41.640 Text: Co-Pilot- Release VIN, passing level 230, 15 miles inbound Mon Peak
+02:41.640 --> 02:47.480 Text: IFLI6404, roger, descend to FL380, report FL380, DME inbound
+02:47.480 --> 02:52.320 Text: Descend level 80, call you 30 miles inbound, I fly 6404
+03:11.320 --> 03:14.880 Text: Cleared 010, cleared to slow, 010, cleared to descend, on
+03:14.880 --> 03:17.680 Text: Cleared to approach, Kuala Lumpur Tower
+03:23.800 --> 03:24.600 Text: 165
+03:26.100 --> 03:34.160 Text: ILS 6404, roger, cleared descent 5000 feet, N6404, cleared to approach, N6404
+03:34.160 --> 03:35.360 Text: Cleared descent
+03:36.100 --> 03:39.160 Text: Cleared descent 5000 on 1019, ILS 60
+03:39.160 --> 03:44.120 Text: Koli leaving India Delta for approach I fly 6404 reading you string 3 sir
+03:49.400 --> 03:51.400 Text: 3 to 4 sir I fly 6404
+03:57.400 --> 03:59.400 Text: Vector 5 Foxtrot in the row, do you read?
+03:59.400 --> 04:01.400 Text: Read you 5 sir, Vector 5 Foxtrot
+04:02.400 --> 04:04.400 Text: Roger
+04:04.400 --> 04:09.440 Text: And we are joining left downwind 407 now
+04:09.440 --> 04:11.440 Text: Roger, we go right
+04:11.440 --> 04:14.240 Text: Harman Zorai, left downwind, VFR off, short
+04:21.200 --> 04:23.200 Text: VFR off, short
+04:53.200 --> 05:10.200 Text: Rwanda Tower, India 635, QNH 1020, full speed above, cleared for descent, complete QNH 1020, Rwanda Tower
+05:53.200 --> 05:58.400 Text: N5216LM, overhead proceed to outbound IFLY6404 passing 85
+05:59.600 --> 06:02.400 Text: Approach, report established final approach, track runway 07
+06:02.400 --> 06:08.800 Text: Approach, final approach, track runway 06, correction 07, IFLY6404, requesting PAPI at max
+06:08.800 --> 06:09.800 Text: Copy
+06:39.800 --> 06:46.440 Text: Runway 06 I fly 6404
+06:46.440 --> 06:55.080 Text: Runway 06 I fly 6404
+08:55.080 --> 09:08.080 Text: PILOT1-070D, 010KT
+09:08.080 --> 09:10.080 Text: PILOT1-070D, 010KT
+09:10.080 --> 09:12.080 Text: PILOT1-070D, 010KT
+09:12.080 --> 09:17.080 Text: Air India 635, airborne 599, report established on track
+09:17.080 --> 09:24.120 Text: Roger sir, we are passing 5000 now, proceeding direct to Buklo, air India 635, 6 miles south
+09:24.120 --> 09:25.280 Text: Copy
+09:31.080 --> 09:31.580 Text: Now
+09:31.580 --> 09:36.960 Text: Air India 635, contact with Nagpur radar, wind 130 at 29 knots
+09:36.960 --> 09:40.720 Text: Will call in contact with Nagpur 123.9, India 635.
+10:06.960 --> 10:17.960 Text: Indore Air India 635 in contact with British Air India 635

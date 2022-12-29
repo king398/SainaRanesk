@@ -1,0 +1,176 @@
+00:00.000 --> 00:15.000 Text: N2216LM, cleared for takeoff, runway 07L, cleared for takeoff, runway 07L, N2216LM, climb FL750, squawk 027LM
+00:19.000 --> 00:23.000 Text: Squawk 027LM, climb FL735, NANA
+00:23.000 --> 00:33.000 Text: N748A-DX, N748A, cleared for takeoff, runway 05, 0 degree, 140
+00:33.000 --> 00:37.000 Text: N748A, runway 07, cleared for takeoff
+00:43.000 --> 00:45.000 Text: Runway 07, cleared for takeoff
+00:46.000 --> 00:48.000 Text: N748A
+00:48.000 --> 00:51.000 Text: N748A, 140
+00:51.000 --> 00:53.800 Text: N2359R, cleared for takeoff, N2359R
+00:53.800 --> 00:54.440 Text: Cleared for touch and go runway 07, wish to try and go
+00:54.440 --> 00:56.360 Text: On track, ILS 735, NAROM
+00:56.360 --> 01:01.160 Text: N2359R, cleared for touch and go, N2359R
+01:01.160 --> 01:04.840 Text: N2359R, ILS 735, NAROM
+01:04.840 --> 01:11.160 Text: N2359R, N2359R, cleared for touch and go, N2359R
+01:11.160 --> 01:12.120 Text: Good day
+01:12.120 --> 01:12.760 Text: Good day
+02:12.760 --> 02:16.560 Text: Delta on radial of 230
+02:17.560 --> 02:20.060 Text: Descend to FL80, call you 30 miles
+02:21.060 --> 02:27.260 Text: Descend FL80, call you 30 miles and request if possible RNK approach runway 07
+02:28.260 --> 02:33.260 Text: Roger, descend FL80, call you 30 miles, proceed direct India DELTA 911
+02:33.760 --> 02:38.760 Text: Thank you very much, proceed direct India DELTA 911, RNK approach runway 07
+02:38.760 --> 02:41.960 Text: I fly 531, 5320 miles
+02:44.440 --> 02:46.440 Text: Indore, ALIGHT617, Jai Hind
+02:49.440 --> 02:54.520 Text: ALIGHT617, Jagalpur Indore, level 140, squawk 0 for 35
+02:54.520 --> 02:59.080 Text: Estimating OCEPU44, India India, DELTA 57
+03:03.800 --> 03:06.360 Text: ALIGHT617, report, you have a request?
+03:06.360 --> 03:11.740 Text: Ma'am we are 80 DMA inbound Indore right, 617
+03:11.740 --> 03:20.000 Text: Roger, we are heading towards runway 07, report to base, and standby for takeoff
+03:20.000 --> 03:24.200 Text: Malta, Alight, 617
+03:24.200 --> 03:26.200 Text: Ma'am what's the current wind?
+03:26.200 --> 03:29.320 Text: 970, 60 degrees, 10 knots
+03:29.320 --> 03:31.320 Text: Malta
+03:31.320 --> 03:33.000 Text: Alpha 905, I'm live
+03:39.480 --> 03:44.520 Text: Alpha 602, meet you at runway 07 via overhead, India Metro Delta, number 4066
+03:48.320 --> 03:49.080 Text: 5042
+03:49.440 --> 03:51.240 Text: Alpha 5042, I'm live
+03:51.560 --> 03:56.680 Text: N5042, passing level 312, descending 160 for 0532
+03:56.680 --> 04:02.360 Text: And we are 90 miles in Maud India International Airport on a radial of 020
+04:02.360 --> 04:06.480 Text: Estimating inbound at time 0600
+04:08.480 --> 04:15.760 Text: A5046, we have stopped at FL1016, request VOR DMX runway 07, repeat, reduce and answer
+04:15.760 --> 04:23.040 Text: QNH 1016, cockpit VOR DME 07, will call you over to release when unfurl, fly 504, sir.
+04:27.280 --> 04:29.840 Text: Alpha, medium, all off normal, VIX and right angle.
+04:29.840 --> 04:45.520 Text: PILOT717, released by POPAL, there is no traffic for ABD, and confirm approach via I-I overhead or DME ARC?
+04:45.520 --> 04:47.520 Text: Via overhead
+04:47.520 --> 04:49.520 Text: Copied ma'am
+04:55.520 --> 04:57.520 Text: PILOT717, report the course
+04:57.520 --> 05:05.520 Text: N730M, India India Delta, we are passing level 2700, descending 160, released by NAPO
+05:11.520 --> 05:13.020 Text: No traffic with NAPO
+05:13.020 --> 05:20.300 Text: Raya Express 3, your departure is runway 07, and call me when you reach the runway 07
+05:20.300 --> 05:22.620 Text: I have a VDA of 3 only ma'am
+05:22.620 --> 05:27.740 Text: After 5042, confirm you can proceed direct to Lead, again runway 07?
+05:27.740 --> 05:29.740 Text: Affirm, I fly 5042
+05:29.740 --> 05:35.180 Text: Raya, Zandabar, please approach the climb, now do not proceed direct to Lead, again runway 07
+05:35.180 --> 05:42.180 Text: PILOT5042, ma'am request overhead approach ma'am.
+05:42.180 --> 05:46.180 Text: Airfly 5042, stand by
+05:47.180 --> 05:53.180 Text: A617, report to Taldans, VFR 5, cleared for VLD approach, runway 07, Yover East
+05:53.180 --> 05:59.180 Text: Ma'am, test run time is 06... 05, A617
+06:01.180 --> 06:05.180 Text: Airfly 5042, report to Taldans, climb Yover East
+06:05.180 --> 06:10.960 Text: I fly 5042 times 0603
+06:10.960 --> 06:16.460 Text: Indore I fly 53153, 0DM inbound, India India Delta
+06:16.460 --> 06:23.040 Text: I fly 53153, continue descent 4000 feet, QNH 1016
+06:23.040 --> 06:28.960 Text: Continue descent 4000 feet, QNH 1016, I fly 5315
+06:28.960 --> 06:34.960 Text: Alight 617, number 3146, roger, you may land please
+06:36.960 --> 06:37.960 Text: Welcome
+06:42.960 --> 06:45.960 Text: Alight 617, this is radial maintaining Indian Air Delta
+06:45.960 --> 06:52.960 Text: Ma'am, we are maintaining radial 068, Alight 617, Indian Air Delta
+06:52.960 --> 06:59.520 Text: Raya Express 5042, descend to FL100, expedite descent FL140
+06:59.520 --> 07:03.840 Text: Descend FL100, expedite passing FL140, IFL5042
+07:03.840 --> 07:06.800 Text: Descend FL140, maintain altitude
+07:06.800 --> 07:07.840 Text: Thank you, bye
+07:10.320 --> 07:14.560 Text: India Delta 916, report IDL 916
+07:14.560 --> 07:22.880 Text: cleared for Aril Payanki approach runway 07 and we'll call you India Delta 916, IFL5315
+07:29.600 --> 07:32.880 Text: India Delta 916, IFL5315, cleared for landing, request for full stop landing
+07:33.520 --> 07:37.360 Text: Decat level 80, will call you 30 miles inbound, IFL5042
+07:37.360 --> 07:44.360 Text: Mids request for full stop landing
+07:44.360 --> 07:49.360 Text: Roger, I'll fly 5315, report in to system
+07:49.360 --> 07:53.360 Text: I'll fly 5315, 1 miles and pound, India India Delta
+07:53.360 --> 07:56.360 Text: Roger, 5515 continue orbit
+07:56.360 --> 07:58.360 Text: Continue orbit, thank you
+08:02.360 --> 08:04.360 Text: Right 617
+08:04.360 --> 08:09.360 Text: N55042, report level?
+08:09.360 --> 08:12.360 Text: Passing level 190
+08:12.360 --> 08:14.360 Text: Expected
+08:14.360 --> 08:18.360 Text: Protecting, we are descending with a vertical speed of 3000 feet per minute
+08:18.360 --> 08:27.360 Text: Roger, traffic in sight, align for ATR, break to descend, RWY100, wind 068, cleared to land, ATC, 405
+08:57.360 --> 09:00.240 Text: CDMA inbound maintaining minimum speed level 140
+09:04.240 --> 09:06.240 Text: 130 light 617
+09:36.240 --> 09:39.680 Text: Cleared to land RWY07A, FL315
+10:06.240 --> 10:08.240 Text: Will advise
+10:10.240 --> 10:12.240 Text: Fly 5042, report level
+10:13.240 --> 10:15.240 Text: We are passing level 900
+10:17.240 --> 10:19.240 Text: Right 617, report to flight 617
+10:20.240 --> 10:22.240 Text: 900, right 617
+10:29.240 --> 10:33.240 Text: N462MZ, passing level 260, descending 160
+10:33.240 --> 10:34.240 Text: PILOT160
+10:41.940 --> 10:44.120 Text: PILOT160, Approach NANA 05
+10:49.060 --> 10:52.240 Text: We are 8 miles inbound, I fly 5042
+10:52.240 --> 10:55.980 Text: N24D, descend and maintain 5000ft
+10:55.980 --> 11:00.400 Text: Descend and maintain 5000ft, will call you leaving India India D, RK5042
+11:01.660 --> 11:03.820 Text: AL617, report DME descent?
+11:04.180 --> 11:06.740 Text: Ma'am we have 22 DME inbound AL617
+11:07.540 --> 11:09.880 Text: And 24 AT617?
+11:10.740 --> 11:12.500 Text: Uhh... monitor
+11:13.500 --> 11:15.900 Text: N24D, report your sight on sight now?
+11:15.900 --> 11:19.900 Text: N607, I'll light 617
+11:26.900 --> 11:29.900 Text: Descend to FL70
+11:29.900 --> 11:31.900 Text: FL70, light 617
+11:36.900 --> 11:40.900 Text: N57, repeat via D, DN57
+11:40.900 --> 11:48.180 Text: N4000ft cleared EYD 0707
+11:48.180 --> 11:50.820 Text: Second, AF5042
+11:50.820 --> 11:57.220 Text: N5042, taxi to descent 4000ft, cleared EYD 0707
+11:57.220 --> 12:02.020 Text: Descent 4000ft, cleared for VOR 07, AF5042
+12:32.020 --> 12:35.220 Text: Ma'am we are 15 DMA inbound, ALY617
+12:35.220 --> 12:42.020 Text: ALY617 roger, descend to 5000ft, report leaving India Delta, call VOR descend to 5000ft sir
+12:42.020 --> 12:46.020 Text: Descend to 5000ft, will report leaving India Delta, ALY617
+12:56.020 --> 12:58.020 Text: Starving to dry time of all of normal
+13:58.020 --> 14:07.220 Text: PILOT1-1, mile 2, IND direct ILS 617
+14:07.220 --> 14:12.420 Text: PILOT1-1, IND direct ILS 617
+14:12.420 --> 14:14.820 Text: PILOT1-1, monitor ILS 617
+14:14.820 --> 14:22.500 Text: PILOT1-1, ILS 617, descend and transition FL60, QNH 1016
+14:22.500 --> 14:26.700 Text: Descend transition level 60, 1016, I fly 905
+14:29.700 --> 14:33.700 Text: N905 confirm visual approach RWY07 or UR via overhead?
+14:33.700 --> 14:35.700 Text: We'll do overhead approach via UR
+14:40.700 --> 14:43.700 Text: It'll depend on the traffic ma'am, I fly 905
+14:43.700 --> 14:45.700 Text: We are only meeting runway 07
+14:45.700 --> 14:47.700 Text: Sub-Desc final approach to airport RWY07
+14:47.700 --> 14:52.340 Text: N5042, runway 07, cleared to land, wind 060 degrees, 1 knot
+14:52.340 --> 14:55.220 Text: Runway 07, cleared to land, AF5042
+14:56.660 --> 15:00.020 Text: N5042, can you do an orbit at the present position?
+15:00.820 --> 15:05.700 Text: N5042, cleared to land, orbit at the present position, wind 060 degrees, 1 knot
+15:05.700 --> 15:08.180 Text: Roger, AF905
+15:11.540 --> 15:13.780 Text: Orbit at the present position, AF905
+15:13.780 --> 15:18.340 Text: N6609LX, expect to join left downwind runway 07
+15:18.340 --> 15:24.340 Text: Copy, left downwind runway 07, FL905
+15:30.740 --> 15:34.340 Text: Descend 4000ft, cleared VRD approach runway 07
+15:34.340 --> 15:40.180 Text: Continue descent to 4000ft, cleared for VRD approach runway 07, Alight 617
+16:10.180 --> 16:11.180 Text: N22D, 244
+16:25.020 --> 16:27.060 Text: Left downwind, IFL 905
+16:31.060 --> 16:34.740 Text: I'll call you joining left downwind for runway 07, IFL 905
+17:04.740 --> 17:09.540 Text: N5505 will be crossing the takeoff path at 5000ft, confirm?
+17:11.060 --> 17:14.180 Text: ILS, N5505, cleared to land, runway 07, alight 617
+17:14.740 --> 17:16.340 Text: N5505, cleared to land
+17:16.340 --> 17:17.140 Text: Roger, copy
+17:23.380 --> 17:26.580 Text: N5505, cleared to land, runway 07, alight 617
+17:27.140 --> 17:31.380 Text: Alight 617, runway 07, cleared to land, speed 040 degrees, runway 14
+17:31.380 --> 17:34.180 Text: Cleared to land runway 07, ALT617
+17:40.420 --> 17:43.940 Text: Takeoff path for runway 25, 07, ATC
+17:49.700 --> 17:52.500 Text: Call you joining, may I descend to such a altitude?
+17:57.620 --> 17:59.220 Text: Extend by 6 knots
+17:59.220 --> 18:01.220 Text: Pilot- Stop, runway 07
+18:07.220 --> 18:09.220 Text: Pilot- Runway 07
+18:09.220 --> 18:15.220 Text: N905R, descend to 30 altitude, QNH 1070
+18:15.220 --> 18:23.220 Text: Descend to 30 altitude, turning left now for the left downwind runway 07, N905
+18:23.220 --> 18:28.220 Text: N905, cleared visual approach runway 07, QNH 1070
+18:28.220 --> 18:30.220 Text: PIA713, roger, climb FL070
+18:30.220 --> 18:32.220 Text: Climb FL070, PIA713, FL070
+18:39.220 --> 18:41.220 Text: PIA713
+18:42.220 --> 18:44.220 Text: PIA713, inbound
+18:45.220 --> 18:54.220 Text: N100NM, India IND, maintaining 160, estimating IND 0635, PIA713
+18:54.220 --> 19:06.220 Text: N617, landed 116, cleared for D, descend by 6
+19:09.220 --> 19:15.220 Text: 313, express VRD approach runway 07 via overhead, Indiana D, stand by for approach, 313
+19:45.220 --> 19:49.220 Text: Pilot- Runway 07, final 05
+19:49.220 --> 19:55.220 Text: N907F- N907F, runway 07, cleared to land, wind 080 degrees, 15 knots
+19:55.220 --> 19:57.220 Text: Pilot- Cleared to land, runway 07, N907F
+20:01.220 --> 20:03.220 Text: N907F- N907F, report final 07
+20:03.220 --> 20:06.220 Text: Pilot- N907F, report final 07, cleared to land
+20:10.220 --> 20:13.220 Text: N907F- N907F, runway 07, wind 080 degrees, 15 knots
+20:43.220 --> 20:47.220 Text: N7313, cleared for landing, QNH 106
+20:57.220 --> 21:00.220 Text: N7313, cleared for landing, QNH 106
+21:00.220 --> 21:06.220 Text: F-7313, 40 miles inbound, released by Nagpur, requesting descent
+21:07.220 --> 21:10.220 Text: F-7313, cleared for landing, QNH 106
+21:10.220 --> 21:12.620 Text: I confirm, AF7313
+21:12.620 --> 21:13.120 Text: Okay
+21:13.120 --> 21:16.620 Text: Descend, transition level, cycle is 60, QNH 1016
+21:16.620 --> 21:20.620 Text: Report leaving India near Delta, call you at DELTA frequency 07
+21:20.620 --> 21:27.620 Text: Descend, transition level 60, report leaving India near Delta, AF7313, QNH 1016
+21:27.620 --> 21:43.700 Text: Starter airplane's sound
