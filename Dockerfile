@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:22.11-py3
+FROM nvcr.io/nvidia/pytorch:22.12-py3
 ENV TZ=Asia/Kolkata \
     DEBIAN_FRONTEND=noninteractive
 RUN  apt-get -y update
