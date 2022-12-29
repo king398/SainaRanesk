@@ -2,9 +2,10 @@ import glob
 from tqdm import tqdm
 import whisper
 import os
+
 os.makedirs('transcripts_result', exist_ok=True)
-model = whisper.load_model("large")
-path = "/notebooks/AIML Datastes SR2.0"
+model = whisper.load_model("models/large-v2.pt")
+path = "/notebooks/AIML Datastes SR2.0"  # path to the audio files
 files = glob.glob(f"{path}/*.mp3") + glob.glob(f"{path}/*/*.mp3")
 
 
