@@ -1,4 +1,4 @@
-FROM paperspace/gradient-base:pt112-tf29-jax0314-py39-20220803
+FROM nvcr.io/nvidia/pytorch:22.11-py3
 ENV TZ=Asia/Kolkata \
     DEBIAN_FRONTEND=noninteractive
 RUN  apt-get -y update

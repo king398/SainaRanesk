@@ -162,16 +162,32 @@ docker pull mithilaidocker/audiotranscribe:master
 To run the docker container enter the following command in a bash shell
 
 ```bash
-docker run --gpus all --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home --rm mithilaidocker/audiotranscribe:master
+docker run --gpus all \
+  --ipc=host \
+  --ulimit memlock=-1 \
+  --net="host" \
+  --ulimit stack=67108864 \
+  -it -v "/home/":/home \
+  --rm mithilaidocker/audiotranscribe:master
+
 ```
 
 nvidia docker command will be
 
 ```bash
-nvidia-docker run --ipc=host --ulimit memlock=-1 --net="host" --ulimit stack=67108864 -it -v "/home/":/home --rm mithilaidocker/audiotranscribe:master
+nvidia-docker run --ipc=host \
+  --ulimit memlock=-1 \
+  --net="host" \
+  --ulimit stack=67108864 \
+  -it -v "/home/":/home \
+  --rm mithilaidocker/audiotranscribe:master
+
 ```
 
 By running this command you will enter the docker container.
+In case you get the following error
+```docker: Cannot connect to the Docker daemon at unix:///home/mithil/.docker/desktop/docker.sock. Is the docker daemon running?```
+Run the Command with sudo
 
 ## Step 4 : Run the Solution
 
