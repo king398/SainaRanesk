@@ -83,7 +83,7 @@ You can open a rendered pdf of README.md By opening the file README.pdf in this 
 
 ### Option 3 : GitHub Repository
 
-if you want to view this README.md file on github, you can go to the
+if you want to view this README.md file on GitHub, you can go to the
 following [repo](https://github.com/king398/SainaRanesk) which is
 similar to this directory.
 
@@ -186,7 +186,7 @@ nvidia-docker run --ipc=host \
 
 By running this command you will enter the docker container.
 In case you get the following error
-```docker: Cannot connect to the Docker daemon at unix:///home/mithil/.docker/desktop/docker.sock. Is the docker daemon running?```
+```docker: Cannot connect to the Docker daemon at unix:///home/xx/.docker/desktop/docker.sock. Is the docker daemon running?```
 Run the Command with sudo
 
 ## Step 4 : Run the Solution
@@ -212,7 +212,7 @@ WARNING: This is a development server. Do not use it in a production deployment.
 Press CTRL+C to quit
 ```
 
-Important: Make sure to Keep running the flask app in the background. If you close the terminal the flask app will stop
+### **Important: Make sure to Keep running the flask app in the background. If you close the terminal the flask app will stop**
 
 If you are seeing this solution on the same machine as the server then you can access the solution
 at http://127.0.0.1:5000.
@@ -415,10 +415,9 @@ as the original large model**
 
 **Whisper is also the most robust model for dataset with uncommon words as show in the last picture making it the best
 choice
-for transcribing and translating slang`s. Quoting the official paper "The results show that Whisper per-
-forms better than the compared models on most datasets,
-especially on the Meanwhile dataset which is heavy with
-uncommon words.""**
+for transcribing and translating slang`s. Quoting the official paper "The results show that Whisper performs better than the compared models on most datasets,
+especially on the  dataset which are heavy with
+uncommon words."**
 
 **But why did we choose the large-v2 version of Whisper instead of the medium or small models? The answer is simple: the
 large version provides the best

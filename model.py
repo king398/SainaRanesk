@@ -50,8 +50,8 @@ def transcribe(path, model):
     print(f"Transcribing... {path}")
     convert_to_wav(path)
 
-    result = model.transcribe('audio.wav', task='translate', verbose=True, no_speech_threshold=0.4,
-                              condition_on_previous_text=False)
+    result = model.transcribe('audio.wav', task='translate', verbose=True, no_speech_threshold=0.25,
+                              condition_on_previous_text=False, )
     text_file = transcript_timestamp(result["segments"], path)
 
     with open(text_file, "r") as f:
