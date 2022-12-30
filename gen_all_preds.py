@@ -9,7 +9,7 @@ path = "/notebooks/AIML Datastes SR2.0"  # path to the audio files
 files = glob.glob(f"{path}/*.mp3") + glob.glob(f"{path}/*/*.mp3")
 
 
-def format_timestamp(seconds: float, always_include_hours: bool = False, decimal_marker: str = '.'):
+def format_timestamp(seconds: float, always_include_hours: bool = True, decimal_marker: str = '.'):
     assert seconds >= 0, "non-negative timestamp expected"
     milliseconds = round(seconds * 1000.0)
     hours = milliseconds // 3_600_000
