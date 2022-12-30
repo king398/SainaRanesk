@@ -328,7 +328,7 @@ Transcription complete. Saved it to transcripts_result/221001_0134.txt
 ```
 
 the format of the timestamp is
-`Start - HH:MM:SS:MS --> End HH:MM:SS:MS : Transcript`
+`Start - MM:SS:MS --> End MM:SS:MS : Transcript`
 
 the transcript will be saved in the `transcripts` subdirectory in the app directory of the docker container. The file
 name will be the
