@@ -1,7 +1,8 @@
 from flask import Flask, request, render_template, jsonify
 from service_streamer import ThreadedStreamer
 from model import *
-
+import service_streamer
+service_streamer.service_streamer.WORKER_TIMEOUT = 1800
 model = load_model()
 transcribe_fn = request_transcribe(model)
 app = Flask(__name__)
