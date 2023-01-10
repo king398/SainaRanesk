@@ -1,36 +1,15 @@
-00:30.000 --> 00:32.700 Text: then we will talk to you back
-01:30.000 --> 01:32.000 Text: the first message over
-01:32.000 --> 01:35.000 Text: the door for the open 4-star
-01:38.000 --> 01:39.000 Text: Delta 1
-01:39.000 --> 01:41.000 Text: it is not the registered
-01:41.000 --> 01:42.000 Text: I repeat
-01:42.000 --> 01:43.000 Text: it is
-01:43.000 --> 01:44.000 Text: I see again
-01:47.000 --> 01:48.000 Text: correction
-01:48.000 --> 01:49.000 Text: I see again
-01:49.000 --> 01:50.000 Text: it is not registered
-01:50.000 --> 01:51.000 Text: over
-01:52.000 --> 01:53.000 Text: Delta 1
-02:23.000 --> 02:47.700 Text: 回去
-02:48.700 --> 02:51.260 Text: date 1 after De limited
-02:51.260 --> 02:51.740 Text: 4 is
-02:51.740 --> 02:53.440 Text: update
-02:53.440 --> 02:59.420 Text: !!
-03:02.560 --> 03:03.120 Text: It's
-03:03.120 --> 03:04.600 Text: COOL
-03:05.880 --> 03:10.520 Text: gram
-03:10.520 --> 03:12.520 Text: ...
-03:14.520 --> 03:16.520 Text: Delta 2 for Delta 2, but...
-03:16.520 --> 03:17.520 Text: ...
-03:17.520 --> 03:19.520 Text: Delta 2 was over.
-03:19.520 --> 03:22.520 Text: Delta 2, what is the location of the headquarters?
-03:22.520 --> 03:22.520 Text: ...
-03:22.520 --> 03:24.520 Text: ...
-03:24.520 --> 03:25.520 Text: ...
-03:25.520 --> 03:27.520 Text: ...
-03:27.520 --> 03:29.520 Text: Delta 2, location of the headquarters.
-03:29.520 --> 03:31.520 Text: Delta 2, location of the headquarters.
-03:31.520 --> 03:33.520 Text: Delta 7,
-03:33.520 --> 03:35.520 Text: ...
-03:35.520 --> 03:36.520 Text: ...
-03:36.520 --> 03:37.520 Text: ...
+00:00.000 --> 00:03.000 Text: Over
+00:12.000 --> 00:15.000 Text: The damage is high, the messenger is dead
+00:15.000 --> 00:17.000 Text: The messenger is dead
+00:17.000 --> 00:19.000 Text: The retower is dead
+00:21.000 --> 00:22.000 Text: The messenger is dead
+00:22.000 --> 00:23.000 Text: How do you feel?
+00:23.000 --> 00:24.000 Text: The radio is dead
+00:24.000 --> 00:25.000 Text: The radio is dead
+00:25.000 --> 00:26.000 Text: The radio is dead
+02:26.000 --> 02:28.000 Text: and
+02:38.000 --> 02:41.000 Text: 2-4-2-4
+02:44.000 --> 02:47.000 Text: 2-4-4-4
+02:48.000 --> 02:50.000 Text: 1-4-4
+02:50.000 --> 02:51.000 Text: 1-4-4
+02:51.000 --> 02:53.000 Text: 1-4-4-4

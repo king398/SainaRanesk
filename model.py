@@ -103,7 +103,7 @@ class request_transcribe:
             formatted_text = ""
             for i in result['text'].split(' '):
                 if p % 40 == 0:
-                    formatted_text += " \n "
+                    formatted_text += " \n"
                 formatted_text += i
                 formatted_text += " "
                 p += 1
