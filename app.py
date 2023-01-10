@@ -2,11 +2,12 @@ from flask import Flask, request, render_template, jsonify
 from service_streamer import ThreadedStreamer
 from model import *
 import service_streamer
+
 service_streamer.service_streamer.WORKER_TIMEOUT = 1800
 model = load_model()
 transcribe_fn = request_transcribe(model)
 app = Flask(__name__)
-streamer = ThreadedStreamer(transcribe_fn.transcribe, batch_size=32, max_latency=0.05)
+streamer = ThreadedStreamer(transcribe_fn.transcribe, batch_size=32, max_latency=0.5)
 
 
 @app.route('/')

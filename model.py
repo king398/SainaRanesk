@@ -4,12 +4,13 @@ import librosa
 import soundfile as sf
 import os
 import argparse
+from joblib import Parallel, delayed
 
 os.makedirs("transcripts_result", exist_ok=True)
 
 
 def load_model():
-    model = whisper.load_model("models/large-v2.pt")
+    model = whisper.load_model("tiny")
     return model
 
 
@@ -40,13 +41,11 @@ def transcript_timestamp(transcript: Iterator[dict], path):
 
 
 def convert_to_wav(path):
-    print(f"Converting to wav... {path}")
     data, samplerate = librosa.load(path, sr=16000)
     sf.write('audio.wav', data, samplerate)
 
 
 def transcribe(path, model):
-    print(f"Reducing Noise")
     print(f"Transcribing... {path}")
     convert_to_wav(path)
 
@@ -72,42 +71,46 @@ def transcribe(path, model):
     return text, formatted_text
 
 
+def preprocess_files(paths):
+    paths_to_save = []
+    for i, path_raw in enumerate(paths):
+        path_raw.save(path_raw.filename)
+
+        paths_to_save.append(path_raw.filename)
+        print(f"Saved {path_raw.filename}")
+
+    return paths_to_save
+
+
 class request_transcribe:
-    def __init__(self, model):
-        self.model = model
+    def __init__(self, model_whisper):
+        self.model = model_whisper
 
     def transcribe(self, paths):
-        text_final = [
+        text_final = []
+        paths = preprocess_files(paths)
 
-        ]
-        for path_i in paths:
-            print(f"Reducing Noise")
-            print(f"Transcribing... {path_i}")
-            path_i.save(path_i.filename)
-            path_i = path_i.filename
-            convert_to_wav(path_i)
-
-            result = self.model.transcribe('audio.wav', task='translate', verbose=True, no_speech_threshold=0.25,
-                                           condition_on_previous_text=False, )
-            text_file = transcript_timestamp(result["segments"], path_i)
-
+        result = self.model.transcribe(paths, task='translate', verbose=True, no_speech_threshold=0.25,
+                                       condition_on_previous_text=False, )
+        for i, path in enumerate(paths):
+            print(i)
+            text_file = transcript_timestamp(result[i]["segments"], path)
             with open(text_file, "r") as f:
                 text = f.read()
-
-            print(f"Transcription complete. Saved it to {text_file} ")
-            # delete path and audio.wav
-            os.remove(path_i)
-            os.remove('audio.wav')
             p = 0
 
             formatted_text = ""
-            for i in result['text'].split(' '):
+            for i in result[i]['text'].split(' '):
                 if p % 40 == 0:
-                    formatted_text += " \n"
+                    formatted_text += "\n"
                 formatted_text += i
                 formatted_text += " "
                 p += 1
+            print(f"Transcription complete. Saved it to {text_file} ")
+            # delete path and audio.wav
+            os.remove(path)
             text_final.append(formatted_text)
+
         return text_final
 
 
@@ -118,4 +121,4 @@ if __name__ == '__main__':
 
     model = load_model()  # load model
     for path in args.path:
-        transcribe(path)
+        transcribe(path, model)
