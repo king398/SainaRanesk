@@ -77,6 +77,6 @@ if __name__ == '__main__':
     parser.add_argument('--path', required=True, help='path to audio file', nargs='+')
     args = parser.parse_args()
 
-    model = load_model() # load model
+    model = load_model()  # load model
     for path in args.path:
         transcribe(path, model)
