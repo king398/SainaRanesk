@@ -30,7 +30,7 @@ def transcribe_form():
     f = request.files['file']
     x = streamer.predict([f])
 
-    return jsonify({'x': x})
+    return jsonify({'transcript': x})
 
 
 if __name__ == '__main__':
