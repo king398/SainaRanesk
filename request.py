@@ -1,14 +1,15 @@
-import glob
 import requests
-from joblib import Parallel, delayed
-import tqdm as tqdm
+import glob
+from multiprocessing import Pool
 
-files = glob.glob("/home/mithil/PycharmProjects/SainaRanesk/data/AIML Datastes SR2.0/*.mp3")[:40]
+files = glob.glob("/home/mithil/PycharmProjects/SainaRanesk/data/AIML Datastes SR2.0/*.mp3")[:12]
 
 
 def request(file):
-    r = requests.post('https://afc5-172-83-13-4.ngrok.io/transcribe', files={'file': open(file, 'rb')})
+    r = requests.post('https://758c-172-83-13-4.ngrok.io/transcribe', files={'file': open(f"{file}", 'rb')},
+                      timeout=7200)
     print(r.json())
 
 
-Parallel(n_jobs=20)(delayed(request)(file) for file in tqdm.tqdm(files))
+pool = Pool(4)  # number of users
+pool.map(request, files)
