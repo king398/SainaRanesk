@@ -1,9 +1,11 @@
-from flask import Flask, request, render_template
-
+from flask import Flask, request, render_template, jsonify
+from service_streamer import ThreadedStreamer
 from model import *
 
-model    = load_model()
+model = load_model()
+transcribe_fn = request_transcribe(model)
 app = Flask(__name__)
+streamer = ThreadedStreamer(transcribe_fn.transcribe, batch_size=32, max_latency=0.05)
 
 
 @app.route('/')
@@ -22,5 +24,13 @@ def file_upload():
     return render_template('result.html', text=transcript, results_text=text)
 
 
+@app.route('/transcribe', methods=['POST'])
+def transcribe_form():
+    f = request.files['file']
+    x = streamer.predict([f])
+
+    return jsonify({'x': x})
+
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')

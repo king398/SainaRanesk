@@ -72,6 +72,45 @@ def transcribe(path, model):
     return text, formatted_text
 
 
+class request_transcribe:
+    def __init__(self, model):
+        self.model = model
+
+    def transcribe(self, paths):
+        text_final = [
+
+        ]
+        for path_i in paths:
+            print(f"Reducing Noise")
+            print(f"Transcribing... {path_i}")
+            path_i.save(path_i.filename)
+            path_i = path_i.filename
+            convert_to_wav(path_i)
+
+            result = self.model.transcribe('audio.wav', task='translate', verbose=True, no_speech_threshold=0.25,
+                                           condition_on_previous_text=False, )
+            text_file = transcript_timestamp(result["segments"], path_i)
+
+            with open(text_file, "r") as f:
+                text = f.read()
+
+            print(f"Transcription complete. Saved it to {text_file} ")
+            # delete path and audio.wav
+            os.remove(path_i)
+            os.remove('audio.wav')
+            p = 0
+
+            formatted_text = ""
+            for i in result['text'].split(' '):
+                if p % 40 == 0:
+                    formatted_text += " \n "
+                formatted_text += i
+                formatted_text += " "
+                p += 1
+            text_final.append(formatted_text)
+        return text_final
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--path', required=True, help='path to audio file', nargs='+')
@@ -79,4 +118,4 @@ if __name__ == '__main__':
 
     model = load_model()  # load model
     for path in args.path:
-        transcribe(path, model)
+        transcribe(path)
