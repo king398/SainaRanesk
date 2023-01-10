@@ -1,4 +1,6 @@
 FROM paperspace/gradient-base:pt112-tf29-jax0314-py39-20220803
+WORKDIR /app
+COPY . .
 ENV TZ=Asia/Kolkata \
     DEBIAN_FRONTEND=noninteractive
 RUN  apt-get -y update
@@ -19,8 +21,7 @@ RUN desired_value="1800" # Modify this variable
 
 # Modify the file
 RUN sed -E -i "s/^WORKER_TIMEOUT = [0-9]+\$/WORKER_TIMEOUT = ${desired_value}/" "$f"
-WORKDIR /app
-COPY . .
+
 RUN conda install git
 CMD nvidia-smi
 CMD ["bash"]
