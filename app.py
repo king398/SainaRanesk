@@ -3,7 +3,7 @@ from service_streamer import ThreadedStreamer
 from model import *
 import service_streamer
 
-service_streamer.service_streamer.WORKER_TIMEOUT = 1800
+service_streamer.service_streamer.WORKER_TIMEOUT = 7200
 model = load_model()
 transcribe_fn = request_transcribe(model)
 app = Flask(__name__)
