@@ -1,0 +1,14 @@
+00:00.000 --> 00:08.000 Text: Alpha 1, call Alpha 5, say it's clear
+00:08.000 --> 00:12.000 Text: Mike, pass over Mike
+00:16.000 --> 00:18.000 Text: Alpha 6, Alpha 1, OK
+00:18.000 --> 00:21.000 Text: Sir, Alpha 1 is coming in Harek
+00:21.000 --> 00:24.000 Text: Alpha 1, Salam Alekum
+00:24.000 --> 00:28.000 Text: Alpha 5, Walaykum Assalam
+00:32.000 --> 00:39.000 Text: Alpha 1, Salam to all the passengers, may you all be safe and sound
+00:43.000 --> 00:46.000 Text: Alpha 5, Inshallah
+00:46.000 --> 00:55.000 Text: Alpha 1, Khan bhai, over Alpha 2, we are in the area of Lucknow, over
+00:58.000 --> 01:03.000 Text: Alpha 5, Jidur sahab, we are in the area of Lucknow, over
+01:03.000 --> 01:13.000 Text: Alpha 1, India 2K, contact Zulu, Zulu
+01:13.000 --> 01:24.000 Text: 5 Kilo, Virtual, India, Zulu, air 3, roger, will be there, Alpha, Sahab
+01:27.000 --> 01:30.000 Text: Alpha 5, will be there
+01:30.000 --> 01:32.000 Text: Ok, roger.

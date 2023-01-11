@@ -1,0 +1,3 @@
+00:00.000 --> 00:01.000 Text: record
+00:02.000 --> 00:03.000 Text: halo halo halo
+00:04.000 --> 00:05.000 Text: halo check halo

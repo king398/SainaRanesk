@@ -1,0 +1,22 @@
+02:00.000 --> 02:06.000 Text: ATC Chatter
+02:06.000 --> 02:14.000 Text: ATC Chatter
+02:14.000 --> 02:20.000 Text: ATC Chatter
+02:20.000 --> 02:26.000 Text: ATC Chatter
+02:56.000 --> 03:06.000 Text: The water is so clear and clear that it's hard to see the fish.
+03:08.000 --> 03:18.000 Text: The water is so clear and clear that it's hard to see the fish.
+09:18.000 --> 09:28.000 Text: PILOT-4D-AB, final sir, continue approach, starboard
+09:28.000 --> 09:32.000 Text: CAPT-Starboard, 070, sir
+09:32.000 --> 09:36.000 Text: PILOT-070, sir
+10:36.000 --> 10:46.080 Text: N2496R, N2496R, report for contact, established 07 for touch and go
+12:16.080 --> 12:22.080 Text: We are now 29,000 feet
+12:32.080 --> 12:34.080 Text: So what are we looking for?
+12:35.080 --> 12:37.080 Text: And are we number one for approach?
+12:40.080 --> 12:42.080 Text: Can we take 07 for approach sir?
+12:42.080 --> 12:44.080 Text: PILOT913, QNH 913
+12:47.580 --> 12:49.580 Text: PILOT913, QNH 913
+12:50.080 --> 12:52.080 Text: request descent sir, FL150
+13:02.080 --> 13:05.080 Text: PILOT913, we are at the end of left turn, runway 07
+13:35.080 --> 13:40.120 Text: Pilot to ATC, descend FL80, IFLY 6738
+13:48.120 --> 13:52.120 Text: Descend FL80, IFLY 6738
+13:52.120 --> 13:54.120 Text: Descend FL80, IFLY 6738
+13:54.120 --> 13:56.120 Text: Descend FL80, IFLY 6738

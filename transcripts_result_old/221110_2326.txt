@@ -1,0 +1,45 @@
+00:00.000 --> 00:06.000 Text: PILOT-315 proceeding direct LIDER 074
+00:12.000 --> 00:18.000 Text: PILOT-315 altitude 5000, transition level 60, direct 1020 AFR PILOT-315
+02:18.000 --> 02:20.080 Text: Will pass runway 08
+02:37.680 --> 02:42.000 Text: 2008 passing level 100, done on track 020
+02:42.000 --> 02:44.400 Text: Radial, India near Delta, outbound
+03:14.400 --> 03:20.400 Text: N2208, in contact with Nagpur, Nagpur cleared for direct Buklo, level 300.
+03:24.400 --> 03:25.400 Text: N21
+03:25.400 --> 03:42.400 Text: Good day sir, AAP-BK2708, setting course direct Buk-Lok, Incorn Basin, level 300, N4S, good day.
+06:25.400 --> 06:30.400 Text: There is a lot of water in the water tank.
+06:30.400 --> 06:35.400 Text: I'm going to fill it up.
+06:35.400 --> 06:40.400 Text: I'm going to fill it up.
+06:40.400 --> 06:45.400 Text: I'm going to fill it up.
+06:45.400 --> 06:50.400 Text: I'm going to fill it up.
+07:20.400 --> 07:28.080 Text: Distance 4000ft, QNH 1019, descend 160, call you back, cleared to de-alight, fly heading 210.
+12:50.400 --> 12:56.080 Text: ATC-BPW, request further climb for FL617
+12:59.440 --> 13:02.640 Text: CPT-Depending, passing FL75 for FL617
+13:09.040 --> 13:11.520 Text: ATC-DEPLAY FL150, FL617
+16:41.520 --> 16:47.520 Text: 6219 in contact with AMR, AMR, cleared to level 320
+16:50.520 --> 16:53.520 Text: Passing 135 now sir, we are 20 miles out
+16:56.520 --> 16:57.520 Text: Good day
+16:59.520 --> 17:02.520 Text: Charlie 3-25, got you, thank you
+17:07.520 --> 17:09.520 Text: Cleared to go to 5, Charlie 3
+17:09.520 --> 17:14.520 Text: Tower, VFR 511, descend to FL3500 for push and land
+17:27.520 --> 17:30.520 Text: Descend and land, call you left base, VFR 511
+17:30.520 --> 17:35.080 Text: Indore Airfly 511, we are passing 3500 KB turn left.
+17:39.440 --> 17:41.840 Text: Copy sir, continue climb 250 turn left.
+17:42.680 --> 17:45.400 Text: Airfly 511.
+17:57.440 --> 17:57.940 Text: Zero.
+17:57.940 --> 17:59.940 Text: I'll fly 511.
+18:01.940 --> 18:05.940 Text: Copy sir, any charge can be set close to Mombi, if possible I'll fly 511.
+18:35.940 --> 18:45.940 Text: The sound of the waterfall is very relaxing.
+18:45.940 --> 18:55.940 Text: The sound of the waterfall is very relaxing.
+23:25.940 --> 23:27.940 Text: PILOT710, you are cleared for takeoff.
+23:36.940 --> 23:39.940 Text: PILOT710, you are cleared for takeoff.
+25:09.940 --> 25:15.940 Text: The plane is now in the air.
+25:15.940 --> 25:22.940 Text: The plane is now in the air.
+25:22.940 --> 25:30.940 Text: The plane is now in the air.
+26:30.940 --> 26:37.940 Text: Estimating India India Delta 1045, QNH 1045, and established on track, climbing 145, 46R.
+27:37.940 --> 27:42.940 Text: The water is so clear, I can't see the bottom of the sea.
+27:42.940 --> 27:47.940 Text: I'm going to try to dive in.
+27:47.940 --> 27:52.940 Text: I'm going to try to dive in.
+27:52.940 --> 27:57.940 Text: I'm going to try to dive in.
+27:57.940 --> 28:02.940 Text: I'm going to try to dive in.
+29:02.940 --> 29:12.940 Text: The sound of the waterfall is very relaxing.
+29:12.940 --> 29:22.940 Text: The sound of the waterfall is very relaxing.

@@ -1,0 +1,21 @@
+00:00.000 --> 00:01.000 Text: 1800 now
+00:05.360 --> 00:08.900 Text: cleared ILS 25, volume 12 miles, IFLY 7313
+00:38.900 --> 00:48.900 Text: N2621, out of 145, to 160, departing Bhopal, destination, EAUX, expect ETA, ETA, D-D-D is 0646
+00:53.900 --> 00:56.900 Text: N2621, we are released by Bhopal, call you released by NAMBHU
+02:26.900 --> 02:27.900 Text: PILOT617
+02:29.020 --> 02:33.200 Text: Climb passing 3,700, turning right direct to Buklova, light 617
+02:33.200 --> 02:38.480 Text: Kali passing 80 next, light 617
+03:03.200 --> 03:06.240 Text: PILOT9178-1, runway 25, cleared to start, have a good flight.
+03:10.240 --> 03:15.280 Text: PILOT9178-1, confirm via the initial approach, VIX, radio 06818, ma'am.
+03:20.320 --> 03:23.040 Text: PILOT9178-1, call you on the localizer, VIX, have a good flight.
+05:23.040 --> 05:32.040 Text: Sir, level 300 available with the Nagpur
+05:32.040 --> 05:37.040 Text: Changing of approach
+05:37.040 --> 05:53.040 Text: PILOT1- Cleared to land RWY25R, PILOT2- Cleared to land RWY25R, PILOT1
+05:53.040 --> 06:05.140 Text: PILOT9905-12375-FLY, PILOT905
+06:05.140 --> 06:08.080 Text: Calling contact 123.75, fly 905
+06:35.140 --> 06:45.860 Text: Indore AFW with Ahmedabad passing level 145, 25 miles out
+06:45.860 --> 06:52.860 Text: Over to Ahmedabad, good day, I fly over 5905, thanks.
+06:52.860 --> 07:18.060 Text: Flight level 111 and 13 DME outbound.
+07:22.860 --> 07:28.860 Text: Call you in 2 min with Nagpur, I fly 511
+07:38.860 --> 07:42.860 Text: Yes, 2 min with Nagpur sir, and we have 160 in the outbound
+07:42.860 --> 07:49.860 Text: Yeah, bye sir, Alpha 511

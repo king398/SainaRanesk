@@ -1,0 +1,8 @@
+00:00.000 --> 00:00.500 Text: Over
+00:04.000 --> 00:06.000 Text: I have to see this in the TV
+00:06.000 --> 00:08.000 Text: I don't remember anything
+00:08.000 --> 00:10.000 Text: Look at the photo
+00:10.000 --> 00:12.000 Text: They are reading the news
+00:12.000 --> 00:14.000 Text: Someone has come
+00:16.000 --> 00:18.000 Text: This is heavy
+00:18.000 --> 00:28.000 Text: Thanks for watching.

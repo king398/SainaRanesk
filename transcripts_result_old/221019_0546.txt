@@ -1,0 +1,113 @@
+00:00.000 --> 00:15.000 Text: All stations, Kilo Lima Mike 1, report signal over.
+00:30.000 --> 00:32.000 Text: Okay, over.
+00:36.000 --> 00:40.000 Text: Kilo Lima, Mike One, okay, over.
+00:52.000 --> 00:56.000 Text: All stations, Kilo Lima, Mike One, okay.
+00:56.000 --> 00:59.000 Text: Report signal is 10. Over.
+01:03.000 --> 01:07.000 Text: Kilo lima mike 1. OK. Over.
+01:13.000 --> 01:21.000 Text: Kilo lima mike 2. Kilo lima mike 3. 10. 3. Over.
+01:21.000 --> 01:38.320 Text: All stations, Kilo Lima Mike 1, Roger, out.
+01:51.000 --> 02:20.000 Text: KiloLima Mic 1 and KiloLima Mic 2 long and short wave.
+02:21.000 --> 02:28.000 Text: Kilo Lima Mic 1, message over.
+02:28.000 --> 02:32.000 Text: Kilo Lima Mic 1, wait.
+02:32.000 --> 02:37.000 Text: OK, over.
+02:37.000 --> 02:44.000 Text: Kilo Lima Mic 2, OK, over.
+02:44.000 --> 02:49.000 Text: Kilo Lima Mike 1 and Kilo Lima Mike 2.
+02:51.000 --> 02:56.000 Text: Infantry or Anti-Tank.
+02:56.000 --> 03:02.000 Text: With the help of the gang, the enemy's tank,
+03:02.000 --> 03:14.000 Text: Jungle, figure, six, seven, four, two, one, zero.
+03:14.000 --> 03:20.000 Text: I am showing, Roger, over.
+03:50.000 --> 03:57.000 Text: Kilo Lima Mike 1, Satruke tank over.
+03:59.000 --> 04:04.000 Text: Kilo Lima Mike 1, Roja over.
+04:04.000 --> 04:11.000 Text: Kilo Lima Mike 2, OK, over.
+04:20.000 --> 04:24.000 Text: Kilo Lima Mike 1 and Kilo Lima Mike 2,
+04:24.000 --> 04:30.000 Text: There is no hope of an attack from that direction.
+04:30.000 --> 04:37.000 Text: Tiger, call sign Lima Mike November.
+04:37.000 --> 04:44.000 Text: And Tiger, call sign Juliet Yankee Mike,
+04:44.000 --> 04:50.000 Text: tell them to prepare the plan first.
+05:20.000 --> 05:27.000 Text: over. Delta 1 and Delta 2, long message over.
+05:50.000 --> 05:53.000 Text: Delta 1, wait.
+05:57.000 --> 05:59.000 Text: Okay, over.
+06:04.000 --> 06:07.000 Text: Delta 2, okay, over.
+06:11.000 --> 06:14.000 Text: Delta 1 and Delta 2,
+06:14.000 --> 06:17.500 Text: Your one one Recky Petal.
+06:17.500 --> 06:20.500 Text: Area full take-re.
+06:20.500 --> 06:29.500 Text: Golf from you, six, seven, two, three, one, five.
+06:29.500 --> 06:31.500 Text: Perch Jaegi.
+06:31.500 --> 06:33.500 Text: Roger so far over.
+06:33.500 --> 06:40.500 Text: Here's Cal-Mart, Roger, over.
+06:40.500 --> 07:09.500 Text: Delta 4 for Delta 3, pull Barbad over.
+07:09.500 --> 07:11.500 Text: over
+07:19.900 --> 07:21.900 Text: Delta one and delta two
+07:24.540 --> 07:27.100 Text: Official figure one
+07:29.420 --> 07:33.660 Text: Figure one or figure ten
+07:33.660 --> 07:38.660 Text: Oscar Romeo
+07:38.660 --> 07:40.660 Text: Roger Schoffer over
+07:42.660 --> 07:45.660 Text: Delta 1, Roger over
+07:50.660 --> 07:53.660 Text: Delta 2, Roger over
+07:56.660 --> 07:59.660 Text: Delta 1 and Delta 2
+07:59.660 --> 08:15.660 Text: The conference of this party is scheduled at 10.00 hours at the Bertline Headquarters.
+08:15.660 --> 08:20.660 Text: Tricycle leg over.
+08:23.660 --> 08:26.660 Text: Delta One, Roger all.
+08:56.660 --> 08:58.660 Text: Romeo 1, wait.
+09:01.360 --> 09:03.360 Text: OK, over.
+09:06.960 --> 09:08.960 Text: Romeo 1, OK, over.
+09:12.860 --> 09:17.860 Text: Romeo 1, this one, he take patrol.
+09:47.860 --> 09:49.860 Text: Take petrol.
+09:49.860 --> 09:51.860 Text: Area green.
+09:53.860 --> 09:55.860 Text: Man that is hat.
+09:56.860 --> 09:57.860 Text: Roja Sabharwal.
+10:01.860 --> 10:02.860 Text: Romeo 1.
+10:02.860 --> 10:03.860 Text: Roja Robar.
+10:06.860 --> 10:07.860 Text: Romeo 4.
+10:07.860 --> 10:08.860 Text: Roja Robar.
+10:10.860 --> 10:12.860 Text: Romeo 1 and Romeo 4.
+10:12.860 --> 10:19.860 Text: Romeo 1, Roger, out.
+10:19.860 --> 10:26.860 Text: Romeo 4, Roger, out.
+10:26.860 --> 10:29.860 Text: Throw me over, I'll have to throw them out.
+10:36.860 --> 10:39.860 Text: Bravo 2 for Bravo 2.
+10:39.860 --> 10:41.860 Text: Long live the President of the Republic.
+10:45.860 --> 10:48.860 Text: Bravo 2, throw me over.
+10:50.860 --> 10:54.860 Text: Bravo 2, the truth is dead.
+10:54.860 --> 10:55.860 Text: All.
+10:55.860 --> 10:56.860 Text: Headcounsel.
+10:57.860 --> 10:58.860 Text: General.
+10:58.860 --> 10:59.860 Text: Finger.
+11:00.860 --> 11:01.860 Text: Six.
+11:01.860 --> 11:02.860 Text: Seven.
+11:02.860 --> 11:03.860 Text: Four.
+11:04.860 --> 11:05.860 Text: Two.
+11:05.860 --> 11:06.860 Text: One.
+11:06.860 --> 11:07.860 Text: Zero.
+11:08.860 --> 11:09.860 Text: Men.
+11:09.860 --> 11:10.860 Text: The hill.
+11:10.860 --> 11:11.860 Text: Over a head.
+11:12.860 --> 11:13.860 Text: Roger, sir, over.
+11:17.860 --> 11:18.860 Text: Bravo two.
+11:19.860 --> 11:20.860 Text: Roger.
+11:20.860 --> 11:45.940 Text: Bravo 2, Roger out to you.
+11:45.940 --> 11:52.940 Text: Bravo 3, did you receive message from Bravo 2? Over.
+11:52.940 --> 11:56.940 Text: Bravo 3, yes, I was.
+12:04.940 --> 12:07.940 Text: Kilo 1, message over.
+12:07.940 --> 12:20.440 Text: Kilo one, nothing hurt, out to you. Kilo two, relay to kilo one, over.
+12:20.440 --> 12:26.600 Text: Kilo two, will go over.
+12:26.600 --> 12:34.100 Text: Kilo two, Moti, par, move karo, over.
+12:34.100 --> 12:41.100 Text: Kilo 2, Roger, wait, out to you.
+12:42.100 --> 12:52.100 Text: Kilo 2, for Kilo 1. Message from Kilo 2, move the motive 1. Over.
+12:52.100 --> 12:59.100 Text: Kilo one, roger, out.
+12:59.100 --> 13:06.100 Text: Kilo two, message, pass, over.
+13:06.100 --> 13:13.100 Text: Kilo two, roger, out.
+13:13.100 --> 13:20.100 Text: Bravo one, call Bravo one.
+13:20.100 --> 13:22.600 Text: Prabhuvan for Prabhuvan.
+13:22.800 --> 13:24.300 Text: That is one.
+13:31.180 --> 13:35.680 Text: Prabhuvan, nothing for, out to you.
+13:35.880 --> 13:38.220 Text: Prabhuvan for Prabhutri.
+13:38.420 --> 13:40.220 Text: Relationship of Prabhuvan.
+13:40.420 --> 13:42.020 Text: Go on, Master.
+13:42.020 --> 13:46.020 Text: Bravo 3, we'll go over.
+13:46.020 --> 13:55.020 Text: Bravo 1, Moti par pohch gaye, over.
+13:55.020 --> 14:03.020 Text: Bravo 3, Rojan out to you.
+14:03.020 --> 14:10.020 Text: Bravo 3, from Bravo 1, Moti par pohch gaye, over.
+14:10.020 --> 14:25.020 Text: Bravo 3, roger, out.
+14:25.020 --> 14:27.820 Text: Bravo 3 for Bravo 1.
+14:27.820 --> 14:31.940 Text: Masses pass, over.
+14:31.940 --> 14:33.940 Text: Bravo One, Roger, out.

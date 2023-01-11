@@ -1,0 +1,14 @@
+00:00.000 --> 00:08.000 Text: Hello, ABC 1-4, ABC 1, message over.
+00:11.000 --> 00:14.000 Text: ABC 1, OK, over.
+00:16.000 --> 00:19.000 Text: ABC 2, OK, over.
+00:20.000 --> 00:23.000 Text: ABC 3, OK, over.
+00:23.000 --> 00:27.000 Text: Alpha Brahmochali 4, OK over.
+00:29.000 --> 00:32.000 Text: Alpha Brahmochali 1,
+00:33.000 --> 00:35.000 Text: My strength over.
+00:37.000 --> 00:40.000 Text: Alpha Brahmochali 1,
+00:41.000 --> 00:43.000 Text: Strength 2 over.
+00:44.000 --> 00:46.000 Text: Alpha Brahmochali 2,
+00:46.000 --> 00:51.000 Text: Strength 5 over.
+00:53.000 --> 00:58.000 Text: Alpha Bravo Charlie 3, Strength 4 over.
+00:59.000 --> 01:06.000 Text: Alpha Bravo Charlie 4, Strength 4 over.
+01:06.000 --> 01:13.000 Text: Alpha Bravo Charlie, 5, strength 5, over.

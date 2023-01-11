@@ -1,0 +1,60 @@
+00:30.000 --> 00:33.000 Text: Delta 2 over
+00:34.000 --> 00:36.000 Text: Delta 2 OK over
+00:41.000 --> 00:43.000 Text: Delta 2 OK over
+00:46.000 --> 00:53.000 Text: Delta 2, what is the first message that you have written in your radiolog?
+00:54.000 --> 00:58.000 Text: Delta 2, you tell first, we have not written anything, over
+00:58.000 --> 01:11.000 Text: All stations Delta for first message, we have written time 0930 hours, all stations from control and the message is all stations Delta report signals over
+01:12.000 --> 01:13.000 Text: Delta 2 roger out
+01:16.000 --> 01:18.000 Text: Delta 1 for Delta 1 over
+01:19.000 --> 01:20.000 Text: Delta 1 pass over
+01:21.000 --> 01:25.000 Text: Delta 1, we also have written the same, over
+01:25.000 --> 01:31.000 Text: Delta 2, don't call me now, over
+01:38.000 --> 01:40.000 Text: Kulshan
+01:43.000 --> 01:45.000 Text: Arnia
+01:45.000 --> 01:57.400 Text: Delta 2, Lata, I say again Lata, now out
+01:57.400 --> 02:10.680 Text: Delta 2 for Delta 2, over
+02:10.680 --> 02:13.160 Text: Delta 2, pass message over
+02:13.160 --> 02:23.160 Text: Delta 2, please tell the time to from even text for radio log, over.
+02:25.160 --> 02:31.160 Text: Delta 2, do you want time to from and text of each and everything till what we have communicated, over.
+02:32.160 --> 02:36.160 Text: Delta 2, yes, over.
+02:36.160 --> 02:48.160 Text: Delta 2, first 0930 hours is the time to all station from control, text all station Delta, report signal over
+02:48.160 --> 02:51.160 Text: Delta 1, drop me a signal
+02:51.160 --> 02:56.160 Text: Delta 1 for Delta 1, correct
+02:56.160 --> 03:11.540 Text: Next we have written time figure 1000 hours to all stations from control.
+03:11.540 --> 03:13.540 Text: Roger so far.
+03:13.540 --> 03:18.020 Text: Delta 2 Roger over.
+03:18.020 --> 03:31.020 Text: Delta 1, we have written Lata, I say again Lata in the text column, over.
+03:31.020 --> 03:35.020 Text: Delta 2 for Delta 1, over.
+04:05.020 --> 04:09.260 Text: because it is around half an hour and we were given only 10 minutes to set up our netting
+04:09.260 --> 04:10.260 Text: cones.
+04:10.260 --> 04:14.220 Text: So once I ask, so once we have written all station delta reports and all over, then the
+04:14.220 --> 04:19.140 Text: next time should be 0940 hours, wherein all stations says to delta, all station delta
+04:19.140 --> 04:20.700 Text: report signals send over.
+04:20.700 --> 04:21.700 Text: Roger over.
+04:21.700 --> 04:23.700 Text: Roger over
+06:21.700 --> 06:23.700 Text: Delta 2 say again over
+06:23.700 --> 06:25.700 Text: Delta 2 say again over
+06:25.700 --> 06:27.700 Text: Delta 2 say again over
+06:27.700 --> 06:30.900 Text: Delta 2 say again over
+06:30.900 --> 06:32.900 Text: Delta 2 say again over
+07:00.900 --> 07:05.900 Text: There is a lot of noise.
+07:05.900 --> 07:10.900 Text: I will try to shoot a video.
+07:10.900 --> 07:15.900 Text: I will try to shoot a video.
+07:15.900 --> 07:20.900 Text: I will try to shoot a video.
+07:20.900 --> 07:25.900 Text: I will try to shoot a video.
+07:55.900 --> 08:00.900 Text: This is the end of this video.
+08:00.900 --> 08:05.900 Text: Thank you for watching.
+09:35.900 --> 09:40.900 Text: There is a lot of noise.
+09:40.900 --> 09:45.900 Text: I'm going to turn it down a little.
+09:45.900 --> 09:50.900 Text: I'm going to turn it up a little.
+09:50.900 --> 09:55.900 Text: I'm going to turn it down a little.
+09:55.900 --> 10:00.900 Text: I'm going to turn it up a little.
+10:30.900 --> 10:32.900 Text: Delta 1, pass me the...
+10:33.600 --> 10:36.900 Text: Delta 1, are you in communication with Delta 2? Over
+10:43.400 --> 10:45.400 Text: Delta 1, no, over
+10:45.400 --> 10:47.000 Text: Delta 2 for Delta 2 over
+10:52.000 --> 10:53.200 Text: Delta 1 Roger out
+11:01.920 --> 11:03.520 Text: Delta 2 for Delta 2 over
+11:07.640 --> 11:09.240 Text: Delta 2 for Delta 1 over
+11:09.240 --> 11:16.240 Text: Delta 2 for Delta 2, over
+11:16.240 --> 11:18.240 Text: Delta 2 pass message over

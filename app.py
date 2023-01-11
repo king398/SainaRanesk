@@ -7,7 +7,7 @@ service_streamer.service_streamer.WORKER_TIMEOUT = 7200
 model = load_model()
 transcribe_fn = request_transcribe(model)
 app = Flask(__name__)
-streamer = ThreadedStreamer(transcribe_fn.transcribe, batch_size=32, max_latency=0.5)
+streamer = ThreadedStreamer(transcribe_fn.transcribe, batch_size=8, max_latency=0.1)
 
 
 @app.route('/')

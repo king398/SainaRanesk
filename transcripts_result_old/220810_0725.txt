@@ -1,0 +1,154 @@
+00:30.000 --> 00:32.000 Text: How much time it is running?
+00:38.000 --> 00:40.000 Text: 7 hours 40 minutes
+00:40.000 --> 00:42.000 Text: 4 hours and 30 minutes
+00:42.000 --> 00:44.000 Text: 5 hours and 45 minutes
+00:44.000 --> 00:46.000 Text: 4 hours and 45 minutes
+00:46.000 --> 00:48.000 Text: Is there any other motor running?
+00:48.000 --> 00:50.000 Text: No
+00:50.000 --> 00:52.000 Text: Is there any other motor running?
+00:52.000 --> 00:54.000 Text: We have to do transmission in this
+00:54.000 --> 00:56.000 Text: We have to do transmission in this
+00:56.000 --> 00:58.000 Text: Yes, we have to do transmission in this
+01:28.000 --> 01:32.000 Text: Lima Papa Romeo 2, left the airborne
+01:34.000 --> 01:37.000 Text: Lima Papa Romeo 2, off the path of earth
+01:39.000 --> 01:45.000 Text: Lima Papa Romeo 2, Blossoms, I said
+01:45.000 --> 01:50.000 Text: Mike, Blossoms, Sira, Golf,
+01:50.000 --> 02:19.000 Text: From Loin, Blossom, Blossom, Icel, Bravo, Blossom, and Blossom, Charlie, Blossom, Icel, Charlie, Oscar, Yankee, 2, 3, Procedures of Aerobatics
+02:20.000 --> 02:28.000 Text: Lima Papa Romeo 1, say again over
+04:28.000 --> 04:30.000 Text: It will be cut
+04:36.000 --> 04:38.000 Text: This one also will be cut
+04:38.000 --> 04:40.000 Text: Sir, it will be cut in two
+04:40.000 --> 04:42.000 Text: No, no, if you want to cut in one
+04:42.000 --> 04:44.000 Text: If you want to cut in one, it will be cut in all
+04:44.000 --> 04:46.000 Text: No problem
+05:46.000 --> 05:54.000 Text: Puma Bapa Romeo 1, how do you communicate with Puma Baba Romeo 2, request for over?
+05:55.000 --> 05:59.000 Text: Puma Baba Romeo 2, no over
+07:59.000 --> 08:05.000 Text: Sir, I can't communicate with you, please pass me the rope. I'll load it.
+08:35.000 --> 08:39.640 Text: Kilo Romeo Tango 1 and Kilo Romeo Tango 2
+08:39.640 --> 08:40.640 Text: Over
+08:40.640 --> 08:41.640 Text: Blocked car
+08:41.640 --> 08:42.640 Text: I sell
+08:42.640 --> 08:43.640 Text: Papa
+08:43.640 --> 08:44.640 Text: Tango
+08:44.640 --> 08:45.640 Text: Lima
+08:45.640 --> 08:46.640 Text: Party
+08:46.640 --> 08:47.640 Text: Over
+08:47.640 --> 08:49.640 Text: Tactic Over
+10:19.640 --> 10:24.640 Text: PILOT1-5P Romeo 1, message over.
+10:28.640 --> 10:34.640 Text: PILOT2-5P Romeo 1, PILOT1-5P Romeo 1, roger.
+11:04.640 --> 11:06.640 Text: for all stations.
+11:07.640 --> 11:08.640 Text: Blocks on.
+11:08.640 --> 11:13.640 Text: I spell Alpha-Sigma-Sigma.
+11:13.640 --> 11:14.640 Text: Blocks off.
+11:15.640 --> 11:16.640 Text: Blocks on.
+11:16.640 --> 11:19.640 Text: Romeo-Oscar-Papa.
+11:19.640 --> 11:21.640 Text: Blocks off.
+11:21.640 --> 11:22.640 Text: Party.
+11:23.640 --> 11:24.640 Text: Deploy.
+11:24.640 --> 11:25.640 Text: By.
+11:26.640 --> 11:27.640 Text: Time figure.
+11:28.640 --> 11:29.640 Text: Zero-Eight.
+11:29.640 --> 11:30.640 Text: Zero-Zero.
+11:30.640 --> 11:31.640 Text: Hours.
+11:32.640 --> 11:33.640 Text: On.
+11:33.640 --> 11:37.640 Text: Respective area, over
+12:07.640 --> 12:19.240 Text: LF-RF for all stations, blocks on, I still, AL-LF, blocks off, blocks on,
+12:19.240 --> 12:39.240 Text: Romeo Oscar Papa, blocks of party deployed by 0800 Hotel on respective area.
+13:09.240 --> 13:37.240 Text: Kilo Papa Romeo 5 for all station. All ROP party deploy by time figure 0800 hours on respective area. Full stop. Over.
+14:09.240 --> 14:11.240 Text: Papa, blocks off.
+14:13.240 --> 14:17.240 Text: Party, deploy, bye.
+14:20.240 --> 14:30.240 Text: Figure, 0800, I still hotel.
+14:30.240 --> 14:40.240 Text: On respective area full stop. Over.
+15:00.240 --> 15:07.240 Text: Payahu 4176, Payahu 4176, OK over.
+15:11.240 --> 15:20.240 Text: Lima Papa Romeo Payahu 4176, Lima Papa Romeo 1, message over.
+15:20.240 --> 15:30.240 Text: PILOT 1-5-5 Romeo 1, PILOT 1
+15:30.240 --> 15:40.240 Text: PILOT 1-5-5 Romeo 1, PILOT 1
+15:40.240 --> 15:45.240 Text: LR54 call station, LR51
+15:46.240 --> 15:47.240 Text: Roger
+15:48.240 --> 15:53.240 Text: LR54, LR54, 5, OK, forward
+16:23.240 --> 16:52.240 Text: Blocks on high speed, Alpha, blocks off, Uniform, Tango, Hotel, Oscar, Romeo, India, Chullu, Tico, Delta, Movement, off, Civil, High speed, Victor, Tico, Hotel,
+16:53.240 --> 17:17.240 Text: Icepel, Ipko, Sera, Tango, Rockshore, Icepel, Mike, Charlie, Papa, At, Leper, Bravo, Charlie, Delta,
+17:17.240 --> 17:23.240 Text: Roktot, Kol, Romeo, full stop, over
+17:29.240 --> 17:31.240 Text: Lima Papa, Romeo, what?
+17:31.240 --> 17:33.240 Text: Lima Papa, Romeo, fine
+18:33.240 --> 18:53.240 Text: of Uniform Tango Hotel, Baskar Romeo, India, Jullu-Ticco Delta, moment of civil isle, Victor
+18:53.240 --> 19:22.240 Text: Echo Hotel, I still, Echo Sierra Tango, Luxor I still, Mike Charlie Papa, at, later, Bravo Charlie Delta, Foxtrot 12 Romeo, full stop, over.
+19:53.240 --> 19:58.240 Text: LPM 3 for LPM 95, OK over.
+20:05.240 --> 20:11.240 Text: LPM 5 for all stations, LPM 1,
+20:11.240 --> 20:20.240 Text: We are at time figure 1800
+20:20.240 --> 20:28.240 Text: Blocks on I-spail, November Alpha, Zima Alpha
+20:28.240 --> 20:33.240 Text: I-spail, Juliet November, 4
+20:33.240 --> 20:38.240 Text: Ambush, Laga, Ray, 6
+20:38.240 --> 20:44.240 Text: 1, blocks on high scale, Papa Lima
+20:47.240 --> 20:59.240 Text: Blocks off, bridge K, second side C, full stop, over
+21:00.240 --> 21:01.240 Text: 31 minutes over
+21:31.240 --> 21:34.240 Text: 1. Blocks on Nala
+21:34.240 --> 21:37.240 Text: 2. Blocks on Isfail
+21:37.240 --> 21:40.240 Text: 3. Juliet November
+21:40.240 --> 21:45.240 Text: 4. We are setting up an ambush
+21:45.240 --> 21:49.240 Text: 1. Blocks on Isfail
+21:49.240 --> 21:51.240 Text: 2. Papa Nima
+21:51.240 --> 21:57.240 Text: 3. Blocks on the other side of the bridge
+21:57.240 --> 22:02.240 Text: We will put full stop. Over.
+23:32.240 --> 23:35.680 Text: Lima Papa Romeo 5, OK, OK over.
+23:42.160 --> 23:47.520 Text: Lima Papa Romeo 3 for all stations, Lima Papa Romeo 3.
+23:48.680 --> 23:50.680 Text: Take left approach.
+23:50.680 --> 23:53.680 Text: This is Karna.
+23:54.680 --> 23:56.680 Text: Cris... either one...
+23:57.680 --> 23:58.680 Text: ... Doctor...
+23:58.880 --> 23:59.680 Text: ... Icefield...
+23:59.880 --> 24:00.680 Text: ... unit...
+24:00.880 --> 24:02.680 Text: ... Charlie, Oscar...
+24:02.880 --> 24:03.680 Text: ... Doctor...
+24:04.680 --> 24:05.680 Text: ... Cris...
+24:05.880 --> 24:06.680 Text: ... four...
+24:06.880 --> 24:07.680 Text: ... Doctor...
+24:07.880 --> 24:09.680 Text: ... Icefield...
+24:09.880 --> 24:11.680 Text: ... Oscar, Romeo...
+24:12.680 --> 24:14.680 Text: ... only...
+24:14.880 --> 24:16.680 Text: ... it's up.
+24:16.680 --> 24:18.680 Text: Roger, over.
+24:23.680 --> 24:26.680 Text: Lima Papa Romeo 5, roger, over.
+24:30.680 --> 24:36.680 Text: Lima Papa Romeo 3, after full stop, lock down,
+27:06.680 --> 27:16.680 Text: Juliet, Charlie, Oscar, comma, course, Oscar Romeo, OK
+27:19.680 --> 27:21.680 Text: Roger, say again
+28:21.680 --> 28:23.680 Text: We have to go to the bus stop.
+28:23.680 --> 28:25.680 Text: There is no driver.
+28:25.680 --> 28:27.680 Text: We have to leave the bus and go.
+28:27.680 --> 28:29.680 Text: You have to go to the bus stop.
+28:29.680 --> 28:31.680 Text: We have not brought the water bottle.
+28:31.680 --> 28:33.680 Text: No, no.
+28:33.680 --> 28:35.680 Text: Lima Papa Romeo 5U
+28:35.680 --> 28:37.680 Text: Lima Papa Romeo 5U
+28:37.680 --> 28:39.680 Text: Message Over
+28:39.680 --> 28:41.680 Text: No, no.
+28:41.680 --> 28:43.680 Text: We have to leave the car and go.
+28:47.680 --> 28:49.680 Text: All station.
+28:49.680 --> 28:51.680 Text: Simno Simno Papa Romeo 1, Manage over.
+28:53.680 --> 28:55.680 Text: Simno Simno Papa Romeo 1, Manage over.
+29:03.680 --> 29:09.680 Text: All stations, Simno Papa Romeo 1, Simno Simno Papa Romeo 1, Manage over.
+29:09.680 --> 29:11.680 Text: We are going to the other side.
+29:11.680 --> 29:13.680 Text: Is there a hole there?
+29:13.680 --> 29:15.680 Text: Yes.
+29:15.680 --> 29:17.680 Text: It's a hole.
+29:17.680 --> 29:19.680 Text: It's a hole.
+29:19.680 --> 29:21.680 Text: Lima Papa Romeo 1, Lima Papa Romeo 1,
+29:21.680 --> 29:23.680 Text: Nasa Jor.
+29:23.680 --> 29:25.680 Text: It's a hole.
+29:25.680 --> 29:27.680 Text: It's a hole.
+29:33.680 --> 29:35.680 Text: It's a hole.
+29:35.680 --> 29:37.680 Text: It's a hole.
+30:07.680 --> 30:14.680 Text: Limapapa Romeo 1, 1 OK.
+30:14.680 --> 30:17.680 Text: Call station Limapapa Romeo 1, over.
+31:17.680 --> 31:18.180 Text: Sir
+31:18.980 --> 31:19.480 Text: Sir
+31:23.280 --> 31:24.320 Text: How much time left?
+31:24.880 --> 31:25.380 Text: Now?
+31:25.380 --> 31:26.880 Text: Yes, how much time left?
+31:26.880 --> 31:27.880 Text: 55 minutes
+31:27.880 --> 31:29.380 Text: 55 minutes left
+31:31.880 --> 31:37.080 Text: Lima Papa Romeo 5 for call station Lima Papa Romeo 1
+31:37.780 --> 31:40.280 Text: Let's go, I say again, let's go, over
+31:42.380 --> 31:42.880 Text: Okay, sir
+31:45.080 --> 31:45.580 Text: Okay, sir
+32:15.580 --> 32:32.580 Text: For all stations, Hima Bappa Romeo 1, Chalo, now, out.

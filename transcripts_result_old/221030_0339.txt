@@ -1,0 +1,3 @@
+00:30.000 --> 00:40.400 Text: Subang Tower, QNH 1025, Amdabad on a radial of 250, India India Delta, we are 77 DME inbound
+00:40.400 --> 00:51.040 Text: N177F-RWY10, N177F-RWY10, call you at FL400, may I fly it for free?
+01:51.040 --> 02:05.040 Text: PILOT-1- Descend 4000ft QNH 1014, Transition 60, IAF FL843

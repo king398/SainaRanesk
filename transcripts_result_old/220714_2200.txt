@@ -1,0 +1,53 @@
+01:00.000 --> 01:01.000 Text: Forward.
+01:06.000 --> 01:08.000 Text: Handle your exhaust gas.
+01:08.000 --> 01:09.000 Text: Bigger.
+01:09.000 --> 01:10.000 Text: Forward.
+02:10.000 --> 02:21.000 Text: All stations DELTA, Raja, I say again, Raja now, over
+02:21.000 --> 02:22.000 Text: Alpha Juliet X-ray, over
+02:34.000 --> 02:37.000 Text: All stations Delta, Raja
+02:37.000 --> 02:41.000 Text: I say again, all stations DELTA, Raja, now, over
+02:53.000 --> 02:56.000 Text: DELTA 1 for DELTA 1, message, over
+02:57.000 --> 02:59.000 Text: DELTA 1, pass over
+02:59.000 --> 03:11.000 Text: Delta 1 for Lata, you have to specify the timing, over
+03:29.000 --> 03:30.000 Text: One.
+03:32.000 --> 03:34.000 Text: Head down, head down.
+03:35.000 --> 03:38.000 Text: Ignition, trigger, pull, over.
+03:42.000 --> 03:44.000 Text: One, one, two, one, one, two.
+03:44.000 --> 03:47.000 Text: Ignition, trigger, pull, over.
+03:47.000 --> 03:48.000 Text: Forward.
+03:53.000 --> 03:54.000 Text: Head down.
+03:54.000 --> 03:55.000 Text: Head back.
+03:55.000 --> 03:56.000 Text: Forward.
+04:07.000 --> 04:08.000 Text: Head forward. Head forward.
+04:08.000 --> 04:09.000 Text: Take a break.
+04:09.000 --> 04:10.000 Text: Take a break.
+04:11.000 --> 04:12.000 Text: One.
+04:12.000 --> 04:13.000 Text: Zero. Zero.
+04:13.000 --> 04:13.500 Text: 0
+04:14.000 --> 04:14.500 Text: 0
+04:15.000 --> 04:15.500 Text: 4
+04:15.500 --> 04:16.000 Text: 4
+04:20.500 --> 04:25.500 Text: Alpha 1, say again after 0, 4 minutes
+04:29.500 --> 04:38.000 Text: Alpha 1, I say again 0, 1, 0, 0, 4, 4, 4
+04:38.000 --> 04:45.000 Text: Delta 1 over.
+04:45.000 --> 04:52.000 Text: I say again, figure 1-0-0-5 over.
+04:52.000 --> 05:07.000 Text: Delta 1 over
+05:07.000 --> 05:12.000 Text: Delta 1, park marriage over
+05:12.000 --> 05:25.000 Text: Delta 1, while using the code word Lata, do we also have to express the minutes for we
+05:25.000 --> 05:28.000 Text: have gone through the radio silence?
+05:28.000 --> 05:29.000 Text: Over.
+05:29.000 --> 05:36.000 Text: Yes, when you use the code word for Lata, you specify the time so that the other stations
+05:36.000 --> 05:40.000 Text: are aware after what time they have to come back online.
+05:40.000 --> 05:47.000 Text: Delta 1, how are we supposed to say it in RT? Over.
+05:53.000 --> 06:03.000 Text: Delta 1, Lata. I repeat, I say again, Lata for 2 minutes. Over.
+06:03.000 --> 06:14.340 Text: Delta 1, I suppose it would be All Station Delta Lata, ICAG and Lata, for figures 05 minutes, over
+06:14.340 --> 06:18.600 Text: Delta 1, affirmative, over
+06:48.600 --> 07:06.600 Text: All stations, Delta
+07:06.600 --> 07:10.600 Text: Delta 1, OK over
+07:10.600 --> 07:13.600 Text: Delta 2, OK over
+07:13.600 --> 07:17.600 Text: Roger out, over
+07:47.600 --> 07:54.600 Text: Delta 2, I have called you many times, please answer to my call, over
+07:55.600 --> 07:56.600 Text: Ok, over
+07:57.600 --> 08:02.600 Text: Delta 2, how do we feel, radio log, how are you writing messages, over
+08:04.600 --> 08:15.600 Text: Delta 2, in times we have written 0930 hours, in tour we have written all station, in from we have written control and the first line is all station, Delta, report signal, over
+08:15.600 --> 08:17.600 Text: Delta 2 roger out

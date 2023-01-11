@@ -1,0 +1,5 @@
+00:00.000 --> 00:04.000 Text: I hope we're going to have some artificial intelligence.
+00:04.000 --> 00:07.000 Text: Artificial intelligence versus natural intelligence.
+00:07.000 --> 00:10.000 Text: Because human being is part of nature.
+00:10.000 --> 00:13.000 Text: You know that human being is not the same thing.
+00:13.000 --> 00:17.000 Text: But human being is integral to nature.

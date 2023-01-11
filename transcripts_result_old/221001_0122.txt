@@ -1,0 +1,23 @@
+00:00.000 --> 00:03.000 Text: ATC, roger, go ahead.
+00:18.000 --> 00:20.000 Text: ATC, roger, go ahead.
+00:20.000 --> 00:24.000 Text: I don't like this.
+00:24.000 --> 00:28.000 Text: I don't know what I'm doing.
+00:28.000 --> 00:32.000 Text: I'm just trying to get in.
+00:32.000 --> 00:36.000 Text: I'm trying to get in.
+00:36.000 --> 00:40.000 Text: I'm trying to get in.
+00:40.000 --> 00:44.000 Text: I'm trying to get in.
+00:44.000 --> 00:48.000 Text: I'm trying to get in.
+03:18.000 --> 03:25.000 Text: Alpha 1 Mike Matlab Motorola Motorola Praja over
+04:18.000 --> 04:39.000 Text: Sir, Sir, Prashant, Suresh Sir has come.
+04:39.000 --> 04:40.000 Text: What?
+04:40.000 --> 04:41.000 Text: Suresh Sir has come.
+04:41.000 --> 04:42.000 Text: What?
+04:42.000 --> 04:44.000 Text: Suresh Sir has come for briefing.
+04:44.000 --> 04:46.000 Text: Is he coming here?
+04:46.000 --> 04:47.000 Text: This is for the inside.
+04:47.000 --> 04:49.000 Text: It's not coming, sir. It'll come in LSB.
+04:49.000 --> 04:50.000 Text: LSB is running.
+04:50.000 --> 04:51.000 Text: 2527.
+04:51.000 --> 04:54.000 Text: But it's not coming here. We'll record it from there.
+04:54.000 --> 04:57.000 Text: It was coming here earlier. We'll tell you.
+04:57.000 --> 04:58.000 Text: We'll have to make a message.

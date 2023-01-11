@@ -1,0 +1,12 @@
+00:00.000 --> 00:02.160 Text: Delta 1, why we are Delta?
+00:03.040 --> 00:05.360 Text: Correction, why we are Delta and not Bravo?
+00:05.920 --> 00:06.420 Text: Over.
+00:07.440 --> 00:08.640 Text: Delta 2, okay, over.
+00:10.880 --> 00:11.600 Text: Delta 2.
+00:16.400 --> 00:19.280 Text: Delta 2, we are in communication with Dave.
+00:19.840 --> 00:21.120 Text: That's why we are Delta.
+00:21.440 --> 00:26.560 Text: When Brigade to Dave or Dave to Brigade, then it's Delta.
+00:26.560 --> 00:31.120 Text: and when Brigade to Battalion or Battalion to Brigade then it's Bravo
+00:33.600 --> 00:34.100 Text: over
+00:34.100 --> 00:37.100 Text: Delta 2, OK, over.
+01:04.100 --> 01:11.100 Text: Delta 1, pass message over.

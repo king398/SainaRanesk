@@ -73,13 +73,18 @@ def transcribe(path, model):
 
 def preprocess_files(paths):
     paths_to_save = []
+    wav_paths = []
     for i, path_raw in enumerate(paths):
         path_raw.save(path_raw.filename)
+        data, samplerate = librosa.load(path_raw.filename, sr=16000)
+        path_raw = path_raw.split('.')[0]
+        sf.write(f"{path_raw}.wav", data, samplerate)
+        paths_to_save.append(f"{path_raw}.wav")
 
-        paths_to_save.append(path_raw.filename)
+        wav_paths.append(f"{path_raw}.wav")
         print(f"Saved {path_raw.filename}")
 
-    return paths_to_save
+    return paths_to_save, wav_paths
 
 
 class request_transcribe:
@@ -88,9 +93,9 @@ class request_transcribe:
 
     def transcribe(self, paths):
         text_final = []
-        paths = preprocess_files(paths)
+        paths, wav_paths = preprocess_files(paths)
 
-        result = self.model.transcribe(paths, task='translate', verbose=True, no_speech_threshold=0.25,
+        result = self.model.transcribe(wav_paths, task='translate', verbose=True, no_speech_threshold=0.25,
                                        condition_on_previous_text=False, )
         for i, path in enumerate(paths):
             print(i)
@@ -109,6 +114,7 @@ class request_transcribe:
             print(f"Transcription complete. Saved it to {text_file} ")
             # delete path and audio.wav
             os.remove(path)
+            os.remove(wav_paths[i])
             text_final.append(formatted_text)
 
         return text_final

@@ -1,0 +1,66 @@
+00:00.000 --> 00:01.200 Text: Subject to take off
+00:10.760 --> 00:16.200 Text: Radial 180, 4 miles, India Delta, VLT, Alpha
+00:16.640 --> 00:18.000 Text: Confirm 180 Radial
+00:19.600 --> 00:23.040 Text: Correction Sir, 165, 3 miles, VLT, Alpha
+00:23.440 --> 00:26.880 Text: Maintain 5000 feet, report leaving, India Delta
+00:26.880 --> 00:32.000 Text: We will call you leaving India India Delta, maintain 5000 feet, we'll take Alpha
+00:39.280 --> 00:42.080 Text: Please, descend from Hotel, above Opel Lima
+00:42.080 --> 00:47.680 Text: Affirm, direct track above Opel Lima, maintain 4000 feet, reaching ILS 617 and starting back for higher
+00:47.680 --> 00:51.360 Text: Roger, stand by, report 10,000, 10 miles out
+00:51.360 --> 00:54.860 Text: Roger, call you 10 miles out, light day, 617
+01:02.860 --> 01:05.360 Text: And leaving overhead now, good day
+01:05.860 --> 01:07.860 Text: Mr Yankee Alpha, roger
+01:08.360 --> 01:10.360 Text: Report 2 miles outbound
+01:10.360 --> 01:14.120 Text: We'll report 2 miles outbound with tank Alpha
+01:25.000 --> 01:26.760 Text: With tank Alpha 2 miles out
+01:26.760 --> 01:32.760 Text: With tank Alpha descend to 4000ft, cleared VORDME approach runway 07
+01:32.760 --> 01:36.920 Text: Descend 4000ft, cleared VORDME approach runway 07 with tank Alpha
+01:36.920 --> 01:39.720 Text: Alhaif 617, climb to FL170
+01:39.720 --> 01:43.220 Text: Climb FL170, light 617, we have 10DME out now
+01:50.060 --> 01:52.860 Text: Sir, Yank Alpha, report final approach fixed, RWY07
+01:53.420 --> 01:55.460 Text: Call you final approach fixed, Yank Alpha
+01:55.460 --> 01:57.460 Text: N617, contact Bhopal, I'll be there in a minute
+02:02.460 --> 02:06.460 Text: Bhopal, N905, taxi to holding point RWY25 via D, Next Flag
+02:16.460 --> 02:19.460 Text: N617, in touch, changing over to NAPRA Approach, good day
+02:20.460 --> 02:22.460 Text: Changing over NAPRA, N617, correction, in touch
+03:22.460 --> 03:29.460 Text: ATC Chatterjee, Subang Tower, Sunset runway 25R, cleared for takeoff, RWY25R, Sunset, FL320, ATC Chatterjee
+03:39.460 --> 03:42.460 Text: Subang Tower, Sunset runway 25R, Sunset, FL320, ATC Chatterjee
+05:12.460 --> 05:14.460 Text: NAB, 123.75
+05:18.860 --> 05:21.860 Text: Level 125 now, climbing level 240
+05:22.460 --> 05:27.460 Text: Roger, report in front, NAB 123.75
+05:27.860 --> 05:31.860 Text: Call you 2A, NAB 123.75, I fly 905, call you back
+05:31.860 --> 05:41.860 Text: N905, change your approach, good day
+05:41.860 --> 05:42.860 Text: Change your good day
+06:12.860 --> 06:14.860 Text: N7907T, hello
+06:14.860 --> 06:19.860 Text: Mr. Chalia, stay on the 07, cleared touch and go, wind 190 degrees, 07
+06:19.860 --> 06:21.860 Text: Cleared touch and go, Mr. Chalia
+06:26.860 --> 06:29.860 Text: Mr. Papa, contact taxi holding point on 06, sir
+06:59.860 --> 07:03.860 Text: PILOT1-2-6-1-4-0-A-1-5-6-5-9
+07:15.860 --> 07:19.860 Text: ATC-107 airborne 134 passing FL100
+07:19.860 --> 07:21.860 Text: ATC-107, you are cleared for FL107
+07:22.860 --> 07:25.860 Text: ATC-TALI-X-E-R-N-F-A-0-C-R-N
+08:25.860 --> 08:29.860 Text: Normal Navigation, report in contact with AMR 123.75
+08:30.660 --> 08:39.860 Text: Will call you in contact with AMR 123.75, confirm cleared for FL220, turn left and direct resume normal navigation, I fly 707
+08:39.860 --> 08:43.860 Text: I fly 707, and hop, climb FL220
+09:13.860 --> 09:17.860 Text: PIA707, call you when you are ready to depart
+09:21.860 --> 09:26.860 Text: Ahmedabad, you have cleared flight level 360, ETA destination Pune 0812
+09:26.860 --> 09:30.860 Text: I fly 707, I'll just be going to Ahmedabad approach, okay?
+09:30.860 --> 09:33.860 Text: Cleared to Ahmedabad, I fly 707, good day sir
+10:03.860 --> 10:07.860 Text: Pilot- VTU charge, over
+10:11.860 --> 10:14.860 Text: Pilot- VTU Delta and Chalo
+10:20.860 --> 10:22.860 Text: Pilot- Touch and go, 040
+10:23.860 --> 10:28.860 Text: Pilot- VTU Charlie H3, runway 07 cleared touch and go, wind 142 degrees 08 knots
+10:58.860 --> 11:10.860 Text: PILOT8202-008, 12 miles out, IDID, climb and passing level 84
+11:10.860 --> 11:14.860 Text: PILOT8202-008, call in contact, N123.9
+11:14.860 --> 11:18.860 Text: Call in contact, AF5003, correction, AF508
+11:24.860 --> 11:25.860 Text: With N4
+11:25.860 --> 11:29.700 Text: AF5008, cleared to land, runway 29 cleared to land
+11:29.700 --> 11:31.940 Text: Cleared to land, AF5008, QNH 100
+11:46.020 --> 11:50.500 Text: PAPAF, squawk RWY15R, climb to FL150, maintain 1525, bye
+12:20.500 --> 12:24.700 Text: I have 511 turning left
+12:26.700 --> 12:30.300 Text: full board on track I have 511
+12:38.700 --> 12:43.820 Text: level 87 10 miles out
+13:13.820 --> 13:15.820 Text: Subang Tower, Subang Base 107, report?
+13:18.820 --> 13:20.820 Text: Subang Base 107, report?
+13:21.820 --> 13:23.820 Text: Orbit left hand right on 107, request Charlie 14
+13:32.820 --> 13:34.820 Text: Subang Base 107, report?

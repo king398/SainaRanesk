@@ -1,0 +1,24 @@
+00:00.000 --> 00:02.000 Text: Delta 1 over
+00:03.200 --> 00:05.200 Text: Delta 1 pass message over
+00:07.600 --> 00:12.800 Text: Delta 1 you are passing some message, waiting over
+00:21.400 --> 00:24.400 Text: Delta 1 we are not passing any message over
+00:25.000 --> 00:26.000 Text: Roger out
+00:26.000 --> 00:31.000 Text: Delta 1, pass message over
+00:31.000 --> 00:39.000 Text: All station Delta, are we aware about all the code signs?
+00:39.000 --> 00:46.000 Text: Roger, over
+00:46.000 --> 00:53.000 Text: All station Delta, message over
+00:53.000 --> 00:53.500 Text: over
+00:55.500 --> 00:56.540 Text: Delta 1, ok over
+01:00.540 --> 01:09.540 Text: Station Delta, are we aware of, correction, are we aware of the code words for an instance, when is frequency 1 to be taken, frequency 2 to be taken and henceforth, over
+01:11.340 --> 01:13.100 Text: Roger, over, will go, over
+01:13.100 --> 01:29.100 Text: Delta 1, yes we are aware, over
+01:29.100 --> 01:33.100 Text: Delta 2, say again, over
+01:33.100 --> 01:38.100 Text: Delta 2, Delta 2, we are aware, over
+01:48.100 --> 01:50.100 Text: Delta 2, over
+01:51.100 --> 01:53.100 Text: Delta 2, OK, over
+01:55.100 --> 01:58.100 Text: Delta 2, there is an issue in your signal strength
+01:58.100 --> 01:59.100 Text: Delta 2, over.
+01:59.100 --> 02:00.100 Text: Delta 2, over.
+02:00.100 --> 02:01.100 Text: Delta 2, okay, wait.
+02:01.100 --> 02:03.780 Text: Delta 2482, Batch 05, over
+02:03.780 --> 02:12.280 Text: Delta 2, OK wait, over.
