@@ -19,10 +19,10 @@ def file_upload():
     if request.method == 'POST':
         f = request.files['file']
         f.save(f.filename)
-        text, transcript, = transcribe_old(f.filename,model)
+        text, transcript,language = transcribe_old(f.filename,model)
     # play audio file audio.wav
 
-    return render_template('result.html', text=transcript, results_text=text)
+    return render_template('result.html', text=transcript, results_text=text,language=language)
 
 
 @app.route('/transcribe', methods=['POST'])

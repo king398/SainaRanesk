@@ -72,6 +72,13 @@ def preprocess_files(paths):
 def transcribe_old(path, model):
     print(f"Transcribing... {path}")
     convert_to_wav(path)
+    audio = whisper.load_audio("audio.wav")
+    audio = whisper.pad_or_trim(audio)
+
+    # make log-Mel spectrogram and move to the same device as the model
+    mel = whisper.log_mel_spectrogram(audio,n_mels=128).to(model.device)
+    _, probs = model.detect_language(mel)
+    language = max(probs, key=probs.get)
 
     result = model.transcribe('audio.wav', task='translate', verbose=True, no_speech_threshold=0.25,
                               condition_on_previous_text=False, )
@@ -92,7 +99,7 @@ def transcribe_old(path, model):
     # delete path and audio.wav
     os.remove(path)
     os.remove('audio.wav')
-    return  formatted_text,text
+    return  formatted_text,text,language
 
 class request_transcribe:
     def __init__(self, model_whisper):
