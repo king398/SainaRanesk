@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:22.11-py3
+FROM nvcr.io/nvidia/pytorch:23.12-py3
 
 ENV TZ=Asia/Kolkata \
     DEBIAN_FRONTEND=noninteractive
@@ -16,6 +16,7 @@ RUN conda install git
 CMD nvidia-smi
 CMD ["bash"]
 RUN pip install -r requirements.txt
-RUN wget https://openaipublic.azureedge.net/main/whisper/models/e5b1a55b89c1367dacf97e3e19bfd829a01529dbfdeefa8caeb59b3f1b81dadb/large-v3.pt -P /app/models
-RUN curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc |   tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" |   tee /etc/apt/sources.list.d/ngrok.list &&   apt update &&   apt install ngrok
+RUN CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python
+RUN pip install flash-attn --no-build-isolation
+RUN pip install  transformers accelerate datasets[audio]
 #CMD python3 -m  flask run --host=0.0.0.0-
