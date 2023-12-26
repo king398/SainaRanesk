@@ -16,7 +16,6 @@ RUN conda install git
 CMD nvidia-smi
 CMD ["bash"]
 RUN pip install -r requirements.txt
-RUN CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python
 RUN pip install flash-attn --no-build-isolation
 RUN pip install  transformers accelerate datasets[audio]
 #CMD python3 -m  flask run --host=0.0.0.0-

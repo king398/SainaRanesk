@@ -22,7 +22,7 @@ def file_upload():
         text, transcript,language = transcribe_old(f.filename,model)
     # play audio file audio.wav
 
-    return render_template('result.html', text=transcript, results_text=text,language=language)
+    return render_template('result.html', text=transcript, results_text=text,)
 
 
 @app.route('/transcribe', methods=['POST'])
