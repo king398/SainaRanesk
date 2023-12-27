@@ -57,6 +57,16 @@ def split_audio(file_path, chunk_length_ms=30000, output_dir="chunks"):
         chunk.export(chunk_path, format="mp3")
         chunk_paths.append(chunk_path)
 
+    # Handle remaining part of the audio
+    remaining_length = len(audio) % chunk_length_ms
+    if remaining_length > 0:
+        chunk_start = chunk_count * chunk_length_ms
+        chunk = audio[chunk_start:]
+        chunk_file_name = f"{os.path.basename(file_path).split('.')[0]}_chunk{chunk_count}.mp3"
+        chunk_path = os.path.join(output_dir, chunk_file_name)
+        chunk.export(chunk_path, format="mp3")
+        chunk_paths.append(chunk_path)
+
     return chunk_paths
 
 
@@ -70,7 +80,8 @@ def transcribe(model, output_dir, file):
         with open(output_file_path, "w") as f:
             f.write(result["text"])
         print(f"Transcription complete. Saved it to {output_file_path}")
-        os.remove(chunk_path)
+        # move the chunk to the output directory
+        os.rename(chunk_path, f"{output_dir}/{os.path.basename(chunk_path)}")
 
 
 def process_directory(input_dir, output_dir, model):

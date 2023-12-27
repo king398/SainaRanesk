@@ -17,5 +17,5 @@ CMD nvidia-smi
 CMD ["bash"]
 RUN pip install -r requirements.txt
 RUN pip install flash-attn --no-build-isolation
-RUN pip install  transformers accelerate datasets[audio]
+RUN pip install  transformers accelerate datasets[audio] pydub
 #CMD python3 -m  flask run --host=0.0.0.0-
