@@ -69,6 +69,7 @@ def preprocess_files(paths):
 
     return paths_to_save, wav_paths
 
+
 def transcribe_old(path, model):
     print(f"Transcribing... {path}")
     convert_to_wav(path)
@@ -76,7 +77,7 @@ def transcribe_old(path, model):
     audio = whisper.pad_or_trim(audio)
 
     # make log-Mel spectrogram and move to the same device as the model
-    mel = whisper.log_mel_spectrogram(audio,n_mels=80).to(model.device)
+    mel = whisper.log_mel_spectrogram(audio, n_mels=80).to(model.device)
     _, probs = model.detect_language(mel)
     language = max(probs, key=probs.get)
 
@@ -99,7 +100,8 @@ def transcribe_old(path, model):
     # delete path and audio.wav
     os.remove(path)
     os.remove('audio.wav')
-    return  formatted_text,text,language
+    return formatted_text, text, language
+
 
 class request_transcribe:
     def __init__(self, model_whisper):
@@ -135,15 +137,26 @@ class request_transcribe:
 
 
 def transcribe(path, model, output_dir="transcripts_result"):
+    output_dir_chinese = f"{output_dir}/chinese"
+    output_dir_english = f"{output_dir}/english"
+    os.makedirs(output_dir_english, exist_ok=True)
+    os.makedirs(output_dir_chinese, exist_ok=True)
     print(f"Transcribing... {path}")
     convert_to_wav(path)
 
     result = model.transcribe('audio.wav', task='translate', verbose=True, no_speech_threshold=0.25,
                               condition_on_previous_text=False)
-    output_file_path = os.path.join(output_dir, os.path.basename(path).replace(os.path.splitext(path)[1], '.txt'))
+    result_chinese = model.transcribe('audio.wav', task='transcribe', verbose=True, no_speech_threshold=0.25,
+                                      condition_on_previous_text=False)
+    output_file_path = os.path.join(output_dir_english,
+                                    os.path.basename(path).replace(os.path.splitext(path)[1], '.txt'))
+    output_file_path_chinese = os.path.join(output_dir_chinese,
+                                            os.path.basename(path).replace(os.path.splitext(path)[1],
+                                                                           '.txt'))
     transcript_timestamp(result["segments"], path, output_file_path)
+    transcript_timestamp(result_chinese["segments"], path, output_file_path_chinese)
 
-    print(f"Transcription complete. Saved it to {output_file_path}")
+    print(f"Transcription complete. Saved it to {output_dir}")
     os.remove('audio.wav')
 
 
@@ -162,6 +175,7 @@ if __name__ == '__main__':
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser("~/Downloads/transcripts"),
                         help='Output directory for saving transcripts.')
     args = parser.parse_args()
+    os.makedirs(args.output_dir, exist_ok=True)
 
     model = load_model()  # load model
 

@@ -4,7 +4,9 @@ from datasets import load_dataset
 from pydub import AudioSegment
 import os
 import argparse
-
+import warnings
+import shutil
+warnings.filterwarnings("ignore")
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 
@@ -76,12 +78,12 @@ def transcribe(model, output_dir, file):
     chunk_paths = split_audio(file)
     for i, chunk_path in enumerate(chunk_paths):
         result = model(chunk_path)
-        output_file_path = f"{output_dir}/{os.path.basename(chunk_path).split('.')[0]}_chunk_{i}.txt"
-        with open(output_file_path, "w") as f:
+        output_file_path = f"{output_dir}/labels/{os.path.basename(chunk_path).split('.')[0]}_chunk_{i}.txt"
+        with open(output_file_path, "w", encoding='utf-8') as f:
             f.write(result["text"])
         print(f"Transcription complete. Saved it to {output_file_path}")
         # move the chunk to the output directory
-        os.rename(chunk_path, f"{output_dir}/{os.path.basename(chunk_path)}")
+        shutil.move(chunk_path, f"{output_dir}/audios/{os.path.basename(chunk_path)}")
 
 
 def process_directory(input_dir, output_dir, model):
@@ -102,7 +104,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     model = load_model()  # load model
-
+    os.makedirs(args.output_dir, exist_ok=True)
+    os.makedirs(f"{args.output_dir}/audios", exist_ok=True)
+    os.makedirs(f"{args.output_dir}/labels", exist_ok=True)
     if os.path.isdir(args.path[0]):
         process_directory(args.path[0], args.output_dir, model)
     else:
