@@ -15,7 +15,6 @@ COPY . .
 RUN conda install git
 CMD nvidia-smi
 CMD ["bash"]
-RUN pip install -r requirements.txt
-RUN pip install flash-attn --no-build-isolation
-RUN pip install  transformers accelerate datasets[audio] pydub
+RUN pip install -r requirements.txt --no-cache-dir
+RUN pip install  transformers accelerate datasets[audio] pydub --no-cache-dir
 #CMD python3 -m  flask run --host=0.0.0.0-

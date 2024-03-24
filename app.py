@@ -5,8 +5,9 @@ import service_streamer
 
 service_streamer.service_streamer.WORKER_TIMEOUT = 7200
 model = load_model()
+transcribe_fn = request_transcribe(model)
 app = Flask(__name__)
-streamer = ThreadedStreamer(request_transcribe.transcribe, batch_size=8, max_latency=0.1)
+streamer = ThreadedStreamer(transcribe_fn.transcribe, batch_size=32, max_latency=0.5)
 
 
 @app.route('/')
@@ -27,9 +28,13 @@ def file_upload():
 
 @app.route('/transcribe', methods=['POST'])
 def transcribe_form():
-    f = request.files['file']
-    x = streamer.predict([f])
-
+    files = request.files.getlist('file')
+    file_paths = []
+    for f in files:
+        file_path = f.filename
+        f.save(file_path)
+        file_paths.append(file_path)
+    x = streamer.predict(file_paths)
     return jsonify({'transcript': x})
 
 

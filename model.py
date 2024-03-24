@@ -54,22 +54,6 @@ def convert_to_wav(path):
     sf.write('audio.wav', data, samplerate)
 
 
-def preprocess_files(paths):
-    paths_to_save = []
-    wav_paths = []
-    for i, path_raw in enumerate(paths):
-        path_raw.save(path_raw.filename)
-        data, samplerate = librosa.load(path_raw.filename, sr=16000)
-        path_raw = path_raw.split('.')[0]
-        sf.write(f"{path_raw}.wav", data, samplerate)
-        paths_to_save.append(f"{path_raw}.wav")
-
-        wav_paths.append(f"{path_raw}.wav")
-        print(f"Saved {path_raw.filename}")
-
-    return paths_to_save, wav_paths
-
-
 def transcribe_old(path, model):
     print(f"Transcribing... {path}")
     convert_to_wav(path)
@@ -107,21 +91,29 @@ class request_transcribe:
     def __init__(self, model_whisper):
         self.model = model_whisper
 
+    def transcript_timestamp(self, transcript: Iterator[dict], path):
+        path = path.split('/')[-1]
+        path = path.split('.')[0]
+        text_file = open(f"transcripts_result/{path}.txt", "w")
+        for segment in transcript:
+            text_file.write(
+                f"{format_timestamp(segment['start'])} --> {format_timestamp(segment['end'])} "
+                f"Text: {segment['text'].strip().replace('-->', '->')}\n",
+            )
+        text_file.close()
+        return f"transcripts_result/{path}.txt"
+
     def transcribe(self, paths):
         text_final = []
-        paths, wav_paths = preprocess_files(paths)
 
-        result = self.model.transcribe(wav_paths, task='translate', verbose=True, no_speech_threshold=0.25,
-                                       condition_on_previous_text=False, )
-        for i, path in enumerate(paths):
-            print(i)
-            text_file = transcript_timestamp_old(result[i]["segments"], path)
-            with open(text_file, "r") as f:
-                text = f.read()
+        for PATH in paths:
+            result = self.model.transcribe(PATH, task='translate', verbose=True, no_speech_threshold=0.25,
+                                           condition_on_previous_text=False, )
+            text_file = self.transcript_timestamp(result["segments"], PATH)
             p = 0
 
             formatted_text = ""
-            for i in result[i]['text'].split(' '):
+            for i in result['text'].split(' '):
                 if p % 40 == 0:
                     formatted_text += "\n"
                 formatted_text += i
@@ -129,8 +121,7 @@ class request_transcribe:
                 p += 1
             print(f"Transcription complete. Saved it to {text_file} ")
             # delete path and audio.wav
-            os.remove(path)
-            os.remove(wav_paths[i])
+            os.remove(PATH)
             text_final.append(formatted_text)
 
         return text_final
