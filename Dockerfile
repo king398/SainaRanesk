@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:23.12-py3
+FROM nvcr.io/nvidia/pytorch:24.04-py3
 
 ENV TZ=Asia/Kolkata \
     DEBIAN_FRONTEND=noninteractive
@@ -16,5 +16,5 @@ RUN conda install git
 CMD nvidia-smi
 CMD ["bash"]
 RUN pip install -r requirements.txt --no-cache-dir
-RUN pip install  transformers accelerate datasets[audio] pydub --no-cache-dir
+RUN CMAKE_ARGS="-DLLAMA_CUDA=on" pip install llama-cpp-python
 #CMD python3 -m  flask run --host=0.0.0.0-

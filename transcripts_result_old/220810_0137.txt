@@ -1,7 +1,0 @@
-00:00.000 --> 00:05.000 Text: Assalamu Alaikum
-00:05.000 --> 00:12.000 Text: Did you contact Alfa 1 Syed?
-00:12.000 --> 00:18.000 Text: Yes, I did
-00:18.000 --> 00:25.000 Text: What did he say?
-00:25.000 --> 00:33.000 Text: Alpha 1, Bhai has told everyone to get ready in the small town.
-00:40.000 --> 00:42.000 Text: Alpha 5, Subhanallah.
-00:42.000 --> 00:44.000 Text: Ok, Roger

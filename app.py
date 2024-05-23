@@ -5,7 +5,8 @@ import service_streamer
 
 service_streamer.service_streamer.WORKER_TIMEOUT = 7200
 model = load_model()
-transcribe_fn = request_transcribe(model)
+llm = translation_model()
+transcribe_fn = RequestTranscribe(model, llm)
 app = Flask(__name__)
 streamer = ThreadedStreamer(transcribe_fn.transcribe, batch_size=32, max_latency=0.5)
 
@@ -20,10 +21,8 @@ def file_upload():
     if request.method == 'POST':
         f = request.files['file']
         f.save(f.filename)
-        text, transcript,language = transcribe_old(f.filename,model)
-    # play audio file audio.wav
-
-    return render_template('result.html', text=transcript, results_text=text,)
+        text, transcript, language = transcribe_old(f.filename, model, llm)
+    return render_template('result.html', text=transcript, results_text=text,language=language)
 
 
 @app.route('/transcribe', methods=['POST'])

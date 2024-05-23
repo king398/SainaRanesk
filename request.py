@@ -13,3 +13,6 @@ def request(file):
 
 pool = Pool(4)  # number of users
 pool.map(request, files)
+file = files[0]
+r = requests.post('http://0.0.0.0:5000/transcribe', files={'file': open(f"{file}", 'rb')},
+                  timeout=7200)
