@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loading</title>
+</head>
+<body>
+<h1>Your request is being processed...</h1>
+<div id="queuePosition">
+    <p>Your position in the queue: <span id="position">{{ position }}</span></p>
+</div>
+<script>
+    function updateQueuePosition() {
+        fetch('/progress')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('position').innerText = data.position;
+                if (data.progress >= 100) {
+                    window.location.href = "/folder_results";
+                }
+            });
+    }
+
+    setInterval(updateQueuePosition, 1000);
+</script>
+</body>
+</html>

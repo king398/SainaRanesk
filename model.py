@@ -42,7 +42,7 @@ def load_model():
 
 
 def translation_model():
-    llm = Llama("models/qwen1_5-32b-chat-q4_k_m.gguf", n_gpu_layers=-1, main_gpu=1, tensor_split=[0.2, 0.8],
+    llm = Llama("models/qwen2-7b-instruct-q8_0.gguf", n_gpu_layers=-1, main_gpu=0, tensor_split=[0.2, 0.8],
                 n_ctx=8000)
     return llm
 
@@ -92,6 +92,11 @@ def transcript_timestamp(transcript: Iterator[dict], output_file_path):
 
 
 def transcript_timestamp_text(transcript: Iterator[dict], path):
+    dir_path = os.path.dirname(path)
+
+    # iterate over the path to make all the required dirs
+    os.makedirs(f"transcripts_result/{dir_path}", exist_ok=True)
+
     with open(f"transcripts_result/{path}.txt", "w") as out_file:
         out_file.write(f"Language {transcript[0]['language']}\n")
         for segment in transcript:

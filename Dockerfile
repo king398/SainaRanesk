@@ -16,5 +16,5 @@ RUN conda install git
 CMD nvidia-smi
 CMD ["bash"]
 RUN pip install -r requirements.txt --no-cache-dir
-RUN CMAKE_ARGS="-DLLAMA_CUDA=on" pip install llama-cpp-python
+RUN CMAKE_ARGS="-DLLAMA_CUDA=on" pip install llama-cpp-python==0.2.75
 #CMD python3 -m  flask run --host=0.0.0.0-

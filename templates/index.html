@@ -9,18 +9,81 @@
 <h1>Transcribe audio</h1>
 <details>
     <summary>Steps to get your Transcript with timestamps</summary>
-    <div onclick="">1. Upload your audio file using the choose file button</div>
-    <div onclick="">2. Click on the Submit button</div>
-    <div onclick="">3. Wait for the file to be transcribed</div>
+    <div>1. Upload your audio file using the choose file button</div>
+    <div>2. Click on the Submit button</div>
+    <div>3. Wait for the file to be transcribed</div>
 </details>
-<form action="/result" method="POST"
-      enctype="multipart/form-data">
+
+<div id="serverStatus">
+    <p>Server Status: <span id="busyStatus">Checking...</span></p>
+    <p>Current Users: <span id="userCount">{{ user_count }}</span></p>
+    <p>GPU Usage: <span id="gpuUsage">{{ gpu_usage }}</span></p>
+</div>
+
+<form id="fileForm" action="/result" method="POST" enctype="multipart/form-data">
     <input type="file" name="file"/>
     <input type="submit"/>
-
 </form>
 
+<h2>Or upload a folder containing audio files</h2>
+<form id="folderForm" action="/upload_folder" method="POST" enctype="multipart/form-data">
+    <input type="file" name="folder" webkitdirectory directory multiple/>
+    <input type="submit" value="Upload Folder"/>
+</form>
 
+<div id="loading" style="display: none;">
+    <h2>Processing...</h2>
+    <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+</div>
+
+<div id="serverBusy" style="display: none;">
+    <h2>Server is Busy</h2>
+    <p>Currently processing another request. Please try again later.</p>
+</div>
+
+<script>
+    document.getElementById('fileForm').onsubmit = function(event) {
+        event.preventDefault();
+        fetch('/status')
+            .then(response => response.json())
+            .then(data => {
+                if (data.busy) {
+                    document.getElementById('serverBusy').style.display = 'block';
+                } else {
+                    document.getElementById('loading').style.display = 'block';
+                    document.getElementById('fileForm').submit();
+                }
+            });
+    };
+
+    document.getElementById('folderForm').onsubmit = function(event) {
+        event.preventDefault();
+        fetch('/status')
+            .then(response => response.json())
+            .then(data => {
+                if (data.busy) {
+                    document.getElementById('serverBusy').style.display = 'block';
+                } else {
+                    document.getElementById('loading').style.display = 'block';
+                    document.getElementById('folderForm').submit();
+                }
+            });
+    };
+
+    function updateServerStatus() {
+        fetch('/status')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('busyStatus').innerText = data.busy ? 'Busy' : 'Available';
+                document.getElementById('userCount').innerText = data.user_count;
+                document.getElementById('gpuUsage').innerText = data.gpu_usage;
+            });
+    }
+
+    setInterval(updateServerStatus, 5000);
+    updateServerStatus();
+</script>
 </body>
-
 </html>
